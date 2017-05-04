@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg-paper_bg1",
+    "texture": "8493d020-b765-46ba-836a-51d023c6b862",
+    "atlas": "f8827530-15e6-424b-bcae-33a90f7f0530",
+    "rect": [
+      648,
+      322,
+      256,
+      74
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      74
+    ]
+  }
+}

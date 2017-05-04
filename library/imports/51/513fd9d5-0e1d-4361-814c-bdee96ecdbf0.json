@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "loading_bar-destiny_bar_w429",
+    "texture": "8493d020-b765-46ba-836a-51d023c6b862",
+    "atlas": "f8827530-15e6-424b-bcae-33a90f7f0530",
+    "rect": [
+      1342,
+      1581,
+      2,
+      6
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2,
+      6
+    ]
+  }
+}

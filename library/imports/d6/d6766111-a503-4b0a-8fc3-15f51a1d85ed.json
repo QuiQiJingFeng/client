@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon-global-level_txt",
+    "texture": "8493d020-b765-46ba-836a-51d023c6b862",
+    "atlas": "f8827530-15e6-424b-bcae-33a90f7f0530",
+    "rect": [
+      1286,
+      1170,
+      20,
+      17
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      20,
+      17
+    ]
+  }
+}

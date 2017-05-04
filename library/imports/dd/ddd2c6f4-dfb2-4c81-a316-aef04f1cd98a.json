@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "login_bg",
+    "texture": "8e79e3e2-5012-4cb2-b153-c42603ec6562",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      237,
+      122
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      237,
+      122
+    ]
+  }
+}

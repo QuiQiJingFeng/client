@@ -1,77 +1,62 @@
-'use strict';
+"use strict";
 
 var pbjs = require("protobufjs");
 require('buffer');
 var HEADER_SIZE = 2;
-var C2GS, GS2C;
 
-var protobuf = module.exports;
+var protobuf = {};
 
 protobuf.Init = function () {
    var self = this;
-   cc.loader.loadRes('protocol.json', function (err, res) {
+   self.C2GS = null;
+   self.GS2C = null;
+   //如果使用cc.loader.load加载则必须用cc.url.raw进行一次url转换
+   //如果使用cc.loader.loadRes则不需要转换,默认从resources里面拿,同时不需要指定后缀，也就意味着res里面不能存在同名的文件,即使是后缀不相同的
+   cc.loader.loadRes("protocol", function (err, res) {
       if (err) {
-         cc.log("ERROR:PROTO INIT", err);
+         cc.log("加载proto文件失败", err);
          return;
       }
-      // var obj = JSON.stringify(res)
       var root = pbjs.Root.fromJSON(res);
-      C2GS = root.lookup("C2GS");
-      GS2C = root.lookup("GS2C");
-
-      var buffer = self.encode({
-         login: {
-            account: "zhanghu",
-            password: "mima",
-            platform: "appstore",
-            version: "1.0.0",
-            server_id: 1,
-            device_id: "XEG-4L",
-            device_type: "MI4",
-            channel: "appstore",
-            locale: "zh-CN",
-            net_mode: "3G",
-            device_platform: "IOS"
-         }
-      });
-
-      // var msg = protobuf.decode(buffer);
-      // cc.log("data=>",JSON.stringify(msg));
-
+      self.C2GS = root.lookup("C2GS");
+      self.GS2C = root.lookup("GS2C");
    });
 };
 
 protobuf.encode = function (data) {
-   var msg = C2GS.fromObject(data);
-   var buffer = C2GS.encode(msg).finish();
+   var self = this;
+   var msg = self.C2GS.fromObject(data);
+   var buffer = self.C2GS.encode(msg).finish();
    console.log("buffer ==>", buffer);
+
    //添加包头
    var size = buffer.length;
-   var headBuf = new Buffer(HEADER_SIZE);
+   var headBuf = Buffer.alloc(HEADER_SIZE);
    headBuf.writeUInt16BE(size, 0);
-   console.log("headBuf ==>", buffer);
-   var newBuffer = Buffer.concat([headBuf, buffer], size + HEADER_SIZE);
+
+   var newBuffer = Buffer.concat([Buffer.from(headBuf), Buffer.from(buffer)], headBuf.length + buffer.length);
    return newBuffer;
 };
 
 protobuf.decode = function (buffer) {
-   var size = buffer.length;
+   var self = this;
+   var total_size = buffer.length;
 
-   if (size < HEADER_SIZE) {
+   if (total_size < HEADER_SIZE) {
       return null;
    }
-
-   console.log("origin buffer =>\n", buffer);
-   var s = buffer.slice(0, HEADER_SIZE).readInt16BE();
+   //取出前2个字节,计算出内容的长度
+   var header = new Uint16Array(buffer.slice(0, HEADER_SIZE));
+   var content_size = header[0] * 256 + header[1];
 
    //如果数据没有接收完整
-   if (size < s + HEADER_SIZE) {
+   if (total_size < content_size + HEADER_SIZE) {
       return null;
    }
 
-   var data = new Buffer(s);
-   buffer.slice(HEADER_SIZE, HEADER_SIZE + 1 + s).copy(data);
+   var data = new Buffer(content_size);
+   buffer.slice(HEADER_SIZE, HEADER_SIZE + 1 + content_size).copy(data);
 
-   var msg = C2GS.decode(data);
-   return msg;
+   return self.C2GS.decode(data);;
 };
+module.exports = protobuf;

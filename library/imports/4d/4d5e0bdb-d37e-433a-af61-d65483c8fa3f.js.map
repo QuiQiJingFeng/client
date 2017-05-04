@@ -1,0 +1,39 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "protobuf",
+    "require",
+    "network",
+    "Init",
+    "self",
+    "socket",
+    "cc",
+    "sys",
+    "isNative",
+    "window",
+    "io",
+    "SocketIO",
+    "Connect",
+    "url",
+    "on",
+    "msg",
+    "console",
+    "log",
+    "data",
+    "DisConnect",
+    "Send",
+    "buffer",
+    "encode",
+    "emit",
+    "module",
+    "exports"
+  ],
+  "mappings": ";;AAAA,IAAIA,WAAWC,QAAQ,UAAR,CAAf;;AAEA,IAAIC,UAAU,EAAd;;AAEAA,QAAQC,IAAR,GAAe,YAAW;AACtB,QAAIC,OAAO,IAAX;AACAA,SAAKC,MAAL,GAAc,IAAd;;AAEAL,aAASG,IAAT;;AAEA,QAAGG,GAAGC,GAAH,CAAOC,QAAV,EAAoB;AAChBC,eAAOC,EAAP,GAAYC,QAAZ;AACH,KAFD,MAEO;AACHV,gBAAQ,WAAR;AACH;;AAEDG,SAAKQ,OAAL;AACH,CAbD;;AAeAV,QAAQU,OAAR,GAAkB,YAAW;AACzB,QAAIR,OAAO,IAAX;AACA,QAAIS,MAAM,gBAAV;AACAT,SAAKC,MAAL,GAAcK,GAAGG,GAAH,CAAd;AACAT,SAAKC,MAAL,CAAYS,EAAZ,CAAe,WAAf,EAA2B,UAASC,GAAT,EAAc;AACrCC,gBAAQC,GAAR,CAAY,oBAAZ,EAAiCJ,GAAjC;AACH,KAFD;AAGAT,SAAKC,MAAL,CAAYS,EAAZ,CAAe,KAAf,EAAqB,UAASI,IAAT,EAAc;AAC/BF,gBAAQC,GAAR,CAAY,kBAAZ,EAA+BC,IAA/B;AACH,KAFD;;AAIAd,SAAKC,MAAL,CAAYS,EAAZ,CAAe,YAAf,EAA6B,YAAW;AACpCE,gBAAQC,GAAR,CAAY,QAAZ;AACH,KAFD;AAIH,CAfD;;AAiBAf,QAAQiB,UAAR,GAAqB,YAAW;AAC5B,QAAIf,OAAO,IAAX;AACH,CAFD;;AAIAF,QAAQkB,IAAR,GAAe,UAASL,GAAT,EAAc;AACzB,QAAIX,OAAO,IAAX;AACA,QAAG,CAACA,KAAKC,MAAT,EAAiB;AACjB,QAAIgB,SAASrB,SAASsB,MAAT,CAAgBP,GAAhB,CAAb;AACAX,SAAKC,MAAL,CAAYkB,IAAZ,CAAiBF,MAAjB;AACH,CALD;AAMAG,OAAOC,OAAP,GAAiBvB,OAAjB",
+  "file": "unknown",
+  "sourcesContent": [
+    "let protobuf = require(\"protobuf\");\n\nlet network = {};\n\nnetwork.Init = function() {\n    let self = this;\n    self.socket = null;\n\n    protobuf.Init();\n\n    if(cc.sys.isNative) {\n        window.io = SocketIO;\n    } else {\n        require(\"socket.io\");\n    }\n\n    self.Connect();\n}\n\nnetwork.Connect = function() {\n    let self = this;\n    let url = \"127.0.0.1:8888\";\n    self.socket = io(url);\n    self.socket.on('connected',function(msg) {\n        console.log(\"Connected---------\",url);\n    });\n    self.socket.on('msg',function(data){\n        console.log('receive data ==>',data);\n    });\n\n    self.socket.on('disconnect', function() {\n        console.log(\"与服务其断开\");\n    });\n\n}\n\nnetwork.DisConnect = function() {\n    let self = this;\n}\n\nnetwork.Send = function(msg) {\n    let self = this;\n    if(!self.socket) return;\n    let buffer = protobuf.encode(msg);\n    self.socket.emit(buffer);\n}\nmodule.exports = network;"
+  ]
+}
