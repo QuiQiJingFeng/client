@@ -14,29 +14,35 @@ network.Init = function () {
 
     protobuf.Init();
 
-    if (cc.sys.isNative) {
-        window.io = SocketIO;
-    } else {
-        require("socket.io");
-    }
-
     self.Connect();
 };
 
 network.Connect = function () {
+    console.log("FYD=====CONNECT");
     var self = this;
-    var url = "127.0.0.1:8888";
-    self.socket = io(url);
-    self.socket.on('connected', function (msg) {
-        console.log("Connected---------", url);
-    });
-    self.socket.on('msg', function (data) {
-        console.log('receive data ==>', data);
-    });
+    var url = "ws://127.0.0.1:8888";
+    self.socket = new WebSocket(url);
+    self.socket.onopen = function (event) {
+        console.log("onopen");
+    };
 
-    self.socket.on('disconnect', function () {
-        console.log("与服务其断开");
-    });
+    // GSocket.onerror = function (event) {
+    self.socket.onerror = function (event) {
+        console.log("-------------onerror");
+    };
+
+    // GSocket.onclose = function (event) {
+    self.socket.onclose = function (event) {
+        console.log("---------------onclose");
+    };
+
+    // GSocket.onmessage = function (event) {
+    self.socket.onmessage = function (event) {
+        console.log("onmessage");
+        console.log(event);
+        // let msg = protobuf.decode(buffer);
+        // cc.log("data=>",JSON.stringify(msg));
+    };
 };
 
 network.DisConnect = function () {
@@ -47,7 +53,7 @@ network.Send = function (msg) {
     var self = this;
     if (!self.socket) return;
     var buffer = protobuf.encode(msg);
-    self.socket.emit(buffer);
+    self.socket.send(buffer);
 };
 module.exports = network;
 

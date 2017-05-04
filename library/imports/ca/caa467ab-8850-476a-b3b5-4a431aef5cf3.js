@@ -27,7 +27,6 @@ protobuf.encode = function (data) {
    var self = this;
    var msg = self.C2GS.fromObject(data);
    var buffer = self.C2GS.encode(msg).finish();
-   console.log("buffer ==>", buffer);
 
    //添加包头
    var size = buffer.length;
@@ -35,6 +34,7 @@ protobuf.encode = function (data) {
    headBuf.writeUInt16BE(size, 0);
 
    var newBuffer = Buffer.concat([Buffer.from(headBuf), Buffer.from(buffer)], headBuf.length + buffer.length);
+   console.log("newBuffer ==>", newBuffer);
    return newBuffer;
 };
 
