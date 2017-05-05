@@ -1,88 +1,221 @@
-2017-05-04T16:32:45.606Z - normal: Load ~/.CocosCreator/settings.json
-2017-05-04T16:32:45.611Z - normal: checking language setting...
-2017-05-04T16:32:45.611Z - normal: Language: en
-2017-05-04T16:32:46.618Z - success: protocol editor-framework registered
-2017-05-04T16:32:46.618Z - success: protocol app registered
-2017-05-04T16:32:46.619Z - success: protocol theme registered
-2017-05-04T16:32:46.619Z - success: protocol profile registered
-2017-05-04T16:32:46.619Z - success: protocol packages registered
-2017-05-04T16:32:46.623Z - success: protocol unpack registerred
-2017-05-04T16:32:46.623Z - success: protocol disable-commonjs registerred
-2017-05-04T16:32:46.839Z - normal: connected!
-2017-05-04T16:32:46.842Z - normal: Check project /Users/jingfeng/PROJECT/client
-2017-05-04T16:32:46.845Z - normal: Initializing Cocos2d
-2017-05-04T16:32:47.332Z - normal: Initializing Asset Database
-2017-05-04T16:32:47.384Z - success: protocol uuid registerred
-2017-05-04T16:32:47.385Z - success: protocol db registerred
-2017-05-04T16:32:47.385Z - success: protocol thumbnail registerred
-2017-05-04T16:32:47.385Z - normal: Loading editor/builtin packages
-2017-05-04T16:32:47.639Z - success: assets loaded
-2017-05-04T16:32:47.644Z - success: builder loaded
-2017-05-04T16:32:47.654Z - success: hierarchy loaded
-2017-05-04T16:32:47.660Z - success: inspector loaded
-2017-05-04T16:32:47.662Z - success: keystore loaded
-2017-05-04T16:32:47.667Z - success: node-library loaded
-2017-05-04T16:32:47.670Z - success: preferences loaded
-2017-05-04T16:32:47.688Z - success: project-importer loaded
-2017-05-04T16:32:47.692Z - success: project-settings loaded
-2017-05-04T16:32:47.697Z - success: ui-kit loaded
-2017-05-04T16:32:47.711Z - success: ui-grid loaded
-2017-05-04T16:32:47.727Z - success: scene loaded
-2017-05-04T16:32:47.729Z - success: sprite-editor loaded
-2017-05-04T16:32:47.918Z - success: store loaded
-2017-05-04T16:32:47.940Z - success: timeline loaded
-2017-05-04T16:32:47.940Z - normal: Loading builtin packages
-2017-05-04T16:32:47.957Z - success: anysdk loaded
-2017-05-04T16:32:47.971Z - success: asset-db-debugger loaded
-2017-05-04T16:32:47.973Z - success: code-editor loaded
-2017-05-04T16:32:47.983Z - success: color-picker loaded
-2017-05-04T16:32:47.989Z - success: console loaded
-2017-05-04T16:32:47.995Z - success: package-manager loaded
-2017-05-04T16:32:48.001Z - success: tester loaded
-2017-05-04T16:32:48.006Z - success: ui-kit-preview-extra loaded
-2017-05-04T16:32:48.010Z - success: ui-kit-preview loaded
-2017-05-04T16:32:48.015Z - success: ui-tree loaded
-2017-05-04T16:32:48.095Z - normal: Initializing project /Users/jingfeng/PROJECT/client
-2017-05-04T16:32:48.128Z - normal: Loading packages
-2017-05-04T16:32:48.178Z - success: test loaded
-2017-05-04T16:32:48.179Z - normal: Watching packages
-2017-05-04T16:32:48.200Z - normal: Run Application
-2017-05-04T16:32:50.134Z - warn: [db-task][init] Backup unused meta file: db://assets/texture.meta
-2017-05-04T16:33:06.482Z - warn: [SpriteAtlas import] Some of the frame keys have been reformatted : ["bg/activity_herobg.png","bg/att_light1.png","bg/bag_emtpybg.png","bg/ban_light1.png","bg/battle_fightnumber_bg.png","bg/bg001.png","bg/bg002.png","bg/bg_light001.png","bg/bottom_bg.png","bg/box_bg.png","bg/box_bg_bianjiao_1.png","bg/box_bg_bianjiao_2.png","bg/box_n_detail_bg.png","bg/contract_bg.png","bg/contract_bg2.png","bg/cooperate_olsign_bg.png","bg/corner_tipbg.png","bg/cry.png","bg/demo_pic_1.png","bg/demo_pic_2.png","bg/destiny_reward_itembg_d.png","bg/destiny_reward_itemshadow.png","bg/detail_bg2_d.png","bg/detail_bg_d.png","bg/detail_head_decoratebg_d.png","bg/detail_skillinfo_bg_d.png","bg/detail_weapon_n_wake_bg_d.png","bg/detail_weaponbg.png","bg/dialogue_bg.png","bg/fate_n_transmigration_bg_f.png","bg/fightnumber_bg_d.png","bg/floating_layerbg.png","bg/guildwar_bg.png","bg/guildwar_signup_bg.png","bg/headerbg_d.png","bg/herochangebox_infobg_w297.png","bg/herodetail_leadskillbg_d.png","bg/herodetail_skillbg_d.png","bg/heroformation_bgempty_d.png","bg/herolist_bg1.png","bg/herolist_bg10.png","bg/herolist_bg11.png","bg/herolist_bg12.png","bg/herolist_bg2.png","bg/herolist_bg3.png","bg/herolist_bg4.png","bg/herolist_bg5.png","bg/herolist_bg6.png","bg/herolist_bg7.png","bg/herolist_bg8.png","bg/herolist_bg9.png","bg/herolist_bgempty_d.png","bg/herolist_choose.png","bg/item_bg.png","bg/ladder_numbg.png","bg/main_bg_f.png","bg/maintitle_bg.png","bg/mapbg/mapbg_aircity.png","bg/mapbg/mapbg_angel.png","bg/mapbg/mapbg_cave.png","bg/mapbg/mapbg_city.png","bg/mapbg/mapbg_ether.png","bg/mapbg/mapbg_fight.png","bg/mapbg/mapbg_forest.png","bg/mapbg/mapbg_fort.png","bg/mapbg/mapbg_iceberg.png","bg/mapbg/mapbg_mountain.png","bg/mapbg/mapbg_oasis.png","bg/mapbg/mapbg_path.png","bg/mapbg/mapbg_plain.png","bg/mapbg/mapbg_relic.png","bg/mapbg/mapbg_ruins.png","bg/mapbg/mapbg_spring.png","bg/mapbg/mapbg_temple.png","bg/mapbg/mapbg_time.png","bg/mapbg/mapbg_volcano.png","bg/maze_mainlandlist_decorate_d.png","bg/maze_map_d.png","bg/maze_map_path_d.png","bg/maze_role_shadow_d.png","bg/mine_light.png","bg/mining_floating_layer_bg.png","bg/mining_shadow_f.png","bg/paper_bg1.png","bg/paper_bg3.png","bg/paper_bg4_d.png","bg/paper_bg6_d.png","bg/paper_bg7_d.png","bg/part001.png","bg/part002.png","bg/part003.png","bg/part004.png","bg/part005.png","bg/part006.png","bg/part007.png","bg/point/points_01.png","bg/point/points_02.png","bg/point/points_02_small.png","bg/pro_plt2_00001.png","bg/pro_plt2_00002.png","bg/pro_plt2_00003.png","bg/pro_plt2_00004.png","bg/pro_plt2_00005.png","bg/pro_plt2_00006.png","bg/pro_plt2_00007.png","bg/pro_plt2_00008.png","bg/pro_plt2_00009.png","bg/pro_plt2_00010.png","bg/pvp_bg_f.png","bg/rank_decorate.png","bg/rewardbtn_tipbg.png","bg/rewardbtn_tipbg2.png","bg/role_effectiveness_bg.png","bg/rolling_tab_bg_w640.png","bg/round_bg.png","bg/seal_bg.png","bg/secondbox_shade_f.png","bg/skill/black.png","bg/skill/renwu_1.png","bg/skill/renwu_2.png","bg/skill/skill_10.png","bg/skill/skill_11.png","bg/skill/skill_12.png","bg/skill/skill_13.png","bg/skill/skill_14.png","bg/skill/skill_15.png","bg/skill/skill_16.png","bg/skill/skill_17.png","bg/skill/skill_18.png","bg/skill/skill_19.png","bg/skill/skill_2.png","bg/skill/skill_20.png","bg/skill/skill_21.png","bg/skill/skill_3.png","bg/skill/skill_4.png","bg/skill/skill_5.png","bg/skill/skill_6.png","bg/skill/skill_7.png","bg/skill/skill_8.png","bg/skill/skill_9.png","bg/skill/tramcar_lv1.png","bg/skill/tramcar_lv1_1.png","bg/skill/wheel_lv2.png","bg/skill/xiaokuangche.png","bg/skill_choose.png","bg/smile.png","bg/spec_roundbg.png","bg/temple_bg_f.png","bg/times.png","bg/tiptalk_bg_w640.png","bg/transmigration_per_detail_d.png","bg/triangle_bg.png","bg/txt_bg.png","bg/txt_bg2.png","bg/up001.png","bg/up002.png","bg/up003.png","bg/wakeupbox_signature2_d.png","bg/weaponbox_infobg2_d.png","bg/weaponbox_infobg_d.png","bg/weaponbox_leadrole_bg.png","border/announcement_txtborder.png","border/chain.png","border/decorate.png","border/destiny_decorate.png","border/detail_apart.png","border/detail_apart2_w467.png","border/dialoge_arrow.png","border/dotted_line.png","border/hero_formation_tag.png","border/herodetail_apart_d_h462.png","border/herodetail_border_d.png","border/magic_decorate.png","border/maintitle_decorate2_d.png","border/maintitle_decorate_d.png","border/maze_border.png","border/parchment_boder.png","border/reward_decorate_d.png","border/rolling_container_border.png","button/a_z_icon.png","button/announcement_upbtn.png","button/backbtn_icon.png","button/battle_help.png","button/buttonbg_1.png","button/buttonbg_10.png","button/buttonbg_11.png","button/buttonbg_12.png","button/buttonbg_2.png","button/buttonbg_3.png","button/buttonbg_4.png","button/buttonbg_5.png","button/buttonbg_6.png","button/buttonbg_7.png","button/buttonbg_8.png","button/buttonbg_9.png","button/buy_blood.png","button/buy_reset.png","button/checkin2.png","button/close1_normal.png","button/close1_press.png","button/close2_normal.png","button/close2_press.png","button/decide_no.png","button/decide_yes.png","button/destiny_change.png","button/detailbtn_icon.png","button/fb_like.png","button/fb_share.png","button/friend2.png","button/invite.png","button/line_share.png","button/listicon_1.png","button/listicon_2.png","button/listicon_3.png","button/listicon_4.png","button/listicon_5.png","button/listicon_6.png","button/listicon_7.png","button/login_qq.png","button/login_wechat.png","button/mainui_activity.png","button/mainui_bag_cofc.png","button/mainui_checkin.png","button/mainui_discuss.png","button/mainui_firstbuy.png","button/mainui_friend.png","button/mainui_gift.png","button/mainui_limitbuy.png","button/mainui_news.png","button/mainui_quest.png","button/mainui_redbag.png","button/mainui_rune.png","button/mainui_setting.png","button/mainui_store.png","button/mainui_update.png","button/mainui_vip.png","button/mainui_vip_en.png","button/maze_bag.png","button/maze_btn.png","button/maze_eventbtn_bg_d.png","button/maze_eventbtn_decorate_d.png","button/maze_eventbtn_fight_d.png","button/maze_eventbtn_item_d.png","button/maze_eventbtn_passbg_d.png","button/maze_eventbtn_waitbg.png","button/maze_eventbtntxt_fight.png","button/maze_eventbtntxt_item.png","button/maze_eventbtntxt_land.png","button/maze_eventbtntxt_mission.png","button/maze_maplist.png","button/maze_team.png","button/maze_titlebtn_d.png","button/mercenary_detail_btn.png","button/mercenary_detail_btn2.png","button/pencil.png","button/rewardbtn_bg.png","button/rewardbtn_icon_exp.png","button/rewardbtn_icon_gold.png","button/rewardbtn_icon_lvup.png","button/rewardbtn_icon_orebag.png","button/rewardbtn_icon_search.png","button/rewardbtn_icon_transmigration.png","button/rewardbtn_icon_workshop.png","button/start_btn.png","button/store_blood_diamondbtn.png","button/store_blood_diamondbtn_a.png","button/teams.png","button/top_tab.png","button/transmigration_icon.png","button/vip_card.png","button/weaponbox_ratebtn2_d.png","button/weaponbox_ratebtn2_press_d.png","button/weaponbox_ratebtn3.png","button/weaponbox_ratebtn3_press.png","button/weaponbox_ratebtn_d.png","button/weaponbox_ratebtn_press_d.png","icon/arena/add_friends.png","icon/arena/boxing2.png","icon/arena/cake.png","icon/arena/japan.png","icon/arena/listicon_arena.png","icon/arena/listicon_ranking.png","icon/arena/male.png","icon/arena/pvp.png","icon/arena/pvp1.png","icon/arena/rank_self.png","icon/arena/rank_win.png","icon/arena/rankicon.png","icon/arena/rewardlevel_1win.png","icon/arena/rewardlevel_1win_a.png","icon/arena/rewardlevel_4win.png","icon/arena/rewardlevel_4win_a.png","icon/arena/rewardlevel_9win.png","icon/arena/rewardlevel_9win_a.png","icon/arena/sports_season.png","icon/badge/champion_badge.png","icon/badge/courage_badge.png","icon/badge/fetter_badge.png","icon/badge/forge_badge.png","icon/badge/fortune_badge.png","icon/badge/strength_badge.png","icon/destiny/weapon1.png","icon/destiny/weapon10.png","icon/destiny/weapon11.png","icon/destiny/weapon12.png","icon/destiny/weapon2.png","icon/destiny/weapon3.png","icon/destiny/weapon4.png","icon/destiny/weapon5.png","icon/destiny/weapon6.png","icon/destiny/weapon7.png","icon/destiny/weapon8.png","icon/destiny/weapon9.png","icon/entrust/icon_prestige.png","icon/entrust/map_end.png","icon/entrust/map_normal.png","icon/entrust/map_start.png","icon/entrust/map_unknown.png","icon/explore/mission_icon_boss.png","icon/explore/mission_icon_etc.png","icon/explore/mission_icon_exp.png","icon/explore/mission_icon_gold.png","icon/explore/mission_icon_item.png","icon/explore/mission_icon_role.png","icon/explore/missionbg.png","icon/explore/specialreward_array.png","icon/explore/specialreward_fight.png","icon/explore/specialreward_pick.png","icon/explore/timebar_icon_chest.png","icon/festival/2015062001.png","icon/festival/2015062002.png","icon/festival/2015062003.png","icon/festival/2015062004.png","icon/festival/2015062005.png","icon/festival/2015062006.png","icon/festival/2015062007.png","icon/festival/2015062008.png","icon/festival/balloon.png","icon/festival/chest.png","icon/festival/christmas1.png","icon/festival/christmas2.png","icon/festival/christmas3.png","icon/festival/christmas4.png","icon/festival/christmascard.png","icon/festival/crown.png","icon/festival/crystal.png","icon/festival/crystal_box.png","icon/festival/ertong1.png","icon/festival/ertong2.png","icon/festival/firecrackers1.png","icon/festival/firecrackers2.png","icon/festival/firecrackers3.png","icon/festival/firecrackers4.png","icon/festival/firecrackers5.png","icon/festival/firecrackers_box.png","icon/festival/flag.png","icon/festival/gunpowder.png","icon/festival/guoqing1.png","icon/festival/guoqing2.png","icon/festival/guoqing3.png","icon/festival/guoqing4.png","icon/festival/guoqing5.png","icon/festival/love.png","icon/festival/newyear1.png","icon/festival/newyear2.png","icon/festival/newyear3.png","icon/festival/newyear4.png","icon/festival/rare_earth.png","icon/festival/spring_wallet.png","icon/festival/spring_wallet_pvp.png","icon/festival/stick.png","icon/festival/txt_gang.png","icon/festival/txt_hu.png","icon/festival/txt_jin.png","icon/festival/txt_lu.png","icon/festival/wallet.png","icon/festival/wallet_pvp.png","icon/festival/wood.png","icon/festival/wskh1.png","icon/festival/wskh2.png","icon/festival/wskh3.png","icon/festival/wskh4.png","icon/festival/zhongqiu1.png","icon/festival/zhongqiu2.png","icon/global/10000002.png","icon/global/Intermediate_card.png","icon/global/bonus.png","icon/global/bossicon.png","icon/global/breaklimit.png","icon/global/breaklimit_dark.png","icon/global/change_arrow.png","icon/global/checkin.png","icon/global/checkin_no.png","icon/global/comment_icon.png","icon/global/contract_level.png","icon/global/double.png","icon/global/draw_icon.png","icon/global/equipped.png","icon/global/exp_x.png","icon/global/feedback.png","icon/global/fight_globalicon.png","icon/global/finalbonus.png","icon/global/get.png","icon/global/gift.png","icon/global/ladder_numicon.png","icon/global/level_txt.png","icon/global/location_detail_dark.png","icon/global/location_detail_light.png","icon/global/lock.png","icon/global/logotxt.png","icon/global/miner_card.png","icon/global/new.png","icon/global/ore_picks.png","icon/global/page_arrow.png","icon/global/page_arrow2.png","icon/global/page_location1.png","icon/global/page_location2.png","icon/global/primary_card.png","icon/global/replyicon.png","icon/global/round_fail.png","icon/global/setting.png","icon/global/star.png","icon/global/superweapon_icon.png","icon/global/sword.png","icon/global/waitingicon.png","icon/global/wakeup.png","icon/global/wakeup_dark.png","icon/global/wakeup_small.png","icon/guildwar/buff_icon.png","icon/guildwar/cup_in.png","icon/guildwar/cup_out.png","icon/guildwar/cup_prompt.png","icon/guildwar/fiddle_icon.png","icon/guildwar/guildwar_add_btn.png","icon/guildwar/guildwar_balance_bg.png","icon/guildwar/guildwar_me_btn.png","icon/guildwar/guildwar_me_btn1.png","icon/guildwar/guildwar_scouted.png","icon/guildwar/in_icon.png","icon/guildwar/king_pure_icon.png","icon/guildwar/out_icon.png","icon/guildwar/rank_points_icon.png","icon/guildwar/recovery_icon.png","icon/guildwar/sente_crit_icon.png","icon/guildwar/shield_icon.png","icon/guildwar/shield_points.png","icon/guildwar/shield_points01.png","icon/guildwar/shield_points02.png","icon/guildwar/shield_points03.png","icon/guildwar/shield_points04.png","icon/guildwar/unknown_icon.png","icon/maze/aircity_big.png","icon/maze/aircity_small.png","icon/maze/angel_big.png","icon/maze/angel_small.png","icon/maze/cave_big.png","icon/maze/cave_small.png","icon/maze/city_big.png","icon/maze/city_small.png","icon/maze/ether_big.png","icon/maze/ether_small.png","icon/maze/fight_big.png","icon/maze/fight_small.png","icon/maze/forest_big.png","icon/maze/forest_small.png","icon/maze/fort_big.png","icon/maze/fort_small.png","icon/maze/iceberg_big.png","icon/maze/iceberg_small.png","icon/maze/mountain_big.png","icon/maze/mountain_small.png","icon/maze/oasis_big.png","icon/maze/oasis_small.png","icon/maze/path_big.png","icon/maze/path_small.png","icon/maze/plain_big.png","icon/maze/plain_small.png","icon/maze/relic_big.png","icon/maze/relic_small.png","icon/maze/ruins_big.png","icon/maze/ruins_small.png","icon/maze/spring_big.png","icon/maze/spring_small.png","icon/maze/temple_big.png","icon/maze/temple_small.png","icon/maze/time_big.png","icon/maze/time_small.png","icon/maze/volcano_big.png","icon/maze/volcano_small.png","icon/menu/menu_announcementbtn.png","icon/menu/menu_cancelbtn.png","icon/menu/menu_facebookbtn.png","icon/menu/menu_listbtn.png","icon/menu/menu_musicbtn.png","icon/menu/menu_offtag.png","icon/menu/menu_remind_btn.png","icon/menu/menu_soundbtn.png","icon/mercenarylist/biography_icon.png","icon/mercenarylist/biography_icon2.png","icon/mercenarylist/biography_icon3.png","icon/mercenarylist/change_arrow1.png","icon/mercenarylist/change_arrow2.png","icon/mercenarylist/contract1.png","icon/mercenarylist/contract2.png","icon/mercenarylist/exskill_oktag.png","icon/mercenarylist/exskill_tag.png","icon/mercenarylist/fighting_capacity.png","icon/mercenarylist/fightnumber_1.png","icon/mercenarylist/fightnumber_2.png","icon/mercenarylist/fightnumber_3.png","icon/mercenarylist/fightnumber_4.png","icon/mercenarylist/formation_changearrow.png","icon/mercenarylist/leadrole_detail_crestbtn.png","icon/mercenarylist/list_contract.png","icon/mercenarylist/list_decorate.png","icon/mercenarylist/qualityicon_1.png","icon/mercenarylist/qualityicon_2.png","icon/mercenarylist/qualityicon_3.png","icon/mercenarylist/qualityicon_4.png","icon/mercenarylist/qualityicon_5.png","icon/mercenarylist/skill_choose.png","icon/mercenarylist/skill_empty.png","icon/mercenarylist/time.png","icon/mercenarylist/transmigration_arrow2_d.png","icon/mercenarylist/transmigration_arrow_d.png","icon/mercenarylist/weapon_up.png","icon/mercenarylist/weaponbox_leadrole_arrow.png","icon/mercenarylist/weaponbox_leadrole_point1.png","icon/mercenarylist/weaponbox_leadrole_point2.png","icon/mining/event_tip.png","icon/mining/miningchest_tip.png","icon/mining/projecticon_1.png","icon/mining/projecticon_2.png","icon/mining/projecticon_3.png","icon/mining/projecticon_4.png","icon/recruit/blood_diamond.png","icon/recruit/friend.png","icon/recruit/gold_coin.png","icon/recruit/magic.png","icon/recruit/points_01.png","icon/recruit/points_02.png","icon/recruit/points_02_small.png","icon/recruit/small_icon.png","icon/recruit/temple.png","icon/rune/343.png","icon/rune/bg002.png","icon/rune/equipped_icon.png","icon/rune/main_rune_icon.png","icon/rune/plus.png","icon/rune/rune_add2.png","icon/rune/rune_bg.png","icon/rune/rune_bg00.png","icon/rune/rune_bg1.png","icon/rune/rune_circle.png","icon/rune/rune_icon.png","icon/rune/rune_select.png","icon/rune/rune_stone.png","icon/rune/star.png","loading_bar/arena_rewardbar_bg_d.png","loading_bar/arena_rewardbar_per.png","loading_bar/battle_hpbar1.png","loading_bar/battle_hpbar2.png","loading_bar/battle_shieldbar.png","loading_bar/cover_skill_bar.png","loading_bar/destiny_bar_w429.png","loading_bar/exp_bar.png","loading_bar/exp_bg.png","loading_bar/loading_round.png","loading_bar/maze_timebar_bar.png","loading_bar/maze_timebar_bg.png","loading_bar/maze_timebar_head.png","loading_bar/mining_picksbar_bg_7e6203.png","loading_bar/mining_picksbox_bar.png","loading_bar/weapon_bar.png","loading_bar/weapon_bg.png","loading_bar/weapon_light.png"]
-2017-05-04T16:33:11.017Z - success: preview server running at http://localhost:7456
-2017-05-04T16:33:11.018Z - normal: Compiling scripts...
-2017-05-04T16:33:15.052Z - normal: Compiled project javascript file successfully
-2017-05-04T16:33:19.680Z - normal: 1.4.2
-2017-05-04T16:39:31.108Z - normal: Compiled project javascript file successfully
-2017-05-04T16:39:36.163Z - error: Failed to update asset db://assets/script/common/network.js, messages: Compile error: SyntaxError: unknown: Unterminated string constant (21:16)
-  19 | 
-  20 | network.Connect = function() {
-> 21 |     console.log("FYD=====CONNECT);
-     |                 ^
-  22 |     let self = this;
-  23 |     let url = "127.0.0.1:8888";
-  24 |     self.socket = io(url);
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4333:13)
-    at Parser.readString (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1296:33)
-    at Parser.getTokenFromCode (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1102:21)
-    at Parser.readToken (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:771:19)
-    at Parser.nextToken (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:761:19)
-    at Parser.next (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:686:10)
-    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3449:12)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3424:15)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3394:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3324:19)
-    at e.AssetDB.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2582)
-    at Object.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/ipc.js:1:449)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:906:35
-    at _arrayEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:85:13)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:898:17
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
-    at e.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/index.js:1:1683)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:22615
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
-2017-05-04T16:39:44.943Z - normal: Compiled project javascript file successfully
-2017-05-04T17:04:50.092Z - normal: Compiled project javascript file successfully
-2017-05-04T17:05:18.085Z - normal: Compiled project javascript file successfully
-2017-05-04T17:25:49.517Z - normal: Compiled project javascript file successfully
-2017-05-04T17:31:55.901Z - normal: Compiled project javascript file successfully
+2017-05-05T03:01:23.651Z - normal: Load ~/.CocosCreator/settings.json
+2017-05-05T03:01:23.657Z - normal: checking language setting...
+2017-05-05T03:01:23.658Z - normal: Language: zh
+2017-05-05T03:01:24.601Z - success: protocol editor-framework registered
+2017-05-05T03:01:24.601Z - success: protocol app registered
+2017-05-05T03:01:24.601Z - success: protocol theme registered
+2017-05-05T03:01:24.601Z - success: protocol profile registered
+2017-05-05T03:01:24.602Z - success: protocol packages registered
+2017-05-05T03:01:24.604Z - success: protocol unpack registerred
+2017-05-05T03:01:24.605Z - success: protocol disable-commonjs registerred
+2017-05-05T03:01:24.837Z - normal: connected!
+2017-05-05T03:01:24.840Z - normal: Check project /Users/mu77/SKYNET/client
+2017-05-05T03:01:24.842Z - normal: Initializing Cocos2d
+2017-05-05T03:01:25.484Z - normal: Initializing Asset Database
+2017-05-05T03:01:25.514Z - success: protocol uuid registerred
+2017-05-05T03:01:25.514Z - success: protocol db registerred
+2017-05-05T03:01:25.514Z - success: protocol thumbnail registerred
+2017-05-05T03:01:25.515Z - normal: Loading editor/builtin packages
+2017-05-05T03:01:25.733Z - success: assets loaded
+2017-05-05T03:01:25.736Z - success: builder loaded
+2017-05-05T03:01:25.745Z - success: hierarchy loaded
+2017-05-05T03:01:25.750Z - success: inspector loaded
+2017-05-05T03:01:25.752Z - success: keystore loaded
+2017-05-05T03:01:25.756Z - success: node-library loaded
+2017-05-05T03:01:25.758Z - success: preferences loaded
+2017-05-05T03:01:25.773Z - success: project-importer loaded
+2017-05-05T03:01:25.776Z - success: project-settings loaded
+2017-05-05T03:01:25.779Z - success: ui-kit loaded
+2017-05-05T03:01:25.796Z - success: ui-grid loaded
+2017-05-05T03:01:25.812Z - success: scene loaded
+2017-05-05T03:01:25.814Z - success: sprite-editor loaded
+2017-05-05T03:01:26.097Z - success: store loaded
+2017-05-05T03:01:26.114Z - success: timeline loaded
+2017-05-05T03:01:26.114Z - normal: Loading builtin packages
+2017-05-05T03:01:26.128Z - success: anysdk loaded
+2017-05-05T03:01:26.139Z - success: asset-db-debugger loaded
+2017-05-05T03:01:26.141Z - success: code-editor loaded
+2017-05-05T03:01:26.148Z - success: color-picker loaded
+2017-05-05T03:01:26.153Z - success: console loaded
+2017-05-05T03:01:26.156Z - success: package-manager loaded
+2017-05-05T03:01:26.161Z - success: tester loaded
+2017-05-05T03:01:26.164Z - success: ui-kit-preview-extra loaded
+2017-05-05T03:01:26.167Z - success: ui-kit-preview loaded
+2017-05-05T03:01:26.172Z - success: ui-tree loaded
+2017-05-05T03:01:26.238Z - normal: Initializing project /Users/mu77/SKYNET/client
+2017-05-05T03:01:26.240Z - normal: Loading packages
+2017-05-05T03:01:26.243Z - normal: Watching packages
+2017-05-05T03:01:26.256Z - normal: Run Application
+2017-05-05T03:01:28.394Z - warn: [SpriteAtlas import] Some of the frame keys have been reformatted : ["bg/activity_herobg.png","bg/att_light1.png","bg/bag_emtpybg.png","bg/ban_light1.png","bg/battle_fightnumber_bg.png","bg/bg001.png","bg/bg002.png","bg/bg_light001.png","bg/bottom_bg.png","bg/box_bg.png","bg/box_bg_bianjiao_1.png","bg/box_bg_bianjiao_2.png","bg/box_n_detail_bg.png","bg/contract_bg.png","bg/contract_bg2.png","bg/cooperate_olsign_bg.png","bg/corner_tipbg.png","bg/cry.png","bg/demo_pic_1.png","bg/demo_pic_2.png","bg/destiny_reward_itembg_d.png","bg/destiny_reward_itemshadow.png","bg/detail_bg2_d.png","bg/detail_bg_d.png","bg/detail_head_decoratebg_d.png","bg/detail_skillinfo_bg_d.png","bg/detail_weapon_n_wake_bg_d.png","bg/detail_weaponbg.png","bg/dialogue_bg.png","bg/fate_n_transmigration_bg_f.png","bg/fightnumber_bg_d.png","bg/floating_layerbg.png","bg/guildwar_bg.png","bg/guildwar_signup_bg.png","bg/headerbg_d.png","bg/herochangebox_infobg_w297.png","bg/herodetail_leadskillbg_d.png","bg/herodetail_skillbg_d.png","bg/heroformation_bgempty_d.png","bg/herolist_bg1.png","bg/herolist_bg10.png","bg/herolist_bg11.png","bg/herolist_bg12.png","bg/herolist_bg2.png","bg/herolist_bg3.png","bg/herolist_bg4.png","bg/herolist_bg5.png","bg/herolist_bg6.png","bg/herolist_bg7.png","bg/herolist_bg8.png","bg/herolist_bg9.png","bg/herolist_bgempty_d.png","bg/herolist_choose.png","bg/item_bg.png","bg/ladder_numbg.png","bg/main_bg_f.png","bg/maintitle_bg.png","bg/mapbg/mapbg_aircity.png","bg/mapbg/mapbg_angel.png","bg/mapbg/mapbg_cave.png","bg/mapbg/mapbg_city.png","bg/mapbg/mapbg_ether.png","bg/mapbg/mapbg_fight.png","bg/mapbg/mapbg_forest.png","bg/mapbg/mapbg_fort.png","bg/mapbg/mapbg_iceberg.png","bg/mapbg/mapbg_mountain.png","bg/mapbg/mapbg_oasis.png","bg/mapbg/mapbg_path.png","bg/mapbg/mapbg_plain.png","bg/mapbg/mapbg_relic.png","bg/mapbg/mapbg_ruins.png","bg/mapbg/mapbg_spring.png","bg/mapbg/mapbg_temple.png","bg/mapbg/mapbg_time.png","bg/mapbg/mapbg_volcano.png","bg/maze_mainlandlist_decorate_d.png","bg/maze_map_d.png","bg/maze_map_path_d.png","bg/maze_role_shadow_d.png","bg/mine_light.png","bg/mining_floating_layer_bg.png","bg/mining_shadow_f.png","bg/paper_bg1.png","bg/paper_bg3.png","bg/paper_bg4_d.png","bg/paper_bg6_d.png","bg/paper_bg7_d.png","bg/part001.png","bg/part002.png","bg/part003.png","bg/part004.png","bg/part005.png","bg/part006.png","bg/part007.png","bg/point/points_01.png","bg/point/points_02.png","bg/point/points_02_small.png","bg/pro_plt2_00001.png","bg/pro_plt2_00002.png","bg/pro_plt2_00003.png","bg/pro_plt2_00004.png","bg/pro_plt2_00005.png","bg/pro_plt2_00006.png","bg/pro_plt2_00007.png","bg/pro_plt2_00008.png","bg/pro_plt2_00009.png","bg/pro_plt2_00010.png","bg/pvp_bg_f.png","bg/rank_decorate.png","bg/rewardbtn_tipbg.png","bg/rewardbtn_tipbg2.png","bg/role_effectiveness_bg.png","bg/rolling_tab_bg_w640.png","bg/round_bg.png","bg/seal_bg.png","bg/secondbox_shade_f.png","bg/skill/black.png","bg/skill/renwu_1.png","bg/skill/renwu_2.png","bg/skill/skill_10.png","bg/skill/skill_11.png","bg/skill/skill_12.png","bg/skill/skill_13.png","bg/skill/skill_14.png","bg/skill/skill_15.png","bg/skill/skill_16.png","bg/skill/skill_17.png","bg/skill/skill_18.png","bg/skill/skill_19.png","bg/skill/skill_2.png","bg/skill/skill_20.png","bg/skill/skill_21.png","bg/skill/skill_3.png","bg/skill/skill_4.png","bg/skill/skill_5.png","bg/skill/skill_6.png","bg/skill/skill_7.png","bg/skill/skill_8.png","bg/skill/skill_9.png","bg/skill/tramcar_lv1.png","bg/skill/tramcar_lv1_1.png","bg/skill/wheel_lv2.png","bg/skill/xiaokuangche.png","bg/skill_choose.png","bg/smile.png","bg/spec_roundbg.png","bg/temple_bg_f.png","bg/times.png","bg/tiptalk_bg_w640.png","bg/transmigration_per_detail_d.png","bg/triangle_bg.png","bg/txt_bg.png","bg/txt_bg2.png","bg/up001.png","bg/up002.png","bg/up003.png","bg/wakeupbox_signature2_d.png","bg/weaponbox_infobg2_d.png","bg/weaponbox_infobg_d.png","bg/weaponbox_leadrole_bg.png","border/announcement_txtborder.png","border/chain.png","border/decorate.png","border/destiny_decorate.png","border/detail_apart.png","border/detail_apart2_w467.png","border/dialoge_arrow.png","border/dotted_line.png","border/hero_formation_tag.png","border/herodetail_apart_d_h462.png","border/herodetail_border_d.png","border/magic_decorate.png","border/maintitle_decorate2_d.png","border/maintitle_decorate_d.png","border/maze_border.png","border/parchment_boder.png","border/reward_decorate_d.png","border/rolling_container_border.png","button/a_z_icon.png","button/announcement_upbtn.png","button/backbtn_icon.png","button/battle_help.png","button/buttonbg_1.png","button/buttonbg_10.png","button/buttonbg_11.png","button/buttonbg_12.png","button/buttonbg_2.png","button/buttonbg_3.png","button/buttonbg_4.png","button/buttonbg_5.png","button/buttonbg_6.png","button/buttonbg_7.png","button/buttonbg_8.png","button/buttonbg_9.png","button/buy_blood.png","button/buy_reset.png","button/checkin2.png","button/close1_normal.png","button/close1_press.png","button/close2_normal.png","button/close2_press.png","button/decide_no.png","button/decide_yes.png","button/destiny_change.png","button/detailbtn_icon.png","button/fb_like.png","button/fb_share.png","button/friend2.png","button/invite.png","button/line_share.png","button/listicon_1.png","button/listicon_2.png","button/listicon_3.png","button/listicon_4.png","button/listicon_5.png","button/listicon_6.png","button/listicon_7.png","button/login_qq.png","button/login_wechat.png","button/mainui_activity.png","button/mainui_bag_cofc.png","button/mainui_checkin.png","button/mainui_discuss.png","button/mainui_firstbuy.png","button/mainui_friend.png","button/mainui_gift.png","button/mainui_limitbuy.png","button/mainui_news.png","button/mainui_quest.png","button/mainui_redbag.png","button/mainui_rune.png","button/mainui_setting.png","button/mainui_store.png","button/mainui_update.png","button/mainui_vip.png","button/mainui_vip_en.png","button/maze_bag.png","button/maze_btn.png","button/maze_eventbtn_bg_d.png","button/maze_eventbtn_decorate_d.png","button/maze_eventbtn_fight_d.png","button/maze_eventbtn_item_d.png","button/maze_eventbtn_passbg_d.png","button/maze_eventbtn_waitbg.png","button/maze_eventbtntxt_fight.png","button/maze_eventbtntxt_item.png","button/maze_eventbtntxt_land.png","button/maze_eventbtntxt_mission.png","button/maze_maplist.png","button/maze_team.png","button/maze_titlebtn_d.png","button/mercenary_detail_btn.png","button/mercenary_detail_btn2.png","button/pencil.png","button/rewardbtn_bg.png","button/rewardbtn_icon_exp.png","button/rewardbtn_icon_gold.png","button/rewardbtn_icon_lvup.png","button/rewardbtn_icon_orebag.png","button/rewardbtn_icon_search.png","button/rewardbtn_icon_transmigration.png","button/rewardbtn_icon_workshop.png","button/start_btn.png","button/store_blood_diamondbtn.png","button/store_blood_diamondbtn_a.png","button/teams.png","button/top_tab.png","button/transmigration_icon.png","button/vip_card.png","button/weaponbox_ratebtn2_d.png","button/weaponbox_ratebtn2_press_d.png","button/weaponbox_ratebtn3.png","button/weaponbox_ratebtn3_press.png","button/weaponbox_ratebtn_d.png","button/weaponbox_ratebtn_press_d.png","icon/arena/add_friends.png","icon/arena/boxing2.png","icon/arena/cake.png","icon/arena/japan.png","icon/arena/listicon_arena.png","icon/arena/listicon_ranking.png","icon/arena/male.png","icon/arena/pvp.png","icon/arena/pvp1.png","icon/arena/rank_self.png","icon/arena/rank_win.png","icon/arena/rankicon.png","icon/arena/rewardlevel_1win.png","icon/arena/rewardlevel_1win_a.png","icon/arena/rewardlevel_4win.png","icon/arena/rewardlevel_4win_a.png","icon/arena/rewardlevel_9win.png","icon/arena/rewardlevel_9win_a.png","icon/arena/sports_season.png","icon/badge/champion_badge.png","icon/badge/courage_badge.png","icon/badge/fetter_badge.png","icon/badge/forge_badge.png","icon/badge/fortune_badge.png","icon/badge/strength_badge.png","icon/destiny/weapon1.png","icon/destiny/weapon10.png","icon/destiny/weapon11.png","icon/destiny/weapon12.png","icon/destiny/weapon2.png","icon/destiny/weapon3.png","icon/destiny/weapon4.png","icon/destiny/weapon5.png","icon/destiny/weapon6.png","icon/destiny/weapon7.png","icon/destiny/weapon8.png","icon/destiny/weapon9.png","icon/entrust/icon_prestige.png","icon/entrust/map_end.png","icon/entrust/map_normal.png","icon/entrust/map_start.png","icon/entrust/map_unknown.png","icon/explore/mission_icon_boss.png","icon/explore/mission_icon_etc.png","icon/explore/mission_icon_exp.png","icon/explore/mission_icon_gold.png","icon/explore/mission_icon_item.png","icon/explore/mission_icon_role.png","icon/explore/missionbg.png","icon/explore/specialreward_array.png","icon/explore/specialreward_fight.png","icon/explore/specialreward_pick.png","icon/explore/timebar_icon_chest.png","icon/festival/2015062001.png","icon/festival/2015062002.png","icon/festival/2015062003.png","icon/festival/2015062004.png","icon/festival/2015062005.png","icon/festival/2015062006.png","icon/festival/2015062007.png","icon/festival/2015062008.png","icon/festival/balloon.png","icon/festival/chest.png","icon/festival/christmas1.png","icon/festival/christmas2.png","icon/festival/christmas3.png","icon/festival/christmas4.png","icon/festival/christmascard.png","icon/festival/crown.png","icon/festival/crystal.png","icon/festival/crystal_box.png","icon/festival/ertong1.png","icon/festival/ertong2.png","icon/festival/firecrackers1.png","icon/festival/firecrackers2.png","icon/festival/firecrackers3.png","icon/festival/firecrackers4.png","icon/festival/firecrackers5.png","icon/festival/firecrackers_box.png","icon/festival/flag.png","icon/festival/gunpowder.png","icon/festival/guoqing1.png","icon/festival/guoqing2.png","icon/festival/guoqing3.png","icon/festival/guoqing4.png","icon/festival/guoqing5.png","icon/festival/love.png","icon/festival/newyear1.png","icon/festival/newyear2.png","icon/festival/newyear3.png","icon/festival/newyear4.png","icon/festival/rare_earth.png","icon/festival/spring_wallet.png","icon/festival/spring_wallet_pvp.png","icon/festival/stick.png","icon/festival/txt_gang.png","icon/festival/txt_hu.png","icon/festival/txt_jin.png","icon/festival/txt_lu.png","icon/festival/wallet.png","icon/festival/wallet_pvp.png","icon/festival/wood.png","icon/festival/wskh1.png","icon/festival/wskh2.png","icon/festival/wskh3.png","icon/festival/wskh4.png","icon/festival/zhongqiu1.png","icon/festival/zhongqiu2.png","icon/global/10000002.png","icon/global/Intermediate_card.png","icon/global/bonus.png","icon/global/bossicon.png","icon/global/breaklimit.png","icon/global/breaklimit_dark.png","icon/global/change_arrow.png","icon/global/checkin.png","icon/global/checkin_no.png","icon/global/comment_icon.png","icon/global/contract_level.png","icon/global/double.png","icon/global/draw_icon.png","icon/global/equipped.png","icon/global/exp_x.png","icon/global/feedback.png","icon/global/fight_globalicon.png","icon/global/finalbonus.png","icon/global/get.png","icon/global/gift.png","icon/global/ladder_numicon.png","icon/global/level_txt.png","icon/global/location_detail_dark.png","icon/global/location_detail_light.png","icon/global/lock.png","icon/global/logotxt.png","icon/global/miner_card.png","icon/global/new.png","icon/global/ore_picks.png","icon/global/page_arrow.png","icon/global/page_arrow2.png","icon/global/page_location1.png","icon/global/page_location2.png","icon/global/primary_card.png","icon/global/replyicon.png","icon/global/round_fail.png","icon/global/setting.png","icon/global/star.png","icon/global/superweapon_icon.png","icon/global/sword.png","icon/global/waitingicon.png","icon/global/wakeup.png","icon/global/wakeup_dark.png","icon/global/wakeup_small.png","icon/guildwar/buff_icon.png","icon/guildwar/cup_in.png","icon/guildwar/cup_out.png","icon/guildwar/cup_prompt.png","icon/guildwar/fiddle_icon.png","icon/guildwar/guildwar_add_btn.png","icon/guildwar/guildwar_balance_bg.png","icon/guildwar/guildwar_me_btn.png","icon/guildwar/guildwar_me_btn1.png","icon/guildwar/guildwar_scouted.png","icon/guildwar/in_icon.png","icon/guildwar/king_pure_icon.png","icon/guildwar/out_icon.png","icon/guildwar/rank_points_icon.png","icon/guildwar/recovery_icon.png","icon/guildwar/sente_crit_icon.png","icon/guildwar/shield_icon.png","icon/guildwar/shield_points.png","icon/guildwar/shield_points01.png","icon/guildwar/shield_points02.png","icon/guildwar/shield_points03.png","icon/guildwar/shield_points04.png","icon/guildwar/unknown_icon.png","icon/maze/aircity_big.png","icon/maze/aircity_small.png","icon/maze/angel_big.png","icon/maze/angel_small.png","icon/maze/cave_big.png","icon/maze/cave_small.png","icon/maze/city_big.png","icon/maze/city_small.png","icon/maze/ether_big.png","icon/maze/ether_small.png","icon/maze/fight_big.png","icon/maze/fight_small.png","icon/maze/forest_big.png","icon/maze/forest_small.png","icon/maze/fort_big.png","icon/maze/fort_small.png","icon/maze/iceberg_big.png","icon/maze/iceberg_small.png","icon/maze/mountain_big.png","icon/maze/mountain_small.png","icon/maze/oasis_big.png","icon/maze/oasis_small.png","icon/maze/path_big.png","icon/maze/path_small.png","icon/maze/plain_big.png","icon/maze/plain_small.png","icon/maze/relic_big.png","icon/maze/relic_small.png","icon/maze/ruins_big.png","icon/maze/ruins_small.png","icon/maze/spring_big.png","icon/maze/spring_small.png","icon/maze/temple_big.png","icon/maze/temple_small.png","icon/maze/time_big.png","icon/maze/time_small.png","icon/maze/volcano_big.png","icon/maze/volcano_small.png","icon/menu/menu_announcementbtn.png","icon/menu/menu_cancelbtn.png","icon/menu/menu_facebookbtn.png","icon/menu/menu_listbtn.png","icon/menu/menu_musicbtn.png","icon/menu/menu_offtag.png","icon/menu/menu_remind_btn.png","icon/menu/menu_soundbtn.png","icon/mercenarylist/biography_icon.png","icon/mercenarylist/biography_icon2.png","icon/mercenarylist/biography_icon3.png","icon/mercenarylist/change_arrow1.png","icon/mercenarylist/change_arrow2.png","icon/mercenarylist/contract1.png","icon/mercenarylist/contract2.png","icon/mercenarylist/exskill_oktag.png","icon/mercenarylist/exskill_tag.png","icon/mercenarylist/fighting_capacity.png","icon/mercenarylist/fightnumber_1.png","icon/mercenarylist/fightnumber_2.png","icon/mercenarylist/fightnumber_3.png","icon/mercenarylist/fightnumber_4.png","icon/mercenarylist/formation_changearrow.png","icon/mercenarylist/leadrole_detail_crestbtn.png","icon/mercenarylist/list_contract.png","icon/mercenarylist/list_decorate.png","icon/mercenarylist/qualityicon_1.png","icon/mercenarylist/qualityicon_2.png","icon/mercenarylist/qualityicon_3.png","icon/mercenarylist/qualityicon_4.png","icon/mercenarylist/qualityicon_5.png","icon/mercenarylist/skill_choose.png","icon/mercenarylist/skill_empty.png","icon/mercenarylist/time.png","icon/mercenarylist/transmigration_arrow2_d.png","icon/mercenarylist/transmigration_arrow_d.png","icon/mercenarylist/weapon_up.png","icon/mercenarylist/weaponbox_leadrole_arrow.png","icon/mercenarylist/weaponbox_leadrole_point1.png","icon/mercenarylist/weaponbox_leadrole_point2.png","icon/mining/event_tip.png","icon/mining/miningchest_tip.png","icon/mining/projecticon_1.png","icon/mining/projecticon_2.png","icon/mining/projecticon_3.png","icon/mining/projecticon_4.png","icon/recruit/blood_diamond.png","icon/recruit/friend.png","icon/recruit/gold_coin.png","icon/recruit/magic.png","icon/recruit/points_01.png","icon/recruit/points_02.png","icon/recruit/points_02_small.png","icon/recruit/small_icon.png","icon/recruit/temple.png","icon/rune/343.png","icon/rune/bg002.png","icon/rune/equipped_icon.png","icon/rune/main_rune_icon.png","icon/rune/plus.png","icon/rune/rune_add2.png","icon/rune/rune_bg.png","icon/rune/rune_bg00.png","icon/rune/rune_bg1.png","icon/rune/rune_circle.png","icon/rune/rune_icon.png","icon/rune/rune_select.png","icon/rune/rune_stone.png","icon/rune/star.png","loading_bar/arena_rewardbar_bg_d.png","loading_bar/arena_rewardbar_per.png","loading_bar/battle_hpbar1.png","loading_bar/battle_hpbar2.png","loading_bar/battle_shieldbar.png","loading_bar/cover_skill_bar.png","loading_bar/destiny_bar_w429.png","loading_bar/exp_bar.png","loading_bar/exp_bg.png","loading_bar/loading_round.png","loading_bar/maze_timebar_bar.png","loading_bar/maze_timebar_bg.png","loading_bar/maze_timebar_head.png","loading_bar/mining_picksbar_bg_7e6203.png","loading_bar/mining_picksbox_bar.png","loading_bar/weapon_bar.png","loading_bar/weapon_bg.png","loading_bar/weapon_light.png"]
+2017-05-05T03:01:31.434Z - success: preview server running at http://localhost:7456
+2017-05-05T03:01:31.434Z - normal: Compiling scripts...
+2017-05-05T03:01:34.910Z - normal: Compiled project javascript file successfully
+2017-05-05T03:01:39.176Z - normal: 1.4.2
+2017-05-05T03:02:23.469Z - normal: Compiled project javascript file successfully
+2017-05-05T03:03:21.407Z - normal: Compiled project javascript file successfully
+2017-05-05T03:04:19.774Z - normal: Compiled project javascript file successfully
+2017-05-05T03:05:28.995Z - normal: Compiled project javascript file successfully
+2017-05-05T03:05:55.748Z - normal: Compiled project javascript file successfully
+2017-05-05T03:06:14.366Z - normal: Compiled project javascript file successfully
+2017-05-05T03:23:24.508Z - normal: Compiled project javascript file successfully
+2017-05-05T03:27:42.367Z - normal: Compiled project javascript file successfully
+2017-05-05T03:28:10.530Z - normal: Compiled project javascript file successfully
+2017-05-05T03:28:24.642Z - normal: Compiled project javascript file successfully
+2017-05-05T03:28:46.807Z - normal: Compiled project javascript file successfully
+2017-05-05T03:28:58.688Z - normal: Compiled project javascript file successfully
+2017-05-05T03:30:40.198Z - normal: Compiled project javascript file successfully
+2017-05-05T05:00:19.548Z - normal: Compiled project javascript file successfully
+2017-05-05T05:00:19.566Z - error: Compile error: Cannot require 'protobufjs' from '/Users/mu77/SKYNET/client/temp/scripts/assets/script/common'. Module not found.
+    at Readable.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/compile-worker.js:1:3554)
+    at emitOne (events.js:96:13)
+    at Readable.emit (events.js:188:7)
+    at Labeled.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/read-only-stream/index.js:28:44)
+    at emitOne (events.js:96:13)
+    at Labeled.emit (events.js:188:7)
+    at Labeled.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/stream-splicer/index.js:130:18)
+    at emitOne (events.js:101:20)
+    at Labeled.emit (events.js:188:7)
+    at Deps.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/stream-splicer/index.js:130:18)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/compiler.js:1:1022
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/compiler.js:1:466
+    at BrowserWindow.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/compiler.js:1:2045)
+    at BrowserWindow.g (events.js:286:16)
+    at emitOne (events.js:101:20)
+    at BrowserWindow.emit (events.js:188:7)
+2017-05-05T05:00:34.841Z - normal: Compiled project javascript file successfully
+2017-05-05T05:00:34.842Z - error: Compile error: Cannot require 'protobufjs' from '/Users/mu77/SKYNET/client/temp/scripts/assets/script/common'. Module not found.
+    at Readable.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/compile-worker.js:1:3554)
+    at emitOne (events.js:96:13)
+    at Readable.emit (events.js:188:7)
+    at Labeled.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/read-only-stream/index.js:28:44)
+    at emitOne (events.js:96:13)
+    at Labeled.emit (events.js:188:7)
+    at Labeled.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/stream-splicer/index.js:130:18)
+    at emitOne (events.js:101:20)
+    at Labeled.emit (events.js:188:7)
+    at Deps.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/stream-splicer/index.js:130:18)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/compiler.js:1:1022
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/compiler.js:1:466
+    at BrowserWindow.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/compiler.js:1:2045)
+    at BrowserWindow.g (events.js:286:16)
+    at emitOne (events.js:101:20)
+    at BrowserWindow.emit (events.js:188:7)
+2017-05-05T05:04:14.121Z - normal: Compiled project javascript file successfully
+2017-05-05T05:06:37.807Z - normal: Compiled project javascript file successfully
+2017-05-05T05:09:29.232Z - normal: Compiled project javascript file successfully
+2017-05-05T05:09:54.218Z - normal: Compiled project javascript file successfully
+2017-05-05T05:16:59.507Z - normal: Compiled project javascript file successfully
+2017-05-05T05:17:58.710Z - normal: Compiled project javascript file successfully
+2017-05-05T05:18:56.991Z - normal: Compiled project javascript file successfully
+2017-05-05T05:20:29.919Z - normal: Compiled project javascript file successfully
+2017-05-05T05:21:06.102Z - normal: Compiled project javascript file successfully
+2017-05-05T05:22:47.659Z - normal: Compiled project javascript file successfully
+2017-05-05T05:23:09.435Z - normal: Compiled project javascript file successfully
+2017-05-05T05:29:00.365Z - normal: Compiled project javascript file successfully
+2017-05-05T05:30:42.916Z - normal: Compiled project javascript file successfully
+2017-05-05T05:31:22.213Z - normal: Compiled project javascript file successfully
+2017-05-05T05:31:46.184Z - normal: Compiled project javascript file successfully
+2017-05-05T05:39:05.185Z - normal: Compiled project javascript file successfully
+2017-05-05T05:39:41.908Z - normal: Compiled project javascript file successfully
+2017-05-05T05:45:46.520Z - normal: Compiled project javascript file successfully
+2017-05-05T05:47:34.605Z - normal: Compiled project javascript file successfully
+2017-05-05T05:48:29.070Z - normal: Compiled project javascript file successfully
+2017-05-05T05:53:14.494Z - normal: Compiled project javascript file successfully
+2017-05-05T05:53:30.142Z - normal: Compiled project javascript file successfully
+2017-05-05T05:56:47.515Z - normal: Compiled project javascript file successfully
+2017-05-05T05:57:19.676Z - normal: Compiled project javascript file successfully
+2017-05-05T05:59:53.061Z - normal: Compiled project javascript file successfully
+2017-05-05T06:00:05.116Z - normal: Compiled project javascript file successfully
+2017-05-05T06:01:20.343Z - normal: Compiled project javascript file successfully
+2017-05-05T06:05:54.639Z - normal: Compiled project javascript file successfully
+2017-05-05T06:11:41.053Z - normal: Compiled project javascript file successfully
+2017-05-05T06:12:13.953Z - normal: Compiled project javascript file successfully
+2017-05-05T06:13:34.370Z - normal: Compiled project javascript file successfully
+2017-05-05T06:36:04.125Z - normal: Compiled project javascript file successfully
+2017-05-05T06:36:10.670Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 1035.00
+2017-05-05T06:36:10.671Z - normal: Simulator: FRAME SCALE = 1.00
+2017-05-05T06:36:10.890Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-05-05T06:36:10.907Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-05-05T06:36:10.907Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-05-05T06:36:11.359Z - normal: Simulator: 
+2017-05-05T06:36:11.360Z - normal: Simulator: {
+2017-05-05T06:36:11.360Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-05-05T06:36:11.360Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-05-05T06:36:11.360Z - normal: Simulator: 	cocos2d.x.version: 1.4.1
+2017-05-05T06:36:11.360Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2017-05-05T06:36:11.361Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-05-05T06:36:11.361Z - normal: Simulator: 	gl.renderer: Intel Iris OpenGL Engine
+2017-05-05T06:36:11.363Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-05-05T06:36:11.363Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-05-05T06:36:11.363Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-05-05T06:36:11.364Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-05-05T06:36:11.364Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-05-05T06:36:11.364Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-05-05T06:36:11.364Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-05-05T06:36:11.364Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-05-05T06:36:11.364Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-05-05T06:36:11.365Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.18.65
+2017-05-05T06:36:11.365Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-05-05T06:36:11.365Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-05-05T06:36:11.365Z - normal: Simulator: }
+2017-05-05T06:36:11.387Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-05-05T06:36:11.464Z - normal: Simulator: Project Config:
+2017-05-05T06:36:11.464Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-05-05T06:36:11.466Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-05-05T06:36:11.466Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-05-05T06:36:11.467Z - normal: Simulator:     frame size: 960 x 640
+2017-05-05T06:36:11.467Z - normal: Simulator:     frame scale: 1.00
+2017-05-05T06:36:11.468Z - normal: Simulator:     show console: NO
+2017-05-05T06:36:11.468Z - normal: Simulator:     write debug log: NO ()
+2017-05-05T06:36:11.468Z - normal: Simulator:     listen: 
+2017-05-05T06:36:11.469Z - normal: Simulator:     debugger: none
+2017-05-05T06:36:11.469Z - normal: Simulator:     add searching path:
+2017-05-05T06:36:11.480Z - normal: Simulator: ------------------------------------------------
+2017-05-05T06:36:11.480Z - normal: Simulator: LOAD Js FILE: main.js
+2017-05-05T06:36:11.480Z - normal: Simulator: ------------------------------------------------
+2017-05-05T06:36:12.351Z - normal: Simulator: Cocos2d-JS v3.14
+2017-05-05T06:36:12.617Z - error: Simulator: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+    at a (/Users/mu77/SKYNET/client/library/bundle.project.js?009:175:0)
+2017-05-05T06:36:12.690Z - normal: Simulator: iShow!
+2017-05-05T06:36:13.921Z - normal: Simulator: FYD=====CONNECT
+2017-05-05T06:36:14.390Z - normal: Simulator: [WebSocket::init] _host: 127.0.0.1, _port: 8888, _path: /
+2017-05-05T06:36:14.393Z - normal: Simulator: WebSocket thread start, helper instance: 0x7f998f5f32b0
+2017-05-05T06:36:14.393Z - normal: Simulator: NOTICE: Initial logging level 967
+2017-05-05T06:36:14.393Z - normal: Simulator: 
+2017-05-05T06:36:14.393Z - normal: Simulator: NOTICE: Libwebsockets version: 1.7.8 linwenhai@LindeMacBook-Pro.local-v3.4-49-g9369eea
+2017-05-05T06:36:14.394Z - normal: Simulator: 
+2017-05-05T06:36:14.394Z - normal: Simulator: NOTICE: IPV6 compiled in and enabled
+2017-05-05T06:36:14.394Z - normal: Simulator: 
+2017-05-05T06:36:14.394Z - normal: Simulator: NOTICE: libev support not compiled in
+2017-05-05T06:36:14.394Z - normal: Simulator: 
+2017-05-05T06:36:14.395Z - normal: Simulator: NOTICE:  Threads: 1 each 1024 fds
+2017-05-05T06:36:14.395Z - normal: Simulator: 
+2017-05-05T06:36:14.395Z - normal: Simulator: NOTICE:  mem: platform fd map:  8192 bytes
+2017-05-05T06:36:14.396Z - normal: Simulator: 
+2017-05-05T06:36:14.396Z - normal: Simulator: NOTICE:  mem: per-conn:          368 bytes + protocol rx buf
+2017-05-05T06:36:14.396Z - normal: Simulator: 
+2017-05-05T06:36:14.396Z - normal: Simulator: Waiting WebSocket (0x7f998f5f30e0) to exit!
+2017-05-05T06:36:14.396Z - normal: Simulator: NOTICE: lws_context_destroy
+2017-05-05T06:36:14.397Z - normal: Simulator: 
+2017-05-05T06:36:14.397Z - normal: Simulator: onConnectionClosed: WebSocket (0x7f998f5f30e0) was closed, no need to close it again!
+2017-05-05T06:36:14.398Z - normal: Simulator: onConnectionClosed: WebSocket (0x7f998f5f30e0) was closed, no need to close it again!
+2017-05-05T06:36:14.398Z - normal: Simulator: WebSocket thread exit, helper instance: 0x7f998f5f32b0
+2017-05-05T06:36:14.398Z - normal: Simulator: In the destructor of WebSocket (0x7f998f5f30e0)
+2017-05-05T06:36:14.398Z - normal: Simulator: basic_object_finalize 0xcd42910 ...
+2017-05-05T06:36:14.399Z - normal: Simulator: jsbindings: finalizing JS object 0xcd42940 (WebSocket)
+2017-05-05T06:36:14.399Z - normal: Simulator: jsbindings: finalizing JS object 0xcd42970 (SocketIO)
+2017-05-05T06:36:14.399Z - normal: Simulator: basic_object_finalize 0xcd42a00 ...
+2017-05-05T06:36:14.400Z - normal: Simulator: basic_object_finalize 0xcd42ca0 ...
+2017-05-05T06:36:14.400Z - normal: Simulator: jsbindings: finalizing JS object 0x10459190 (WebSocket)
+2017-05-05T08:38:56.852Z - normal: Compiled project javascript file successfully
+2017-05-05T10:15:00.735Z - normal: Compiled project javascript file successfully
+2017-05-05T11:36:49.463Z - normal: Compiled project javascript file successfully
+2017-05-05T12:06:30.993Z - normal: Compiled project javascript file successfully
+2017-05-05T12:08:50.542Z - normal: Compiled project javascript file successfully
+2017-05-05T12:22:10.812Z - normal: Compiled project javascript file successfully
+2017-05-05T12:22:54.954Z - normal: Compiled project javascript file successfully
+2017-05-05T12:24:22.095Z - normal: Compiled project javascript file successfully
+2017-05-05T12:26:15.852Z - normal: Compiled project javascript file successfully
+2017-05-05T12:44:05.291Z - normal: Compiled project javascript file successfully
+2017-05-05T12:45:23.994Z - normal: Compiled project javascript file successfully
+2017-05-05T12:50:08.888Z - normal: Compiled project javascript file successfully

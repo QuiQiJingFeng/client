@@ -55,6 +55,5 @@ cc.Class({
 
         let send_msg = {login:data};
         network.Send(send_msg);
-
     },
 });

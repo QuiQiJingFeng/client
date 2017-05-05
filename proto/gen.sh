@@ -1,3 +1,5 @@
 #!/bin/sh
 
-protoc -o msg.pb msg/*.proto *.proto
+pbjs protocol.proto -t commonjs > protocol.js
+
+cp protocol.js ../assets/resources/proto
