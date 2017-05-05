@@ -6,39 +6,24 @@
   "names": [
     "pbjs",
     "require",
-    "HEADER_SIZE",
     "protobuf",
     "Init",
     "self",
+    "root",
     "C2GS",
     "GS2C",
-    "root",
     "encode",
     "data",
     "msg",
-    "buffer",
     "toBuffer",
-    "size",
-    "byteLength",
-    "headBuf",
-    "Buffer",
-    "alloc",
-    "writeUInt16BE",
-    "newBuffer",
-    "concat",
-    "from",
     "decode",
-    "total_size",
-    "header",
-    "Uint8Array",
-    "slice",
-    "content_size",
+    "buffer",
     "module",
     "exports"
   ],
-  "mappings": ";;AAAA,IAAIA,OAAOC,QAAQ,YAAR,CAAX;AACAA,QAAQ,QAAR;AACA,IAAIC,cAAc,CAAlB;;AAEA,IAAIC,WAAW,EAAf;;AAEAA,SAASC,IAAT,GAAgB,YAAW;AAC1B,QAAIC,OAAO,IAAX;AACGA,SAAKC,IAAL,GAAY,IAAZ;AACAD,SAAKE,IAAL,GAAY,IAAZ;;AAEA,QAAIC,OAAOP,QAAQ,UAAR,CAAX;AACHI,SAAKC,IAAL,GAAYE,KAAKF,IAAjB;AACAD,SAAKE,IAAL,GAAYC,KAAKD,IAAjB;AAEA,CATD;;AAWAJ,SAASM,MAAT,GAAkB,UAASC,IAAT,EAAe;AAC7B,QAAIL,OAAO,IAAX;AACA,QAAIM,MAAM,IAAIN,KAAKC,IAAT,CAAcI,IAAd,CAAV;;AAEA,QAAIE,SAASD,IAAIF,MAAJ,GAAaI,QAAb,EAAb;AACA;AACH,QAAIC,OAAOF,OAAOG,UAAlB;AACA,QAAIC,UAAUC,OAAOC,KAAP,CAAahB,WAAb,CAAd;AACAc,YAAQG,aAAR,CAAsBL,IAAtB,EAA4B,CAA5B;AACA,QAAIM,YAAYH,OAAOI,MAAP,CAAc,CAACJ,OAAOK,IAAP,CAAYN,OAAZ,CAAD,EAAsBC,OAAOK,IAAP,CAAYV,MAAZ,CAAtB,CAAd,EAAyDI,QAAQD,UAAR,GAAqBH,OAAOG,UAArF,CAAhB;AACG,WAAOK,SAAP;AACH,CAXD;;AAaAjB,SAASoB,MAAT,GAAkB,UAASX,MAAT,EAAiB;AAC/B,QAAIP,OAAO,IAAX;AACH,QAAImB,aAAaZ,OAAOG,UAAxB;;AAEG,QAAGS,aAAatB,WAAhB,EAA4B;AACxB,eAAO,IAAP;AACH;AACD;AACA,QAAIuB,SAAS,IAAIC,UAAJ,CAAed,OAAOe,KAAP,CAAa,CAAb,EAAezB,WAAf,CAAf,CAAb;AACA,QAAI0B,eAAeH,OAAO,CAAP,IAAY,GAAZ,GAAkBA,OAAO,CAAP,CAArC;AACA;AACA,QAAID,aAAaI,eAAe1B,WAAhC,EAA6C;AACzC,eAAO,IAAP;AACH;AACD,QAAIQ,OAAOE,OAAOe,KAAP,CAAazB,WAAb,EAAyBA,cAAY,CAAZ,GAAc0B,YAAvC,CAAX;AACH,WAAOvB,KAAKE,IAAL,CAAUgB,MAAV,CAAiBb,IAAjB,CAAP,CAA8B;AAC9B,CAhBD;AAiBAmB,OAAOC,OAAP,GAAiB3B,QAAjB",
+  "mappings": ";;AAAA,IAAIA,OAAOC,QAAQ,YAAR,CAAX;AACA,IAAIC,WAAW,EAAf;;AAEAA,SAASC,IAAT,GAAgB,YAAW;AAC1B,QAAIC,OAAO,IAAX;AACG,QAAIC,OAAOJ,QAAQ,UAAR,CAAX;AACHG,SAAKE,IAAL,GAAYD,KAAKC,IAAjB;AACAF,SAAKG,IAAL,GAAYF,KAAKE,IAAjB;AAEA,CAND;;AAQAL,SAASM,MAAT,GAAkB,UAASC,IAAT,EAAe;AAC7B,QAAIL,OAAO,IAAX;AACA,QAAIM,MAAM,IAAIN,KAAKE,IAAT,CAAcG,IAAd,CAAV;;AAEA,WAAOC,IAAIF,MAAJ,GAAaG,QAAb,EAAP;AACH,CALD;;AAOAT,SAASU,MAAT,GAAkB,UAASC,MAAT,EAAiB;AAC/B,QAAIT,OAAO,IAAX;AACH,WAAOA,KAAKG,IAAL,CAAUK,MAAV,CAAiBC,MAAjB,CAAP;AACA,CAHD;AAIAC,OAAOC,OAAP,GAAiBb,QAAjB",
   "file": "unknown",
   "sourcesContent": [
-    "let pbjs = require(\"protobufjs\")\nrequire('buffer')\nlet HEADER_SIZE = 2\n\nlet protobuf = {};\n\nprotobuf.Init = function() {\n\tlet self = this;\n    self.C2GS = null;\n    self.GS2C = null;\n\n    let root = require(\"protocol\");\n\tself.C2GS = root.C2GS\n\tself.GS2C = root.GS2C\n \n}\n\nprotobuf.encode = function(data) {\n    let self = this;\n    let msg = new self.C2GS(data)   \n\n    let buffer = msg.encode().toBuffer();\n    //添加包头\n\tlet size = buffer.byteLength;\n\tlet headBuf = Buffer.alloc(HEADER_SIZE); \n\theadBuf.writeUInt16BE(size, 0);\n\tlet newBuffer = Buffer.concat([Buffer.from(headBuf),Buffer.from(buffer)],headBuf.byteLength + buffer.byteLength);\n    return newBuffer;\n}\n\nprotobuf.decode = function(buffer) {\n    let self = this;\n\tlet total_size = buffer.byteLength;\n\n    if(total_size < HEADER_SIZE){\n        return null;\n    }\n    //取出前2个字节,计算出内容的长度\n    let header = new Uint8Array(buffer.slice(0,HEADER_SIZE));\n    let content_size = header[0] * 256 + header[1];\n    //如果数据没有接收完整\n    if (total_size < content_size + HEADER_SIZE) {\n        return null;\n    }\n    let data = buffer.slice(HEADER_SIZE,HEADER_SIZE+1+content_size);\n\treturn self.GS2C.decode(data);;\n}\nmodule.exports = protobuf;"
+    "let pbjs = require(\"protobufjs\")\nlet protobuf = {};\n\nprotobuf.Init = function() {\n\tlet self = this;\n    let root = require(\"protocol\");\n\tself.C2GS = root.C2GS\n\tself.GS2C = root.GS2C\n \n}\n\nprotobuf.encode = function(data) {\n    let self = this;\n    let msg = new self.C2GS(data)   \n    \n    return msg.encode().toBuffer();\n}\n\nprotobuf.decode = function(buffer) {\n    let self = this;\n\treturn self.GS2C.decode(buffer);\n}\nmodule.exports = protobuf;"
   ]
 }

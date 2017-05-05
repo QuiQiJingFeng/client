@@ -39,9 +39,9 @@ cc.Class({
     //游客登录
     GuestLogin: function GuestLogin(event) {
         cc.log("Guest....");
-
+        var num = cc.random0To1() * 100;
         var data = {};
-        data.account = "zhanghu";
+        data.account = "zhanghu" + num;
         data.password = "mima";
         data.platform = "应用宝";
         data.version = "1.0.0";
