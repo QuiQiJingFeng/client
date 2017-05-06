@@ -1,5 +1,5 @@
 let protobuf = require("protobuf");
-
+let event_dispatcher = require("event_dispatcher");
 let network = {};
 
 network.Init = function() {
@@ -8,32 +8,44 @@ network.Init = function() {
 
     protobuf.Init();
 
-    if(cc.sys.isNative) {
-        window.io = SocketIO;
-    } else {
-        require("socket.io");
-    }
-
     self.Connect();
 }
 
 network.Connect = function() {
-    console.log("FYD=====CONNECT");
     let self = this;
-    let url = "127.0.0.1:8888";
-    self.socket = io(url);
-    self.socket.on('connected',function(msg) {
-        console.log("Connected---------",url);
-    });
-    self.socket.on('msg',function(buffer){
-        let msg = protobuf.decode(buffer);
-        cc.log("data=>",JSON.stringify(msg));
-    });
+    let url = "ws://192.168.1.100:8888";
+    if(self.socket) return;
+    self.socket = new WebSocket(url);
+    self.socket.onopen = function (event) {
+        cc.log("onopen");
+    };
 
-    self.socket.on('disconnect', function() {
-        console.log("与服务其断开");
-    });
+    self.socket.onerror = function (event) {
+        cc.log("-------------onerror",event);
+    };
 
+    self.socket.onclose = function (event) {
+        console.log("---------------onclose",event);
+    };
+    
+    self.socket.onmessage = function (event) {
+        if(cc.sys.isNative) {
+            let msg = protobuf.decode(event.data);
+            let obj = JSON.parse(msg);
+            let event_name = Object.keys(obj)[0];
+            event_dispatcher.DispatchEvent(event_name,obj[event_name]);
+        }else {
+                var fileReader = new FileReader();  
+                fileReader.onload  = function(progressEvent) { 
+                    let self = this; 
+                    let msg = protobuf.decode(self.result);  
+                    let obj = JSON.parse(msg);
+                    let event_name = Object.keys(obj)[0];
+                    event_dispatcher.DispatchEvent(event_name,obj[event_name]);
+                };  
+                fileReader.readAsArrayBuffer(event.data); 
+        }
+    };
 }
 
 network.DisConnect = function() {
@@ -44,6 +56,6 @@ network.Send = function(msg) {
     let self = this;
     if(!self.socket) return;
     let buffer = protobuf.encode(msg);
-    self.socket.emit(buffer);
+    self.socket.send(buffer);
 }
 module.exports = network;

@@ -1,7 +1,7 @@
 "use strict";
 
 var protobuf = require("protobuf");
-
+var event_dispatcher = require("event_dispatcher");
 var network = {};
 
 network.Init = function () {
@@ -15,7 +15,7 @@ network.Init = function () {
 
 network.Connect = function () {
     var self = this;
-    var url = "ws://127.0.0.1:8888";
+    var url = "ws://192.168.1.100:8888";
     if (self.socket) return;
     self.socket = new WebSocket(url);
     self.socket.onopen = function (event) {
@@ -29,15 +29,24 @@ network.Connect = function () {
     self.socket.onclose = function (event) {
         console.log("---------------onclose", event);
     };
-    //需要判断是原生环境还是浏览器环境，如果是浏览器环境websocket收到的data将是BLOB类型，需要将BLOB类型转换为ArrayBuffer
+
     self.socket.onmessage = function (event) {
-        var fileReader = new FileReader();
-        fileReader.onload = function (progressEvent) {
-            var arrayBuffer = this.result; // arrayBuffer即为blob对应的arrayBuffer 
-            var msg = protobuf.decode(arrayBuffer);
-            cc.log("data=>", JSON.stringify(msg));
-        };
-        fileReader.readAsArrayBuffer(event.data);
+        if (cc.sys.isNative) {
+            var msg = protobuf.decode(event.data);
+            var obj = JSON.parse(msg);
+            var event_name = Object.keys(obj)[0];
+            event_dispatcher.DispatchEvent(event_name, obj[event_name]);
+        } else {
+            var fileReader = new FileReader();
+            fileReader.onload = function (progressEvent) {
+                var self = this;
+                var msg = protobuf.decode(self.result);
+                var obj = JSON.parse(msg);
+                var event_name = Object.keys(obj)[0];
+                event_dispatcher.DispatchEvent(event_name, obj[event_name]);
+            };
+            fileReader.readAsArrayBuffer(event.data);
+        }
     };
 };
 

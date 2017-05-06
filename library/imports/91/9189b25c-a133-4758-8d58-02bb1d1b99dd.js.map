@@ -11,6 +11,7 @@
     "RegisterEvent",
     "event_name",
     "handle",
+    "prehandle",
     "cc",
     "log",
     "DispatchEvent",
@@ -20,9 +21,9 @@
     "module",
     "exports"
   ],
-  "mappings": ";;AAAA,IAAIA,mBAAmB,EAAvB;;AAEAA,iBAAiBC,IAAjB,GAAwB,YAAW;AAC/B,QAAIC,OAAO,IAAX;AACAA,SAAKC,QAAL,GAAgB,EAAhB;AACH,CAHD;;AAKAH,iBAAiBI,aAAjB,GAAiC,UAASC,UAAT,EAAqB;AAClD,QAAIH,OAAO,IAAX;AACA,QAAII,SAASJ,KAAKC,QAAL,CAAcE,UAAd,CAAb;AACA,QAAGC,MAAH,EAAW;AACPC,WAAGC,GAAH,CAAO,6BAAP;AACH;AACDN,SAAKC,QAAL,CAAcE,UAAd,IAA4BC,MAA5B;AACH,CAPD;;AASAN,iBAAiBS,aAAjB,GAAiC,UAASJ,UAAT,EAA6B;AAC1D,QAAIH,OAAO,IAAX;AACA,QAAII,SAASJ,KAAKC,QAAL,CAAcE,UAAd,CAAb;AACA,QAAG,CAACC,MAAJ,EAAY;;AAH8C,sCAANI,IAAM;AAANA,YAAM;AAAA;;AAK1D,WAAOJ,wBAAUI,IAAV,CAAP;AACH,CAND;;AAQAV,iBAAiBW,mBAAjB,GAAuC,UAASN,UAAT,EAAqB;AACxD,QAAIH,OAAO,IAAX;AACAA,SAAKC,QAAL,CAAcE,UAAd,IAA4B,IAA5B;AACH,CAHD;;AAKAL,iBAAiBY,sBAAjB,GAA0C,YAAW;AACjD,QAAIV,OAAO,IAAX;AACAA,SAAKC,QAAL,GAAgB,EAAhB;AACH,CAHD;;AAKAU,OAAOC,OAAP,GAAiBd,gBAAjB",
+  "mappings": ";;AAAA,IAAIA,mBAAmB,EAAvB;;AAEAA,iBAAiBC,IAAjB,GAAwB,YAAW;AAC/B,QAAIC,OAAO,IAAX;AACAA,SAAKC,QAAL,GAAgB,EAAhB;AACH,CAHD;;AAKAH,iBAAiBI,aAAjB,GAAiC,UAASC,UAAT,EAAoBC,MAApB,EAA4B;AACzD,QAAIJ,OAAO,IAAX;AACA,QAAIK,YAAYL,KAAKC,QAAL,CAAcE,UAAd,CAAhB;AACA,QAAGE,SAAH,EAAc;AACVC,WAAGC,GAAH,CAAO,6BAAP;AACH;AACDP,SAAKC,QAAL,CAAcE,UAAd,IAA4BC,MAA5B;AACH,CAPD;;AASAN,iBAAiBU,aAAjB,GAAiC,UAASL,UAAT,EAA6B;AAC1D,QAAIH,OAAO,IAAX;AACA,QAAII,SAASJ,KAAKC,QAAL,CAAcE,UAAd,CAAb;AACA,QAAG,CAACC,MAAJ,EAAY;;AAH8C,sCAANK,IAAM;AAANA,YAAM;AAAA;;AAI1D,WAAOL,wBAAUK,IAAV,CAAP;AACH,CALD;;AAOAX,iBAAiBY,mBAAjB,GAAuC,UAASP,UAAT,EAAqB;AACxD,QAAIH,OAAO,IAAX;AACAA,SAAKC,QAAL,CAAcE,UAAd,IAA4B,IAA5B;AACH,CAHD;;AAKAL,iBAAiBa,sBAAjB,GAA0C,YAAW;AACjD,QAAIX,OAAO,IAAX;AACAA,SAAKC,QAAL,GAAgB,EAAhB;AACH,CAHD;;AAKAW,OAAOC,OAAP,GAAiBf,gBAAjB",
   "file": "unknown",
   "sourcesContent": [
-    "let event_dispatcher = {}\n\nevent_dispatcher.Init = function() {\n    let self = this;\n    self.handlers = {}\n}\n\nevent_dispatcher.RegisterEvent = function(event_name) {\n    let self = this;\n    let handle = self.handlers[event_name] \n    if(handle) {\n        cc.log(\"WARNING: EVENT ARRADY EXIST\");\n    }\n    self.handlers[event_name] = handle\n}\n\nevent_dispatcher.DispatchEvent = function(event_name,...data) {\n    let self = this;\n    let handle = self.handlers[event_name]\n    if(!handle) return;\n\n    return handle(...data);\n}\n\nevent_dispatcher.RemoveEventListener = function(event_name) {\n    let self = this;\n    self.handlers[event_name] = null;\n}\n\nevent_dispatcher.RemoveAllEventListener = function() {\n    let self = this;\n    self.handlers = {};\n}\n\nmodule.exports = event_dispatcher;"
+    "let event_dispatcher = {}\n\nevent_dispatcher.Init = function() {\n    let self = this;\n    self.handlers = {}\n}\n\nevent_dispatcher.RegisterEvent = function(event_name,handle) {\n    let self = this;\n    let prehandle = self.handlers[event_name] \n    if(prehandle) {\n        cc.log(\"WARNING: EVENT ARRADY EXIST\");\n    }\n    self.handlers[event_name] = handle\n}\n\nevent_dispatcher.DispatchEvent = function(event_name,...data) {\n    let self = this;\n    let handle = self.handlers[event_name]\n    if(!handle) return;\n    return handle(...data);\n}\n\nevent_dispatcher.RemoveEventListener = function(event_name) {\n    let self = this;\n    self.handlers[event_name] = null;\n}\n\nevent_dispatcher.RemoveAllEventListener = function() {\n    let self = this;\n    self.handlers = {};\n}\n\nmodule.exports = event_dispatcher;"
   ]
 }

@@ -5,10 +5,10 @@ event_dispatcher.Init = function() {
     self.handlers = {}
 }
 
-event_dispatcher.RegisterEvent = function(event_name) {
+event_dispatcher.RegisterEvent = function(event_name,handle) {
     let self = this;
-    let handle = self.handlers[event_name] 
-    if(handle) {
+    let prehandle = self.handlers[event_name] 
+    if(prehandle) {
         cc.log("WARNING: EVENT ARRADY EXIST");
     }
     self.handlers[event_name] = handle
@@ -18,7 +18,6 @@ event_dispatcher.DispatchEvent = function(event_name,...data) {
     let self = this;
     let handle = self.handlers[event_name]
     if(!handle) return;
-
     return handle(...data);
 }
 

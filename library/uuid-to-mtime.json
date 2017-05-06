@@ -234,11 +234,6 @@
     "meta": 1493993147000,
     "relativePath": "script"
   },
-  "9189b25c-a133-4758-8d58-02bb1d1b99dd": {
-    "asset": 1493915495000,
-    "meta": 1493993147000,
-    "relativePath": "script/common/event_dispatcher.js"
-  },
   "8c794313-c0e1-4f9c-bbd2-2d6d3e460868": {
     "asset": 1493915495000,
     "meta": 1493993146000,
@@ -270,8 +265,8 @@
     "relativePath": "script/common"
   },
   "e711e5ae-6571-444d-b994-4dc620aae2be": {
-    "asset": 1493918751000,
-    "meta": 1493993147000,
+    "asset": 1494077735000,
+    "meta": 1494077735000,
     "relativePath": "scene/login_scene.fire"
   },
   "de5c4ad1-d14a-411c-b98d-548583b35908": {
@@ -284,19 +279,24 @@
     "meta": 1493994592000,
     "relativePath": "resources/proto/protocol.js"
   },
-  "4d5e0bdb-d37e-433a-af61-d65483c8fa3f": {
-    "asset": 1493998126000,
-    "meta": 1493999192000,
-    "relativePath": "script/common/network.js"
-  },
   "caa467ab-8850-476a-b3b5-4a431aef5cf3": {
-    "asset": 1493998029000,
-    "meta": 1493999192000,
+    "asset": 1494060578000,
+    "meta": 1494060613000,
     "relativePath": "script/common/protobuf.js"
   },
+  "9189b25c-a133-4758-8d58-02bb1d1b99dd": {
+    "asset": 1494062573000,
+    "meta": 1494062576000,
+    "relativePath": "script/common/event_dispatcher.js"
+  },
+  "4d5e0bdb-d37e-433a-af61-d65483c8fa3f": {
+    "asset": 1494077361000,
+    "meta": 1494077362000,
+    "relativePath": "script/common/network.js"
+  },
   "947c5b6e-9efd-4b56-bbcd-131b4652c0ad": {
-    "asset": 1494006590000,
-    "meta": 1494006674000,
+    "asset": 1494077779000,
+    "meta": 1494077780000,
     "relativePath": "script/login_scene/main_view.js"
   }
 }

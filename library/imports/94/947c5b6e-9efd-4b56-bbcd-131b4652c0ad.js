@@ -23,6 +23,16 @@ cc.Class({
         self.facebook_btn.node.on('click', self.FaceBookLogin, self);
         self.google_btn.node.on('click', self.GoogleLogin, self);
         self.guest_btn.node.on('click', self.GuestLogin, self);
+
+        self.RegisterNetEvent();
+    },
+
+    RegisterNetEvent: function RegisterNetEvent() {
+        var self = this;
+        event_dispatcher.RegisterEvent("login_ret", function (data) {
+            //,,,,,
+
+        });
     },
     //GameCenter登录
     GameCenterLogin: function GameCenterLogin(event) {

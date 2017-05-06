@@ -19,6 +19,6 @@ protobuf.encode = function (data) {
 
 protobuf.decode = function (buffer) {
     var self = this;
-    return self.GS2C.decode(buffer);
+    return self.GS2C.decode(buffer).encodeJSON();
 };
 module.exports = protobuf;

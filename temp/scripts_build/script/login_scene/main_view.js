@@ -13,7 +13,8 @@ cc.Class({
         gamecenter_btn: cc.Button,
         facebook_btn: cc.Button,
         google_btn: cc.Button,
-        guest_btn: cc.Button
+        guest_btn: cc.Button,
+        label: cc.Label
     },
 
     // use this for initialization
@@ -34,8 +35,8 @@ cc.Class({
     RegisterNetEvent: function RegisterNetEvent() {
         var self = this;
         event_dispatcher.RegisterEvent("login_ret", function (data) {
-            //,,,,,
-
+            var str = JSON.stringify(data);
+            self.label.string = str;
         });
     },
     //GameCenter登录
