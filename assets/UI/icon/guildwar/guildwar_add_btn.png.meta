@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "de192f2d-44dd-4da4-805e-6ca5145b9911",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "guildwar_add_btn": {
+      "ver": "1.0.3",
+      "uuid": "beb2296a-f50a-4914-aae9-2f714b296f4b",
+      "rawTextureUuid": "de192f2d-44dd-4da4-805e-6ca5145b9911",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 62,
+      "height": 64,
+      "rawWidth": 62,
+      "rawHeight": 64,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "qqkongjian",
+    "texture": "6b653204-8c9c-45b1-ab16-185c07e50a8f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      60,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      60
+    ]
+  }
+}

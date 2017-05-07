@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mud_dibiao_z",
+    "texture": "c6e7b250-7911-47f5-89f7-3dc095e59954",
+    "atlas": "",
+    "rect": [
+      7,
+      27,
+      80,
+      56
+    ],
+    "offset": [
+      1,
+      -13.5
+    ],
+    "originalSize": [
+      92,
+      83
+    ]
+  }
+}

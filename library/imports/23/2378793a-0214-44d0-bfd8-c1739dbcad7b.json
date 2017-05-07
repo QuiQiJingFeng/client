@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "event_tip",
+    "texture": "ccbe6994-7c86-422e-81cd-9fd0e00c7b3f",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      34,
+      44
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      34,
+      46
+    ]
+  }
+}

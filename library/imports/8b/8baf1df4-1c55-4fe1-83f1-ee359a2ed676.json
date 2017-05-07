@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wskh3",
+    "texture": "abbe88ce-afb5-41ac-85a8-72d40235e3ad",
+    "atlas": "",
+    "rect": [
+      6,
+      8,
+      46,
+      42
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

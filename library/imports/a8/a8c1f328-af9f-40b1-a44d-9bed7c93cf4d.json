@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "login_qq",
+    "texture": "d732ad8e-6e0e-4847-9f1c-f397c577cd05",
+    "atlas": "",
+    "rect": [
+      2,
+      0,
+      32,
+      32
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      35,
+      32
+    ]
+  }
+}

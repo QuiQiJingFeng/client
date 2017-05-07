@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mainui_gift",
+    "texture": "673b2173-a1dd-434e-85f6-881c713d2a83",
+    "atlas": "",
+    "rect": [
+      4,
+      3,
+      77,
+      84
+    ],
+    "offset": [
+      -0.5,
+      2.5
+    ],
+    "originalSize": [
+      86,
+      95
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "ca219049-43b7-4f34-97b9-8840a5f8f50d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "courage_badge": {
+      "ver": "1.0.3",
+      "uuid": "d76082f5-2dd6-41a9-8ef4-49b72f41a70d",
+      "rawTextureUuid": "ca219049-43b7-4f34-97b9-8840a5f8f50d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 54,
+      "height": 66,
+      "rawWidth": 54,
+      "rawHeight": 66,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

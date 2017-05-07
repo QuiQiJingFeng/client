@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "contract_bg2",
+    "texture": "7d3bd2ff-2c36-4e7f-9f1e-d440e458f476",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      84,
+      186
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      84,
+      186
+    ],
+    "capInsets": [
+      79,
+      0,
+      0,
+      0
+    ]
+  }
+}

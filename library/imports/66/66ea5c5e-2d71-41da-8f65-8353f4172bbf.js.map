@@ -1,0 +1,29 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "close_btn",
+    "Button",
+    "shadow",
+    "Node",
+    "onLoad",
+    "self",
+    "node",
+    "on",
+    "CloseBtn",
+    "onEnable",
+    "active"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,mBAAcL,GAAGM,MADT;AAERC,gBAAcP,GAAGQ;AAFT,KAHP;;AAQL;AACAC,YAAQ,kBAAY;AAChB,YAAIC,OAAO,IAAX;AACAA,aAAKL,SAAL,CAAeM,IAAf,CAAoBC,EAApB,CAAuB,OAAvB,EAA+BF,KAAKG,QAApC,EAA6CH,IAA7C;AAEH,KAbI;AAcLI,cAAU,oBAAW;AACjB,YAAIJ,OAAO,IAAX;AACAA,aAAKH,MAAL,CAAYQ,MAAZ,GAAqB,IAArB;AACH,KAjBI;;AAmBLF,cAAU,oBAAW;AACjB,YAAIH,OAAO,IAAX;AACAA,aAAKH,MAAL,CAAYQ,MAAZ,GAAqB,KAArB;AACAL,aAAKC,IAAL,CAAUI,MAAV,GAAmB,KAAnB;AACH;;AAED;AACA;;AAEA;AA5BK,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\n    extends: cc.Component,\n\n    properties: {\n        close_btn:    cc.Button,\n        shadow:       cc.Node\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        let self = this;\n        self.close_btn.node.on('click',self.CloseBtn,self);\n        \n    },\n    onEnable: function() {\n        let self = this;\n        self.shadow.active = true;\n    },\n\n    CloseBtn: function() {\n        let self = this;\n        self.shadow.active = false;\n        self.node.active = false;\n    }\n\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\n"
+  ]
+}

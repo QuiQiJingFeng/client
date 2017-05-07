@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "decorateicon",
+    "texture": "f81a14b7-d83d-4a53-929a-178b51a679e2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      29,
+      30
+    ],
+    "offset": [
+      0,
+      5
+    ],
+    "originalSize": [
+      29,
+      40
+    ]
+  }
+}

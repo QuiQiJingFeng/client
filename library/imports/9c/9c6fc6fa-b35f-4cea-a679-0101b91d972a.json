@@ -1,0 +1,44 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "title_stop",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "ban_light1": {
+        "props": {
+          "scaleX": [],
+          "scaleY": [],
+          "opacity": []
+        }
+      },
+      "tetle_pic/title_right": {
+        "props": {
+          "opacity": []
+        }
+      },
+      "tetle_pic": {
+        "props": {
+          "position": [],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

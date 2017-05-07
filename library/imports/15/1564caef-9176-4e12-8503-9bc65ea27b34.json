@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "demon_medal",
+    "texture": "f0121b65-597e-4f13-8bf6-b2a0fe02ad57",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      56,
+      50
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

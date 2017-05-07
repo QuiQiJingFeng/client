@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rewardgif_1",
+    "texture": "b2881ffa-c2a0-4dd1-b5a1-dcadcc30cf44",
+    "atlas": "",
+    "rect": [
+      0,
+      6,
+      88,
+      84
+    ],
+    "offset": [
+      0,
+      -3
+    ],
+    "originalSize": [
+      88,
+      90
+    ]
+  }
+}

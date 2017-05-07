@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "light_soul_crystal",
+    "texture": "fe11a4b7-8428-492e-8714-a42e09cad5e5",
+    "atlas": "",
+    "rect": [
+      9,
+      9,
+      38,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

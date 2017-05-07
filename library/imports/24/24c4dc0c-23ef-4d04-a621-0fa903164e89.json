@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "contract_res5",
+    "texture": "d881c4a0-600e-4365-835d-24a9292c81f1",
+    "atlas": "",
+    "rect": [
+      9,
+      8,
+      38,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

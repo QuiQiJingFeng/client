@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "exchange_volume",
+    "texture": "fe80ab60-c229-4907-9467-6314470a3961",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      60,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      50
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "honor",
+    "texture": "d20988d7-ef88-4d6b-b844-e424bfe3e5f1",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      86,
+      87
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      86,
+      95
+    ]
+  }
+}

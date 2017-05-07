@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "battle_skill",
+    "texture": "1d4b97b9-5d4c-46d0-adf4-fa0fc24b5a0a",
+    "atlas": "",
+    "rect": [
+      2,
+      12,
+      158,
+      58
+    ],
+    "offset": [
+      -32,
+      -5
+    ],
+    "originalSize": [
+      226,
+      72
+    ]
+  }
+}

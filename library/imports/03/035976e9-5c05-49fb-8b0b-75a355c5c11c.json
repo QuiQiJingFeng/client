@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "herochangebox_infobg_w297",
+    "texture": "500fc1f4-a868-435b-9e55-336df04b9666",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1,
+      127
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1,
+      127
+    ]
+  }
+}

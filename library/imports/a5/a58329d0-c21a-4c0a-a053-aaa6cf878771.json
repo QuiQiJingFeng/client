@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rewardlevel_9win_a",
+    "texture": "965f0dd4-678b-4acb-be12-9e7312737eef",
+    "atlas": "",
+    "rect": [
+      9,
+      0,
+      27,
+      42
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      46,
+      42
+    ]
+  }
+}

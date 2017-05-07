@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mainui_store",
+    "texture": "c4342453-9ac5-4e19-b9f6-2e75e1120f88",
+    "atlas": "",
+    "rect": [
+      2,
+      0,
+      84,
+      86
+    ],
+    "offset": [
+      1,
+      4.5
+    ],
+    "originalSize": [
+      86,
+      95
+    ]
+  }
+}

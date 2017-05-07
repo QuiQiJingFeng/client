@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ladder_explore",
+    "texture": "1551b257-5734-42f9-ab23-b181c7e4cf08",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      50,
+      44
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

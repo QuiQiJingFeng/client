@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "listicon_4",
+    "texture": "89bb335c-d390-4d30-a2f7-9953813daa83",
+    "atlas": "",
+    "rect": [
+      9,
+      7,
+      64,
+      66
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      80,
+      78
+    ]
+  }
+}

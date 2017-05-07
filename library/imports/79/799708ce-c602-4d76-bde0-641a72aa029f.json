@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ertong1",
+    "texture": "6b117333-f524-4d54-9bfb-95358db87d48",
+    "atlas": "",
+    "rect": [
+      6,
+      8,
+      46,
+      42
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

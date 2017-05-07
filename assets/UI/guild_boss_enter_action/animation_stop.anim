@@ -1,0 +1,163 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "animation_stop",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "Panel_1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -22.8042,
+                -84.8565
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "rotation": [],
+          "opacity": []
+        }
+      },
+      "boss_btn": {
+        "props": {
+          "position": [],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 2
+            }
+          ],
+          "opacity": []
+        }
+      },
+      "yun_ani_004": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "opacity": []
+        }
+      },
+      "yun_ani_004_0": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "opacity": []
+        }
+      },
+      "yun_ani_004_0_0": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "opacity": []
+        }
+      },
+      "yun_ani_004_0_0_0": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "opacity": []
+        }
+      },
+      "yun_ani_004_0_0_1": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "opacity": []
+        }
+      },
+      "yun_ani_004_0_0_1_0": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "opacity": []
+        }
+      },
+      "yun_ani_004_0_0_1_1": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "opacity": []
+        }
+      },
+      "yun_ani_004_0_0_1_2": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "opacity": []
+        }
+      },
+      "Node_3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -99.176,
+                -155.9856
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

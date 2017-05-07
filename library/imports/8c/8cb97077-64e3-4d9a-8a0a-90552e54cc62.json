@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "formation_changearrow",
+    "texture": "1fe34ee6-344b-418f-9e7a-56d4097a7d22",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      45,
+      34
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      45,
+      34
+    ]
+  }
+}

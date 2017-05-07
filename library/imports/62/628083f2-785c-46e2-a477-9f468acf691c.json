@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ladder_numicon",
+    "texture": "b6304764-eedd-42fd-bddd-a56a545f9bd5",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      56,
+      38
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

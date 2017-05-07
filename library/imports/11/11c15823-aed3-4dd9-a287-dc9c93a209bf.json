@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "soil_hard1",
+    "texture": "c2d0b2c4-8d67-4cd2-86c4-fcf8bfcea1eb",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      58,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      60
+    ]
+  }
+}

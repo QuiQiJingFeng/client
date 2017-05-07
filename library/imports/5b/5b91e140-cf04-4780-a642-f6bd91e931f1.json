@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "main_rune_icon",
+    "texture": "62ac137f-2c6a-4993-8f7d-ae543fa0b06e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      70,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      70,
+      80
+    ]
+  }
+}

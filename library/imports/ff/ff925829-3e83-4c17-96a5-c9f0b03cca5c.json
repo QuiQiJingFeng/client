@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mainui_vip_en",
+    "texture": "217e75b5-6e28-49fa-b57b-89a159703b3d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      83,
+      95
+    ],
+    "offset": [
+      -1.5,
+      0
+    ],
+    "originalSize": [
+      86,
+      95
+    ]
+  }
+}

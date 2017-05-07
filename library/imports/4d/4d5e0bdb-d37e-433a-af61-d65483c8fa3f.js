@@ -1,16 +1,14 @@
 "use strict";
 
 var protobuf = require("protobuf");
-var event_dispatcher = require("event_dispatcher");
 var network = {};
 
 network.Init = function () {
     var self = this;
     self.socket = null;
-
+    self.event_dispatcher = require("event_dispatcher")();
+    self.event_dispatcher.Init();
     protobuf.Init();
-
-    self.Connect();
 };
 
 network.Connect = function () {
@@ -33,9 +31,9 @@ network.Connect = function () {
     self.socket.onmessage = function (event) {
         if (cc.sys.isNative) {
             var msg = protobuf.decode(event.data);
-            var obj = JSON.parse(msg);
-            var event_name = Object.keys(obj)[0];
-            event_dispatcher.DispatchEvent(event_name, obj[event_name]);
+            var _obj = JSON.parse(msg);
+            var event_name = Object.keys(_obj)[0];
+            self: DispatchEvent(event_name, _obj[event_name]);
         } else {
             var fileReader = new FileReader();
             fileReader.onload = function (progressEvent) {
@@ -43,7 +41,7 @@ network.Connect = function () {
                 var msg = protobuf.decode(self.result);
                 var obj = JSON.parse(msg);
                 var event_name = Object.keys(obj)[0];
-                event_dispatcher.DispatchEvent(event_name, obj[event_name]);
+                self: DispatchEvent(event_name, obj[event_name]);
             };
             fileReader.readAsArrayBuffer(event.data);
         }
@@ -60,4 +58,15 @@ network.Send = function (msg) {
     var buffer = protobuf.encode(msg);
     self.socket.send(buffer);
 };
+
+network.RegisterEvent = function (event_name, handle) {
+    var self = this;
+    self.event_dispatcher.RegisterEvent(event_name, handle);
+};
+
+network.DispatchEvent = function (event_name, data) {
+    var self = this;
+    self.event_dispatcher.DispatchEvent(event_name, obj[event_name]);
+};
+
 module.exports = network;

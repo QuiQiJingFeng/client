@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "power_fire_010011",
+    "texture": "1ef7c566-1ac6-4c17-a541-63bed72dfc2d",
+    "atlas": "",
+    "rect": [
+      39,
+      9,
+      42,
+      72
+    ],
+    "offset": [
+      10,
+      35
+    ],
+    "originalSize": [
+      100,
+      160
+    ]
+  }
+}

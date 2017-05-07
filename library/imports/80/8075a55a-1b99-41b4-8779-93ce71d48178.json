@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "destiny_decorate",
+    "texture": "d1708794-8bf9-4fa1-94c7-dc66f07dfb40",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      50,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      50
+    ]
+  }
+}

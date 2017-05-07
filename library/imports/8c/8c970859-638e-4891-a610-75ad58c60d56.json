@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mainui_limitbuy",
+    "texture": "0373d37d-cd76-4659-8648-46c26ba8927d",
+    "atlas": "",
+    "rect": [
+      8,
+      3,
+      71,
+      86
+    ],
+    "offset": [
+      0.5,
+      1.5
+    ],
+    "originalSize": [
+      86,
+      95
+    ]
+  }
+}

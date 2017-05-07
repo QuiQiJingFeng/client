@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "christmas4",
+    "texture": "9f8f481e-7ad7-4524-99fb-4b800990a33f",
+    "atlas": "",
+    "rect": [
+      5,
+      3,
+      46,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

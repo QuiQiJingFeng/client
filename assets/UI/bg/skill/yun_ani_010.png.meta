@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "84a5f460-d71d-48a7-b718-df0eb3279789",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "yun_ani_010": {
+      "ver": "1.0.3",
+      "uuid": "b3c9d202-8771-4d81-9bf0-3d317df143eb",
+      "rawTextureUuid": "84a5f460-d71d-48a7-b718-df0eb3279789",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 3,
+      "trimX": 2,
+      "trimY": 0,
+      "width": 36,
+      "height": 35,
+      "rawWidth": 41,
+      "rawHeight": 41,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

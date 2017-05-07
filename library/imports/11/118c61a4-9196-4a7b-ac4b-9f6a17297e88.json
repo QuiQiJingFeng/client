@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fashion_coin",
+    "texture": "f2d201c4-b185-4ff9-bff0-833938a8647c",
+    "atlas": "",
+    "rect": [
+      6,
+      6,
+      44,
+      44
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

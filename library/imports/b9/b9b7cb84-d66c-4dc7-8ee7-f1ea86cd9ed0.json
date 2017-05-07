@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rune_stone",
+    "texture": "291a8ab7-d32e-45f1-b7d8-99a4cd433c4c",
+    "atlas": "",
+    "rect": [
+      12,
+      5,
+      32,
+      44
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

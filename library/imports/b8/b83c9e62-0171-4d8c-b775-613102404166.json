@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guoqing1",
+    "texture": "9ce86285-32a7-4c19-9bac-d9591b0bb0e0",
+    "atlas": "",
+    "rect": [
+      5,
+      7,
+      46,
+      42
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

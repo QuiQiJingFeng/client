@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mainui_activity",
+    "texture": "a8ccad75-2413-4bf2-a42c-a94225b48176",
+    "atlas": "",
+    "rect": [
+      6,
+      4,
+      71,
+      80
+    ],
+    "offset": [
+      -1.5,
+      3.5
+    ],
+    "originalSize": [
+      86,
+      95
+    ]
+  }
+}

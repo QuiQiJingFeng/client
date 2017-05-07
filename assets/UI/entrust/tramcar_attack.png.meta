@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "cd581248-18f6-46a1-b288-98170ec689cd",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "tramcar_attack": {
+      "ver": "1.0.3",
+      "uuid": "d4370b39-ab81-4360-948c-475207f835c0",
+      "rawTextureUuid": "cd581248-18f6-46a1-b288-98170ec689cd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 54,
+      "height": 46,
+      "rawWidth": 54,
+      "rawHeight": 46,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

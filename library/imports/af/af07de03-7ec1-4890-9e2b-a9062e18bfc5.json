@@ -1,0 +1,303 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "normal",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "Panel_1/Sprite_1": {
+        "props": {
+          "position": [],
+          "anchorX": [],
+          "anchorY": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "color": []
+        }
+      },
+      "Panel_1/Sprite_1_0": {
+        "props": {
+          "position": [],
+          "rotation": [],
+          "anchorX": [],
+          "anchorY": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "color": []
+        }
+      },
+      "Panel_1/Sprite_1_1": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "anchorX": [],
+          "anchorY": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "color": []
+        }
+      },
+      "Panel_1/Sprite_1_2": {
+        "props": {
+          "position": [],
+          "rotation": [],
+          "anchorX": [],
+          "anchorY": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "color": []
+        }
+      },
+      "Panel_1/Sprite_1_3": {
+        "props": {
+          "position": [],
+          "rotation": [],
+          "anchorX": [],
+          "anchorY": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "color": []
+        }
+      },
+      "Panel_1/Sprite_1_3_0": {
+        "props": {
+          "position": [],
+          "rotation": [],
+          "anchorX": [],
+          "anchorY": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "color": []
+        }
+      },
+      "Panel_1/Sprite_1_3_0_0": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "anchorX": [],
+          "anchorY": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "color": []
+        }
+      },
+      "Panel_1/mine_light": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "rotation": [],
+          "color": []
+        }
+      },
+      "Panel_1": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": []
+        }
+      },
+      "Image_new": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.5
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "Image_all": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.5
+            }
+          ],
+          "opacity": []
+        }
+      },
+      "effacts_Panel/Sprite_2_0_0_0_0_0": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "opacity": []
+        }
+      },
+      "effacts_Panel/Sprite_2_0_0_0_0": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "opacity": []
+        }
+      },
+      "effacts_Panel/power_light": {
+        "props": {
+          "position": [],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.4589
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.498
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "effacts_Panel/power_light_0": {
+        "props": {
+          "position": [],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.4589
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.498
+            }
+          ],
+          "rotation": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "effacts_Panel/Sprite_2_0_0_0": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "opacity": []
+        }
+      },
+      "effacts_Panel/Sprite_2_0_0": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "opacity": []
+        }
+      },
+      "effacts_Panel/Sprite_2_0": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "opacity": []
+        }
+      },
+      "effacts_Panel/Sprite_2": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "opacity": []
+        }
+      }
+    }
+  },
+  "events": []
+}

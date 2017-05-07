@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "harder_rock3",
+    "texture": "83341d8c-fecc-4365-a7fb-e898b90c9fd4",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      58,
+      59
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      60,
+      60
+    ]
+  }
+}

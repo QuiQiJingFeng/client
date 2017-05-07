@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tab_12_exchange",
+    "texture": "9ddf0f28-0349-43be-955f-dc03664e66c5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      112,
+      112
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      112,
+      112
+    ]
+  }
+}

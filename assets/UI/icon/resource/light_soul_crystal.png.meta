@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "fe11a4b7-8428-492e-8714-a42e09cad5e5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "light_soul_crystal": {
+      "ver": "1.0.3",
+      "uuid": "5af0be3d-a4ba-41da-a217-8e07281ce1ab",
+      "rawTextureUuid": "fe11a4b7-8428-492e-8714-a42e09cad5e5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 9,
+      "trimY": 9,
+      "width": 38,
+      "height": 38,
+      "rawWidth": 56,
+      "rawHeight": 56,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wakeup",
+    "texture": "7d884765-85ef-4756-a136-a1772776f4f2",
+    "atlas": "",
+    "rect": [
+      3,
+      1,
+      30,
+      30
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      34,
+      32
+    ]
+  }
+}

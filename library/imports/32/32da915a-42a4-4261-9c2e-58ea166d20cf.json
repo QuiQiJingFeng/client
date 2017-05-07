@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "teams",
+    "texture": "55bfa43b-12ec-4c3e-bfc9-32e27271c9a7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      148,
+      91
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      148,
+      91
+    ]
+  }
+}

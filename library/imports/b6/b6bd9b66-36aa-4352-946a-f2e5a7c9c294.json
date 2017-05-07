@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "city_decorate4",
+    "texture": "7bebbd28-21b2-4d58-8ab5-d035103fa26f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      19,
+      23
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      19,
+      23
+    ]
+  }
+}

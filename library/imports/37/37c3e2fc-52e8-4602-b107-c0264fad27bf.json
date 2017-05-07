@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dotted_line",
+    "texture": "58405bdb-cafd-456d-b3ee-03219a4f5ee5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      111,
+      1
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      111,
+      1
+    ]
+  }
+}

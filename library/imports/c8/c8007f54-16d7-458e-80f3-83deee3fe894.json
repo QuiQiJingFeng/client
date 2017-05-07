@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rune1012",
+    "texture": "ef886dfb-3197-4d02-b42f-93cf14ee695c",
+    "atlas": "",
+    "rect": [
+      7,
+      3,
+      36,
+      44
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      50
+    ]
+  }
+}

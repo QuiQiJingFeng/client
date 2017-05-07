@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ore_picks",
+    "texture": "5d11a953-b727-4e77-93b7-e3161873a5eb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      48,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      46
+    ]
+  }
+}

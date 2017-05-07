@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "0eb81456-366c-4d34-9bfd-7f95d9e5f0a1",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "rock_purple_gold": {
+      "ver": "1.0.3",
+      "uuid": "5800e06e-533a-42e2-8d69-5920511f6f1b",
+      "rawTextureUuid": "0eb81456-366c-4d34-9bfd-7f95d9e5f0a1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 58,
+      "height": 59,
+      "rawWidth": 60,
+      "rawHeight": 60,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "menu_remind_btn",
+    "texture": "884d9a90-31d5-447c-9628-7717310cad7b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      129,
+      134
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      129,
+      134
+    ]
+  }
+}

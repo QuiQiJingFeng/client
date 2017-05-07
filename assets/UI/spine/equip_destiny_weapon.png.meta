@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "187c8045-afce-4b32-acaf-ad32412e0ad2",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "equip_destiny_weapon": {
+      "ver": "1.0.3",
+      "uuid": "2e69adb9-0b9d-405b-b79f-01b072fe2bec",
+      "rawTextureUuid": "187c8045-afce-4b32-acaf-ad32412e0ad2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 476,
+      "height": 100,
+      "rawWidth": 480,
+      "rawHeight": 104,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

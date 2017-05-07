@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tower_10",
+    "texture": "f9722f2f-b854-46ca-9baf-6cdf9a59c09b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      95,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      95,
+      70
+    ]
+  }
+}

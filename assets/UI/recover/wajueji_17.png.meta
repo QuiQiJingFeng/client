@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "8050aafb-1986-4148-afe6-6132f1a01a60",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "wajueji_17": {
+      "ver": "1.0.3",
+      "uuid": "40210091-9f46-49aa-9de9-26b674cdcc86",
+      "rawTextureUuid": "8050aafb-1986-4148-afe6-6132f1a01a60",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 0,
+      "width": 11,
+      "height": 10,
+      "rawWidth": 13,
+      "rawHeight": 10,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

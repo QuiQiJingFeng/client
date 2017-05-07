@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "equip_destiny_weapon",
+    "texture": "187c8045-afce-4b32-acaf-ad32412e0ad2",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      476,
+      100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      480,
+      104
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "symbol_light_big",
+    "texture": "b726a8ae-544d-4203-8a09-cfbb17b94f15",
+    "atlas": "",
+    "rect": [
+      3,
+      8,
+      55,
+      60
+    ],
+    "offset": [
+      0.5,
+      -2
+    ],
+    "originalSize": [
+      60,
+      72
+    ]
+  }
+}

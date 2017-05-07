@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rankicon",
+    "texture": "a3c5371a-fbae-4ee9-8616-38b304a2580d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      22,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      22,
+      30
+    ]
+  }
+}

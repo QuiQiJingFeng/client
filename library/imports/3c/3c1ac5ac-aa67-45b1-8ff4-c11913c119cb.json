@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "weaponbox_ratebtn3_press",
+    "texture": "aceed7a7-ded1-495a-a2d0-0da0b54a7608",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      77,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      77,
+      51
+    ]
+  }
+}

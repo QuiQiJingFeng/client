@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "medusa_queen",
+    "texture": "d6d51522-6801-4b81-b2ca-2e451cd967b6",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      58,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      60
+    ]
+  }
+}

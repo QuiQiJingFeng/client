@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "golem_nightmare",
+    "texture": "e200b42a-bc49-431b-9f54-b4b95a131249",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      58,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      60
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wazi",
+    "texture": "6f5bac13-3f6d-475d-9cfc-680d9d1d0b11",
+    "atlas": "",
+    "rect": [
+      12,
+      10,
+      32,
+      40
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

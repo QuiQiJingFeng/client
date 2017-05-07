@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "courage_pt",
+    "texture": "cbdb2bdd-3108-479d-a853-4a42c1683f0f",
+    "atlas": "",
+    "rect": [
+      5,
+      5,
+      46,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

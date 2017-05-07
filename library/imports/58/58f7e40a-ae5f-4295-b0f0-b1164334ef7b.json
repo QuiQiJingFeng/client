@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pengke_sky",
+    "texture": "d17600a7-685e-417f-84bf-f333ab8ec824",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      876,
+      1004
+    ],
+    "offset": [
+      -72,
+      8
+    ],
+    "originalSize": [
+      1024,
+      1024
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "exskill_tag",
+    "texture": "0cbe560c-6d6b-42e2-bbc7-2addd63fe03e",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      30,
+      25
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      30,
+      28
+    ]
+  }
+}

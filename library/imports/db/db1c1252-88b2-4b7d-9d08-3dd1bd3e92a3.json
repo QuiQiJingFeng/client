@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "announcement_upbtn",
+    "texture": "795e289d-d3d5-41fd-bef9-9682985eaa90",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      64,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ]
+  }
+}

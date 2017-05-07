@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "miningchest_tip",
+    "texture": "6d290659-0218-41d7-b982-b1039a63fe28",
+    "atlas": "",
+    "rect": [
+      10,
+      10,
+      44,
+      44
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ]
+  }
+}

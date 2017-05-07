@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "announcement_txtborder",
+    "texture": "d23447de-1d80-4c0d-842b-37825b5eee76",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      12,
+      19
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      12,
+      19
+    ]
+  }
+}

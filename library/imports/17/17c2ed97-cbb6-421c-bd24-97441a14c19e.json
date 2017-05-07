@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spring_wallet",
+    "texture": "7144fd75-9ed1-4f11-a700-59dc8efe2987",
+    "atlas": "",
+    "rect": [
+      4,
+      4,
+      48,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

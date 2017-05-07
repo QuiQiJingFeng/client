@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "4a0dd41d-e96f-4cdb-ab6d-75be0d110e5a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "fuwen_000022": {
+      "ver": "1.0.3",
+      "uuid": "eb205814-ff1c-4426-acd0-963f8bedde50",
+      "rawTextureUuid": "4a0dd41d-e96f-4cdb-ab6d-75be0d110e5a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 9,
+      "trimX": 25,
+      "trimY": 9,
+      "width": 51,
+      "height": 64,
+      "rawWidth": 100,
+      "rawHeight": 100,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

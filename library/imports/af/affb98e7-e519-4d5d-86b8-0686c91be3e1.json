@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wajueji_suishi_3",
+    "texture": "30b440d8-01cd-4591-9919-9bb9c5ad7837",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      6,
+      6
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      7,
+      6
+    ]
+  }
+}

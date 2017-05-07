@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dialoge_arrow",
+    "texture": "4ee5d9f9-ffc2-477e-a03c-b611b34bde46",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      61,
+      47
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      61,
+      47
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rolling_tab_bg_w640",
+    "texture": "f6b7ed0c-7d01-418e-9212-88787a76e73e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      50,
+      121
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      121
+    ]
+  }
+}

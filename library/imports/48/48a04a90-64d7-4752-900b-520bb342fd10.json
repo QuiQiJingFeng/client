@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "superweapon_icon",
+    "texture": "f8fcea1a-aff2-4606-b88a-f8a4944f6084",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      64,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      72
+    ]
+  }
+}

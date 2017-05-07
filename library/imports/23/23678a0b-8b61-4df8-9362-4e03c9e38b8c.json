@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wajueji_15",
+    "texture": "f14b66e1-6834-4306-8d9d-a7004ab79383",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      27,
+      16
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      27,
+      16
+    ]
+  }
+}

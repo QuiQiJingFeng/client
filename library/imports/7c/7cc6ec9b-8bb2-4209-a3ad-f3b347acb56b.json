@@ -1,0 +1,226 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "stop",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "ban_light1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                7.7789,
+                1.2237
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.3552
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.3552
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "Sprite_3_1_0": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "color": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "Sprite_3_1": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "color": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "Sprite_3": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "color": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "Sprite_3_0": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [],
+          "color": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "Sprite_2": {
+        "props": {
+          "position": [],
+          "rotation": [],
+          "color": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "bg3": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 51
+            }
+          ]
+        }
+      },
+      "value2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                79.0456,
+                0.2848
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "value1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -33.9561,
+                0.285
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "Text_15_1": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": []
+        }
+      },
+      "full": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                89.9611,
+                0.2872
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "angel_small",
+    "texture": "c4825239-be1d-490d-ace8-f91ec0847104",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      30,
+      33
+    ],
+    "offset": [
+      -0.5,
+      -1
+    ],
+    "originalSize": [
+      31,
+      39
+    ]
+  }
+}

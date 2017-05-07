@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "weaponbox_leadrole_point2",
+    "texture": "55dfd0d6-f1a6-45b5-9a26-023f2c5b0fb2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      26,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      26,
+      26
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bossicon",
+    "texture": "7bb51fd9-eee3-49f3-8274-0fe28e8328cd",
+    "atlas": "",
+    "rect": [
+      20,
+      25,
+      48,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      88,
+      90
+    ]
+  }
+}

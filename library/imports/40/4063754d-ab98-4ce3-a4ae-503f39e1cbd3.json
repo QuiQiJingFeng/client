@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hero_formation_tag",
+    "texture": "29aa41bc-cbab-498d-a3b1-5a7fee6a0444",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      96,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      96,
+      55
+    ]
+  }
+}

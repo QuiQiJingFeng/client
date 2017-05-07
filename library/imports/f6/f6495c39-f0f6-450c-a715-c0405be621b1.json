@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ultimate_tool",
+    "texture": "e192a8ec-0d7e-4844-8602-c744b3ef605c",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      54,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

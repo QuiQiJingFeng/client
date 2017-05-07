@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "choose_focus",
+    "texture": "812119c1-e4dd-489f-bb7d-d800f5507e61",
+    "atlas": "",
+    "rect": [
+      3,
+      4,
+      29,
+      60
+    ],
+    "offset": [
+      -11,
+      3.5
+    ],
+    "originalSize": [
+      57,
+      75
+    ]
+  }
+}

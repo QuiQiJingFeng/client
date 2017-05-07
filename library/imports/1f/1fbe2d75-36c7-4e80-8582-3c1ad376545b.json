@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "judgebg",
+    "texture": "9c687446-692e-4015-a075-1e620e725755",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      200,
+      200
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "stop",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "wajueji/Sprite_1": {},
+      "wajueji/Sprite_3": {},
+      "wajueji/Sprite_5": {},
+      "wajueji/Sprite_5_0": {},
+      "wajueji/wajueji_17_3": {
+        "props": {
+          "position": [],
+          "opacity": []
+        }
+      },
+      "wajueji/wajueji_16": {
+        "props": {
+          "position": []
+        }
+      },
+      "wajueji/wajueji_18": {
+        "props": {
+          "position": []
+        }
+      },
+      "wajueji/wajueji_15": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "position": []
+        }
+      }
+    }
+  },
+  "events": []
+}

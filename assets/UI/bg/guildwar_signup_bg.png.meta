@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "1c7d4a62-dce0-422d-9ee3-349050200e0a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "guildwar_signup_bg": {
+      "ver": "1.0.3",
+      "uuid": "d04f6652-9c76-48d9-bedb-189d83d706c6",
+      "rawTextureUuid": "1c7d4a62-dce0-422d-9ee3-349050200e0a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 234,
+      "height": 200,
+      "rawWidth": 234,
+      "rawHeight": 200,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

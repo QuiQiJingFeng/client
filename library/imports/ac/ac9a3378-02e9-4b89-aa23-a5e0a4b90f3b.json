@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "purple_gem",
+    "texture": "9d2f6147-a2c4-48e2-ab43-cdba30fd76ff",
+    "atlas": "",
+    "rect": [
+      10,
+      7,
+      36,
+      42
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

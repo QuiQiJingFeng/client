@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cooperate_olsign_bg",
+    "texture": "48386bdc-23e1-4051-a6b7-f451ea20ed77",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      97,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      97,
+      24
+    ],
+    "capInsets": [
+      12,
+      12,
+      12,
+      11
+    ]
+  }
+}

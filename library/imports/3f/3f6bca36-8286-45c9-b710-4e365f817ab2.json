@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "king_medal",
+    "texture": "0d7f9a9c-4a90-4daa-bb1e-414e34cea874",
+    "atlas": "",
+    "rect": [
+      9,
+      3,
+      38,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

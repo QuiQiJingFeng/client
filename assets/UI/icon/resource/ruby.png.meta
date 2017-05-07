@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "c04cf31b-6572-4d39-9a60-7032fa365583",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "ruby": {
+      "ver": "1.0.3",
+      "uuid": "d57f08c5-5ff6-443f-8019-e89267051ed9",
+      "rawTextureUuid": "c04cf31b-6572-4d39-9a60-7032fa365583",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1,
+      "trimX": 10,
+      "trimY": 8,
+      "width": 36,
+      "height": 42,
+      "rawWidth": 56,
+      "rawHeight": 56,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blood_diamond",
+    "texture": "8811325f-4db4-434b-b86e-4a8e2f76c54b",
+    "atlas": "",
+    "rect": [
+      7,
+      9,
+      40,
+      38
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

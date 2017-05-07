@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "redbag",
+    "texture": "52eaaed4-b77b-43ce-affe-66d5632cb063",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      29,
+      41
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      29,
+      41
+    ],
+    "capInsets": [
+      7,
+      17,
+      21,
+      23
+    ]
+  }
+}

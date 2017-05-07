@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "3f258190-468f-4771-9e6a-a995dbc98a5c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "doom_lord": {
+      "ver": "1.0.3",
+      "uuid": "f9946f68-a67b-44cb-b61b-e57f1f34c990",
+      "rawTextureUuid": "3f258190-468f-4771-9e6a-a995dbc98a5c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 58,
+      "height": 58,
+      "rawWidth": 60,
+      "rawHeight": 60,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

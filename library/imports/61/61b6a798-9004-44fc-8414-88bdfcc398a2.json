@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "golem3",
+    "texture": "76a7bc0a-21b2-47de-9921-bd151b0146d8",
+    "atlas": "",
+    "rect": [
+      2,
+      4,
+      52,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

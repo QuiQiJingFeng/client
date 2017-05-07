@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "maze_mainlandlist_decorate_d",
+    "texture": "f8d15b75-a804-4a16-b732-560a611461f8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      116,
+      14
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      116,
+      14
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "round_fail",
+    "texture": "5b31fb84-48d5-4b5d-8cf8-089bea981281",
+    "atlas": "",
+    "rect": [
+      7,
+      0,
+      24,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      37
+    ]
+  }
+}

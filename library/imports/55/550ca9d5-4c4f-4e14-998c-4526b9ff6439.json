@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hoop",
+    "texture": "2293ec34-4232-4db0-a65c-d1b7d56c808a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      170,
+      177
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      170,
+      177
+    ]
+  }
+}

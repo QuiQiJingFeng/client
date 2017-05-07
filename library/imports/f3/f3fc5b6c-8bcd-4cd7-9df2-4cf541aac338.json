@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boss_platform09",
+    "texture": "80ac2752-51d7-4bd5-966d-e4aba2c5bdd7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      57,
+      42
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      57,
+      42
+    ]
+  }
+}

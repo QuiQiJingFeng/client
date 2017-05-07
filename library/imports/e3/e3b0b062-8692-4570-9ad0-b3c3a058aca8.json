@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "carnival_newyear_icon",
+    "texture": "ac8f3e1e-2fd7-45ce-81dc-15010d1a6b76",
+    "atlas": "",
+    "rect": [
+      5,
+      2,
+      46,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

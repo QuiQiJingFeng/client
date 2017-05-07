@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "battle_help",
+    "texture": "155f7806-4885-4222-b55b-6e4d5553d189",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      50,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      64
+    ]
+  }
+}

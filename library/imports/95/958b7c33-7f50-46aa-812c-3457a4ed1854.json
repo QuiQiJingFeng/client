@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "weapon8",
+    "texture": "652da696-a771-4e39-92c7-16a821e00b53",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      57,
+      57
+    ],
+    "offset": [
+      1.5,
+      -1.5
+    ],
+    "originalSize": [
+      60,
+      60
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ruby",
+    "texture": "c04cf31b-6572-4d39-9a60-7032fa365583",
+    "atlas": "",
+    "rect": [
+      10,
+      8,
+      36,
+      42
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

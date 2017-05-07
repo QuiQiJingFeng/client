@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "buff_ani",
+    "texture": "cac04ea5-ad5c-4d53-8a9c-8c56c33768c4",
+    "atlas": "",
+    "rect": [
+      3,
+      4,
+      454,
+      117
+    ],
+    "offset": [
+      -26,
+      1.5
+    ],
+    "originalSize": [
+      512,
+      128
+    ]
+  }
+}

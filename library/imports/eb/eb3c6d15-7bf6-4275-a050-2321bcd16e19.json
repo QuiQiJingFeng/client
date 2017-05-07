@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chest6",
+    "texture": "ca8878d5-2008-426d-9fab-a34679dfa1db",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      58,
+      59
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      60,
+      60
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "relic_decorate7",
+    "texture": "cda9d37c-43ff-473e-929f-2460cc8fd297",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      76,
+      54
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      76,
+      54
+    ]
+  }
+}

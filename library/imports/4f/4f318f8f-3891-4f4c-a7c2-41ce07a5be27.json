@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fb_like",
+    "texture": "2770329b-716a-40fe-9125-48a632e867b8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      132,
+      66
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      132,
+      66
+    ]
+  }
+}

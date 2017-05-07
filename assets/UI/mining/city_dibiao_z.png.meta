@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "0b2ac1c1-312b-4171-9c58-666bb96b5dd9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "city_dibiao_z": {
+      "ver": "1.0.3",
+      "uuid": "65371bb0-1c87-45b8-8169-1b0cc9e70995",
+      "rawTextureUuid": "0b2ac1c1-312b-4171-9c58-666bb96b5dd9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": -13,
+      "trimX": 7,
+      "trimY": 26,
+      "width": 80,
+      "height": 57,
+      "rawWidth": 92,
+      "rawHeight": 83,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

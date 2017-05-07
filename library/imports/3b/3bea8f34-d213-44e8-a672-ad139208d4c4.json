@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mainui_discuss",
+    "texture": "8ef3224d-fec1-439b-88b2-6872ad9a7779",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      86,
+      95
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      86,
+      95
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mine_medal",
+    "texture": "3b5b44e7-c862-48b5-ae72-60f5bdc86a40",
+    "atlas": "",
+    "rect": [
+      6,
+      6,
+      44,
+      44
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

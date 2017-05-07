@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "548b3b1a-ead1-4850-ba26-55b40df63201",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "box_bg_bianjiao_1": {
+      "ver": "1.0.3",
+      "uuid": "2d02cda9-1991-43f7-afd3-b2c234312c56",
+      "rawTextureUuid": "548b3b1a-ead1-4850-ba26-55b40df63201",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 42,
+      "height": 40,
+      "rawWidth": 42,
+      "rawHeight": 40,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

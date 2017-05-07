@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guildwar_signup_bg",
+    "texture": "1c7d4a62-dce0-422d-9ee3-349050200e0a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      234,
+      200
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      234,
+      200
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "relic_small",
+    "texture": "5c1bc993-23c2-4594-8393-bfaf1c84d549",
+    "atlas": "",
+    "rect": [
+      2,
+      3,
+      28,
+      34
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      31,
+      39
+    ]
+  }
+}

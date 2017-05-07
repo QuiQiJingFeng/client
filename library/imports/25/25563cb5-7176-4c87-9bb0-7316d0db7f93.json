@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boss_bouns01",
+    "texture": "e85ce4f9-dcfa-4da9-b272-42f946e77dd3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      43,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      43,
+      38
+    ]
+  }
+}

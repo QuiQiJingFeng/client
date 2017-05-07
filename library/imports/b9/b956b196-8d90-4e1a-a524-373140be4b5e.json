@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shield_points01",
+    "texture": "61c21f7d-76c6-4f54-b271-1d77b58c1503",
+    "atlas": "",
+    "rect": [
+      2,
+      1,
+      42,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      46,
+      50
+    ]
+  }
+}

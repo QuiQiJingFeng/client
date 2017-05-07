@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yearbook_appstore_icon",
+    "texture": "2af5a992-f33a-4c06-ad6c-08a974c3c635",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      18,
+      17
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      18,
+      17
+    ]
+  }
+}

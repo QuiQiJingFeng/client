@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "secondbox_shade_f",
+    "texture": "8aafe894-d597-4674-be68-84602f8c47ce",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      160,
+      284
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      160,
+      284
+    ]
+  }
+}

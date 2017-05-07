@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "destiny_reward_itemshadow",
+    "texture": "d1e2425d-16fd-4d92-8779-13825670abfa",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      173,
+      12
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      173,
+      12
+    ]
+  }
+}

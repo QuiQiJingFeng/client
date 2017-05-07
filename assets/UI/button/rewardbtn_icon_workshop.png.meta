@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "c6bf95ea-6521-42bd-a84a-de25877979a7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "rewardbtn_icon_workshop": {
+      "ver": "1.0.3",
+      "uuid": "334a5f69-ac06-4600-b251-dcc6ee700f0e",
+      "rawTextureUuid": "c6bf95ea-6521-42bd-a84a-de25877979a7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": -2,
+      "trimX": 4,
+      "trimY": 4,
+      "width": 72,
+      "height": 72,
+      "rawWidth": 76,
+      "rawHeight": 76,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

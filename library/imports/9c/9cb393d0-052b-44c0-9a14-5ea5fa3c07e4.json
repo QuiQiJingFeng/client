@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "box_bg_bianjiao_2",
+    "texture": "19482af8-bda7-4066-b203-8c267cc8172b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      17,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      17,
+      26
+    ]
+  }
+}

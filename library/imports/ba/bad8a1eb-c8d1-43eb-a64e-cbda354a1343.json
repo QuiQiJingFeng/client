@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rolling_container_border",
+    "texture": "e7fc1dd2-a660-45f8-ba84-285e7d7abd8c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      106,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      106,
+      26
+    ]
+  }
+}

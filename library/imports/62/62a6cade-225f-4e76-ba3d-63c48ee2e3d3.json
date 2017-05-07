@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "forge_badge",
+    "texture": "b03cd992-2252-40ab-8c03-64dadab3788e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      54,
+      66
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      54,
+      66
+    ]
+  }
+}

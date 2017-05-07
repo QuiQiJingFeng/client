@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "herodetail_border_d",
+    "texture": "c1b6ca1d-230c-44d1-950c-39543e6252bf",
+    "atlas": "",
+    "rect": [
+      0,
+      11,
+      320,
+      51
+    ],
+    "offset": [
+      0,
+      -5.5
+    ],
+    "originalSize": [
+      320,
+      62
+    ]
+  }
+}

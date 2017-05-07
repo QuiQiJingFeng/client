@@ -1,14 +1,12 @@
 let protobuf = require("protobuf");
-let event_dispatcher = require("event_dispatcher");
 let network = {};
 
 network.Init = function() {
     let self = this;
     self.socket = null;
-
+    self.event_dispatcher = require("event_dispatcher")();
+    self.event_dispatcher.Init();
     protobuf.Init();
-
-    self.Connect();
 }
 
 network.Connect = function() {
@@ -33,17 +31,17 @@ network.Connect = function() {
             let msg = protobuf.decode(event.data);
             let obj = JSON.parse(msg);
             let event_name = Object.keys(obj)[0];
-            event_dispatcher.DispatchEvent(event_name,obj[event_name]);
+            self:DispatchEvent(event_name,obj[event_name]);
         }else {
-                var fileReader = new FileReader();  
-                fileReader.onload  = function(progressEvent) { 
-                    let self = this; 
-                    let msg = protobuf.decode(self.result);  
-                    let obj = JSON.parse(msg);
-                    let event_name = Object.keys(obj)[0];
-                    event_dispatcher.DispatchEvent(event_name,obj[event_name]);
-                };  
-                fileReader.readAsArrayBuffer(event.data); 
+            var fileReader = new FileReader();  
+            fileReader.onload  = function(progressEvent) { 
+                let self = this; 
+                let msg = protobuf.decode(self.result);  
+                let obj = JSON.parse(msg);
+                let event_name = Object.keys(obj)[0];
+                self:DispatchEvent(event_name,obj[event_name]);
+            };  
+            fileReader.readAsArrayBuffer(event.data); 
         }
     };
 }
@@ -58,4 +56,15 @@ network.Send = function(msg) {
     let buffer = protobuf.encode(msg);
     self.socket.send(buffer);
 }
+
+network.RegisterEvent = function(event_name,handle) {
+    let self = this;
+    self.event_dispatcher.RegisterEvent(event_name,handle);
+}
+
+network.DispatchEvent = function(event_name,data) {
+    let self = this;
+    self.event_dispatcher.DispatchEvent(event_name,obj[event_name]);
+}
+
 module.exports = network;

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "battle_shieldbar",
+    "texture": "c1362450-42fe-43f4-9501-843ad78f4dd2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      273,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      273,
+      25
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "recovery_icon",
+    "texture": "0b7b4013-a7ff-46af-aacf-764d787ff32d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      126,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      126,
+      70
+    ]
+  }
+}

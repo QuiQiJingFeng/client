@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fight_big",
+    "texture": "5eda3545-c586-45a8-84a5-ed1852afb06f",
+    "atlas": "",
+    "rect": [
+      1,
+      4,
+      60,
+      76
+    ],
+    "offset": [
+      -0.5,
+      -1
+    ],
+    "originalSize": [
+      63,
+      82
+    ]
+  }
+}

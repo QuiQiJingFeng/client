@@ -1,0 +1,88 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "node_levelup_light",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.3333333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "temple_bg_f_light": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.1,
+              "value": 255
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "mine_light": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -2.3533,
+                33.4394
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.1,
+              "value": 1.5352
+            },
+            {
+              "frame": 0.31666666666666665,
+              "value": 0.7733
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.1,
+              "value": 1.5352
+            },
+            {
+              "frame": 0.31666666666666665,
+              "value": 0.7733
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.1,
+              "value": 169
+            },
+            {
+              "frame": 0.31666666666666665,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

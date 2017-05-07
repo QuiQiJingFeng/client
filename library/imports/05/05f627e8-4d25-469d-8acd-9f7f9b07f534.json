@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pro_plt2_00006",
+    "texture": "0fda6978-f050-433f-b036-af6c534c59ee",
+    "atlas": "",
+    "rect": [
+      3,
+      9,
+      42,
+      31
+    ],
+    "offset": [
+      -1,
+      25.5
+    ],
+    "originalSize": [
+      50,
+      100
+    ]
+  }
+}

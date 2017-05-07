@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "relic_dibiao2",
+    "texture": "999695c0-2066-4c61-b509-17c37414122b",
+    "atlas": "",
+    "rect": [
+      7,
+      26,
+      80,
+      57
+    ],
+    "offset": [
+      1,
+      -13
+    ],
+    "originalSize": [
+      92,
+      83
+    ]
+  }
+}

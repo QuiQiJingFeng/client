@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "evolution_panel",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "own_node": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                142.9721,
+                765.9813
+              ]
+            }
+          ]
+        }
+      },
+      "own_node_next": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                495.9727,
+                765.9813
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

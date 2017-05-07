@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fight_globalicon",
+    "texture": "847e0cbe-5b49-4dd8-b6a8-e0913a14e2b9",
+    "atlas": "",
+    "rect": [
+      7,
+      10,
+      34,
+      34
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      48,
+      52
+    ]
+  }
+}

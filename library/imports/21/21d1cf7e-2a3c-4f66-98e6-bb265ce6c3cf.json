@@ -1,0 +1,63 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Node_xiaokuangche",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 5.083333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "Panel_1/xiaokuangche": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                24.7513,
+                60.0344
+              ]
+            },
+            {
+              "frame": 1.2333333333333334,
+              "value": [
+                24.7513,
+                43.0344
+              ]
+            },
+            {
+              "frame": 1.6333333333333333,
+              "value": [
+                24.7513,
+                42.0344
+              ]
+            },
+            {
+              "frame": 2.65,
+              "value": [
+                24.7513,
+                42.0344
+              ]
+            },
+            {
+              "frame": 4.033333333333333,
+              "value": [
+                24.7513,
+                59.0344
+              ]
+            },
+            {
+              "frame": 5.083333333333333,
+              "value": [
+                24.7513,
+                59.0344
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "japan",
+    "texture": "fcc36ef0-337b-41ea-99f7-6cff1d0372cb",
+    "atlas": "",
+    "rect": [
+      5,
+      2,
+      69,
+      76
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      80,
+      80
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rewardbtn_icon_gold",
+    "texture": "310d9199-aecb-4f4a-81a1-e35274729182",
+    "atlas": "",
+    "rect": [
+      12,
+      15,
+      54,
+      48
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      76,
+      76
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "detail_skillinfo_bg_d",
+    "texture": "2dfbf4da-03fb-417b-98a3-22c361b04d74",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      256,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      56
+    ],
+    "capInsets": [
+      5,
+      9,
+      6,
+      5
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "931e0adb-a9be-4b4d-9fa4-67c34373939f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "adventure_medal": {
+      "ver": "1.0.3",
+      "uuid": "bb11a93c-1aab-4d78-a932-17025f063606",
+      "rawTextureUuid": "931e0adb-a9be-4b4d-9fa4-67c34373939f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1,
+      "trimX": 2,
+      "trimY": 8,
+      "width": 52,
+      "height": 42,
+      "rawWidth": 56,
+      "rawHeight": 56,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

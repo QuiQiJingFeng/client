@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "battle_rune",
+    "texture": "b68a9bfb-6b32-4297-8ddf-4c2164d8fed2",
+    "atlas": "",
+    "rect": [
+      17,
+      2,
+      488,
+      498
+    ],
+    "offset": [
+      5,
+      5
+    ],
+    "originalSize": [
+      512,
+      512
+    ]
+  }
+}

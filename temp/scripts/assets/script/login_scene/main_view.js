@@ -2,73 +2,84 @@
 cc._RFpush(module, '947c5tunv1LVrvNExtGUsCt', 'main_view');
 // script/login_scene/main_view.js
 
-"use strict";
+'use strict';
 
-var event_dispatcher = require("event_dispatcher");
-var network = require("network");
 cc.Class({
     extends: cc.Component,
 
     properties: {
-        gamecenter_btn: cc.Button,
-        facebook_btn: cc.Button,
-        google_btn: cc.Button,
+        login_anim: sp.Skeleton,
+        register_node: cc.Node,
+        server_panel: cc.Node,
+        bottom_panel: cc.Node,
+        server_msgbox: cc.Node,
+        mu77_login: cc.Button,
+        weichat_btn: cc.Button,
         guest_btn: cc.Button
     },
 
     // use this for initialization
     onLoad: function onLoad() {
         var self = this;
-        //初始化工具类
-        event_dispatcher.Init();
-        network.Init();
 
-        self.gamecenter_btn.node.on('click', self.GameCenterLogin, self);
-        self.facebook_btn.node.on('click', self.FaceBookLogin, self);
-        self.google_btn.node.on('click', self.GoogleLogin, self);
+        self.mu77_login.node.on('click', self.Mu77Login, self);
+        self.weichat_btn.node.on('click', self.WeichatLogin, self);
         self.guest_btn.node.on('click', self.GuestLogin, self);
+        self.login_anim.addAnimation(1, "loop_1", true, 1);
 
-        self.RegisterNetEvent();
+        if (!cc.sys.isNative) {
+            self.guest_btn.node.removeFromParent();
+        }
+
+        self.InitProject();
+        self.RegisterLogicEvent();
     },
 
-    RegisterNetEvent: function RegisterNetEvent() {
+    RegisterLogicEvent: function RegisterLogicEvent() {
         var self = this;
-        event_dispatcher.RegisterEvent("login_ret", function (data) {
-            //,,,,,
 
+        appEvent.RegisterEvent("login_success", function (data) {
+            self.server_panel.active = true;
+            self.register_node.active = false;
+        });
+
+        appEvent.RegisterEvent("login_failure", function (result) {
+            cc.log("登陆失败", result);
+        });
+
+        appEvent.RegisterEvent("back_login", function (result) {
+            self.server_panel.active = false;
+            self.register_node.active = false;
+            self.bottom_panel.active = true;
+        });
+
+        appEvent.RegisterEvent("show_server_list", function (result) {
+            self.server_msgbox.active = true;
         });
     },
-    //GameCenter登录
-    GameCenterLogin: function GameCenterLogin(event) {
-        cc.log("GAME CENTER....");
+
+    InitProject: function InitProject() {
+
+        window.appNet = require("network");
+        window.appNet.Init();
+        window.appEvent = require("event_dispatcher")();
+        window.appEvent.Init();
+        window.appUtils = require("utils");
+
+        var login_logic = require("login_logic");
+        login_logic.Init();
     },
-    //FaceBook登录
-    FaceBookLogin: function FaceBookLogin(event) {
-        cc.log("FACE BOOK....");
+
+    //MU77登录
+    Mu77Login: function Mu77Login(event) {
+        var self = this;
+        self.register_node.active = true;
     },
-    //Google登录
-    GoogleLogin: function GoogleLogin(event) {
-        cc.log("Google....");
-    },
+    //微信登录
+    WeichatLogin: function WeichatLogin(event) {},
     //游客登录
     GuestLogin: function GuestLogin(event) {
         cc.log("Guest....");
-        var num = cc.random0To1() * 100;
-        var data = {};
-        data.account = "zhanghu" + num;
-        data.password = "mima";
-        data.platform = "应用宝";
-        data.version = "1.0.0";
-        data.server_id = 1;
-        data.device_id = "XEG-4L";
-        data.device_type = "MI4";
-        data.channel = "应用宝";
-        data.locale = "zh-CN";
-        data.net_mode = "3G";
-        data.device_platform = "IOS";
-
-        var send_msg = { login: data };
-        network.Send(send_msg);
     }
 });
 

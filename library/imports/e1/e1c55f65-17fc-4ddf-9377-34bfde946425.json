@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fb_share",
+    "texture": "73b28241-0e80-444f-ab2f-fb5b664a93cd",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      162,
+      66
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      162,
+      66
+    ]
+  }
+}

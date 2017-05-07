@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rmb",
+    "texture": "cabe9ce3-6a6e-4885-8022-b438357a574e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      46,
+      42
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      46,
+      42
+    ]
+  }
+}

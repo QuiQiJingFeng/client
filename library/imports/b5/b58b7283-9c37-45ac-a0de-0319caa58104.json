@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rock_magma",
+    "texture": "564a4173-aecc-4375-8a84-144ec6744284",
+    "atlas": "",
+    "rect": [
+      2,
+      4,
+      1004,
+      122
+    ],
+    "offset": [
+      -8,
+      -1
+    ],
+    "originalSize": [
+      1024,
+      128
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mapbg_cave",
+    "texture": "c4ace014-02b6-405a-9c5c-17bae3b673de",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      192,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      192,
+      40
+    ]
+  }
+}

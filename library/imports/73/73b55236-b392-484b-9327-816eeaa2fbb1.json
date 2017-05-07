@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "specialreward_fight",
+    "texture": "cf98e0ad-28e4-47ae-8a3c-ccc6cec9a45b",
+    "atlas": "",
+    "rect": [
+      6,
+      0,
+      178,
+      187
+    ],
+    "offset": [
+      3,
+      0
+    ],
+    "originalSize": [
+      184,
+      187
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "carnival1",
+    "texture": "7afff4c0-b97a-4978-a612-95dc43e1c47d",
+    "atlas": "",
+    "rect": [
+      9,
+      6,
+      36,
+      46
+    ],
+    "offset": [
+      -1,
+      -1
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

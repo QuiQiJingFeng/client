@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boss_tower12",
+    "texture": "3395c0f2-b553-461f-9f5a-83f5b3e64c52",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      320,
+      122
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      320,
+      122
+    ]
+  }
+}

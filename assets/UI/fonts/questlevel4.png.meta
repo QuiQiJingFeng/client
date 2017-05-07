@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "50ccbd59-49f0-4dd8-bdde-a4e8bc442d5e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "questlevel4": {
+      "ver": "1.0.3",
+      "uuid": "23568a3c-5098-482b-8de9-4893db39c17b",
+      "rawTextureUuid": "50ccbd59-49f0-4dd8-bdde-a4e8bc442d5e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 512,
+      "height": 200,
+      "rawWidth": 512,
+      "rawHeight": 200,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

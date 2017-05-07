@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fuwen_000015",
+    "texture": "46d57442-7607-42bd-974b-e2f88fc2c2d9",
+    "atlas": "",
+    "rect": [
+      9,
+      17,
+      66,
+      57
+    ],
+    "offset": [
+      -8,
+      4.5
+    ],
+    "originalSize": [
+      100,
+      100
+    ]
+  }
+}

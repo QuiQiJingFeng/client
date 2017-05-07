@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wallet_pvp",
+    "texture": "a4abd1d6-d7af-46cb-b53d-5abfb929dccd",
+    "atlas": "",
+    "rect": [
+      4,
+      4,
+      48,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

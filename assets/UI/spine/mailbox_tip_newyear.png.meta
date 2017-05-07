@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "8273ae2d-5504-4c78-bc93-c367fcad621c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "mailbox_tip_newyear": {
+      "ver": "1.0.3",
+      "uuid": "6802bbb1-2a3d-4452-b048-8f4382a4d358",
+      "rawTextureUuid": "8273ae2d-5504-4c78-bc93-c367fcad621c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 148,
+      "height": 105,
+      "rawWidth": 152,
+      "rawHeight": 109,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

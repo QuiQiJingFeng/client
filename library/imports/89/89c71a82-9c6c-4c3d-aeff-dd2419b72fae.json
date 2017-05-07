@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "transmigration_arrow_d",
+    "texture": "e6de6219-632d-4bfe-95fb-66bfd1a42d6a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      54,
+      35
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      54,
+      35
+    ]
+  }
+}

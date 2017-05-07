@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mission_icon_gold",
+    "texture": "b210efb8-e01e-4b48-8cf3-42ce56a42a0d",
+    "atlas": "",
+    "rect": [
+      2,
+      5,
+      30,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      34,
+      40
+    ]
+  }
+}

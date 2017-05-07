@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mapbg_spring",
+    "texture": "c9abfb7a-0d61-403a-8416-446f991fcbc7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      192,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      192,
+      40
+    ]
+  }
+}

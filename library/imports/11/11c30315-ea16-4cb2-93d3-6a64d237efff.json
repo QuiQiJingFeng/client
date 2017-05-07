@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "temple_bg_f",
+    "texture": "3e7a44ff-5635-448a-accb-ec46bc137ef5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      160,
+      284
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      160,
+      284
+    ]
+  }
+}

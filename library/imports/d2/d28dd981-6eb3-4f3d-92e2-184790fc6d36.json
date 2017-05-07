@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wheel_lv2_t2",
+    "texture": "c6c9921d-7922-49a7-9a64-96bc579658ba",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      16,
+      15
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      16,
+      15
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "temple_big",
+    "texture": "5a65e567-4d36-471a-9ae7-d4e464d4a80e",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      63,
+      79
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      63,
+      82
+    ]
+  }
+}

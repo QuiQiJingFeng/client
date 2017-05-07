@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fighting_capacity",
+    "texture": "70a14756-29bb-435a-9ea8-62a275a1b567",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      28,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      28,
+      32
+    ]
+  }
+}

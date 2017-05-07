@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "red_soul_crystal",
+    "texture": "b3c648cc-c326-4eba-bf6c-5f3499d5b360",
+    "atlas": "",
+    "rect": [
+      9,
+      9,
+      38,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

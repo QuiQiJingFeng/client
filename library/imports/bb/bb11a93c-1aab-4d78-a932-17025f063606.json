@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "adventure_medal",
+    "texture": "931e0adb-a9be-4b4d-9fa4-67c34373939f",
+    "atlas": "",
+    "rect": [
+      2,
+      8,
+      52,
+      42
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

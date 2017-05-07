@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pengke_ta",
+    "texture": "64584816-b4c0-45f7-a6ad-4fa15085891d",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      504,
+      508
+    ],
+    "offset": [
+      -2,
+      0
+    ],
+    "originalSize": [
+      512,
+      512
+    ]
+  }
+}

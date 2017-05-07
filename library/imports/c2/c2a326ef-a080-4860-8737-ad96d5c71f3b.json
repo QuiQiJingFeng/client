@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kfpvp",
+    "texture": "afd41af7-0c4f-4a67-93d0-9721d3b73e85",
+    "atlas": "",
+    "rect": [
+      19,
+      27,
+      84,
+      94
+    ],
+    "offset": [
+      -9.5,
+      0.5
+    ],
+    "originalSize": [
+      141,
+      149
+    ]
+  }
+}

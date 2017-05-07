@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guildwar_bg",
+    "texture": "f676dabe-daee-4b5a-8d92-e045cb3426b3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      322,
+      460
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      322,
+      460
+    ]
+  }
+}

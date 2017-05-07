@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "oasis_big",
+    "texture": "131fde04-d8c2-4766-bff9-e9c269039f5b",
+    "atlas": "",
+    "rect": [
+      2,
+      4,
+      61,
+      75
+    ],
+    "offset": [
+      1,
+      -0.5
+    ],
+    "originalSize": [
+      63,
+      82
+    ]
+  }
+}

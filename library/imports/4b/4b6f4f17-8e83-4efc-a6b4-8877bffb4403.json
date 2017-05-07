@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tnt",
+    "texture": "2431ae1a-bbdf-4148-84ec-2026438c1019",
+    "atlas": "",
+    "rect": [
+      10,
+      3,
+      36,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

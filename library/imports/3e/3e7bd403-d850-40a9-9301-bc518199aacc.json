@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spy",
+    "texture": "53115b45-7305-4841-b83f-c9139fe4007e",
+    "atlas": "",
+    "rect": [
+      2,
+      7,
+      326,
+      94
+    ],
+    "offset": [
+      -91,
+      10
+    ],
+    "originalSize": [
+      512,
+      128
+    ]
+  }
+}

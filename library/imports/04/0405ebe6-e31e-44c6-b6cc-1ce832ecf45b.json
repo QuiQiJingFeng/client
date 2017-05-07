@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tramcar_lv1",
+    "texture": "6a4a7fac-c959-46a9-b3df-9e5b8be5b9be",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      50,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      30
+    ]
+  }
+}

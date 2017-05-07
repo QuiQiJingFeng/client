@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mud_decorate1",
+    "texture": "1da897b9-acdd-4a2c-8f1b-e1954cad6ef6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      32,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      25
+    ]
+  }
+}

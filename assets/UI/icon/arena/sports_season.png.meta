@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "505ada53-566f-457a-ad11-bb11b2fe107d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "sports_season": {
+      "ver": "1.0.3",
+      "uuid": "9939b24a-1f4d-40bc-a3d0-697fdaa4dc1c",
+      "rawTextureUuid": "505ada53-566f-457a-ad11-bb11b2fe107d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 3.5,
+      "offsetY": -3,
+      "trimX": 12,
+      "trimY": 16,
+      "width": 68,
+      "height": 57,
+      "rawWidth": 85,
+      "rawHeight": 83,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fetter_pt",
+    "texture": "84295d8d-eade-4fce-a77f-34f822d0d21a",
+    "atlas": "",
+    "rect": [
+      5,
+      5,
+      46,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

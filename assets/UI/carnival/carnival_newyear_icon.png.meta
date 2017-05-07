@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "6a1f103e-810a-4108-bb42-d498faf9ca1b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "carnival_newyear_icon": {
+      "ver": "1.0.3",
+      "uuid": "112dbdb6-5d67-42c3-9531-db8937bfce07",
+      "rawTextureUuid": "6a1f103e-810a-4108-bb42-d498faf9ca1b",
+      "trimType": "auto",
+      "trimThreshold": -1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 56,
+      "height": 56,
+      "rawWidth": 56,
+      "rawHeight": 56,
+      "borderTop": 12,
+      "borderBottom": 20,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

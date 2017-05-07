@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "weaponbox_infobg2_d",
+    "texture": "4e7c052c-56eb-43ea-aa78-15313ba6cd44",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      254,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      254,
+      30
+    ]
+  }
+}

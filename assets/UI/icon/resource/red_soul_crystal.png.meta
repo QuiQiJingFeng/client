@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "c23e9ee3-63a6-40c5-8925-cfb718bf07da",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "red_soul_crystal": {
+      "ver": "1.0.3",
+      "uuid": "98aeca77-3102-4dc2-9db2-b2fbe059b70d",
+      "rawTextureUuid": "c23e9ee3-63a6-40c5-8925-cfb718bf07da",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 9,
+      "trimY": 9,
+      "width": 38,
+      "height": 38,
+      "rawWidth": 56,
+      "rawHeight": 56,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

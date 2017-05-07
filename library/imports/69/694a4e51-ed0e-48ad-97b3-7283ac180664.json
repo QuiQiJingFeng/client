@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "topaz",
+    "texture": "0bd2875f-b6c1-4f71-be7c-f76332a1ae80",
+    "atlas": "",
+    "rect": [
+      10,
+      7,
+      36,
+      42
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

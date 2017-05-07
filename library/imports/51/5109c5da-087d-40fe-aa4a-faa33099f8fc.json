@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "maintitle_decorate_d",
+    "texture": "fe76da1e-8fbc-4393-a0a9-1e2ce4365e08",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      31,
+      33
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      31,
+      33
+    ]
+  }
+}

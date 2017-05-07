@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fight_small",
+    "texture": "75e8fe6c-8406-4966-9570-8d174cf07a11",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      29,
+      35
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      31,
+      39
+    ]
+  }
+}

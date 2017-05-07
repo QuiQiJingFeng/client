@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "f65dcf65-dbcb-490c-83e3-dec5b10e00f8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "green_soul_crystal": {
+      "ver": "1.0.3",
+      "uuid": "b077613f-cf6a-4726-891b-2660edc10d2a",
+      "rawTextureUuid": "f65dcf65-dbcb-490c-83e3-dec5b10e00f8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 9,
+      "trimY": 9,
+      "width": 38,
+      "height": 38,
+      "rawWidth": 56,
+      "rawHeight": 56,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

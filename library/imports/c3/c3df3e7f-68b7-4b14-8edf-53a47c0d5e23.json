@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ladder_mercenary_3",
+    "texture": "0a3125c6-b5d9-4af5-9963-e8660c850289",
+    "atlas": "",
+    "rect": [
+      8,
+      5,
+      40,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "aircity_small",
+    "texture": "4ceec9f3-de72-45cd-b186-aed3b70055ce",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      28,
+      35
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      31,
+      39
+    ]
+  }
+}

@@ -1,34 +1,37 @@
-let event_dispatcher = {}
+let EventDisPatcher = function(){
+    let event_dispatcher = {}
 
-event_dispatcher.Init = function() {
-    let self = this;
-    self.handlers = {}
-}
-
-event_dispatcher.RegisterEvent = function(event_name,handle) {
-    let self = this;
-    let prehandle = self.handlers[event_name] 
-    if(prehandle) {
-        cc.log("WARNING: EVENT ARRADY EXIST");
+    event_dispatcher.Init = function() {
+        let self = this;
+        self.handlers = {}
     }
-    self.handlers[event_name] = handle
+
+    event_dispatcher.RegisterEvent = function(event_name,handle) {
+        let self = this;
+        let prehandle = self.handlers[event_name] 
+        if(prehandle) {
+            cc.log("WARNING: EVENT ARRADY EXIST");
+        }
+        self.handlers[event_name] = handle
+    }
+
+    event_dispatcher.DispatchEvent = function(event_name,data,call_back) {
+        let self = this;
+        let handle = self.handlers[event_name]
+        if(!handle) return;
+        return handle(data,call_back);
+    }
+
+    event_dispatcher.RemoveEventListener = function(event_name) {
+        let self = this;
+        self.handlers[event_name] = null;
+    }
+
+    event_dispatcher.RemoveAllEventListener = function() {
+        let self = this;
+        self.handlers = {};
+    }
+    return event_dispatcher;
 }
 
-event_dispatcher.DispatchEvent = function(event_name,...data) {
-    let self = this;
-    let handle = self.handlers[event_name]
-    if(!handle) return;
-    return handle(...data);
-}
-
-event_dispatcher.RemoveEventListener = function(event_name) {
-    let self = this;
-    self.handlers[event_name] = null;
-}
-
-event_dispatcher.RemoveAllEventListener = function() {
-    let self = this;
-    self.handlers = {};
-}
-
-module.exports = event_dispatcher;
+module.exports = EventDisPatcher;

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "newyear2",
+    "texture": "98d64dba-59f2-4163-8226-1cb5ae3dc74f",
+    "atlas": "",
+    "rect": [
+      2,
+      0,
+      52,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

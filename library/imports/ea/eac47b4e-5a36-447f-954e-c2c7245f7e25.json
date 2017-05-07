@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "christmascard",
+    "texture": "c119c33b-ea37-4db5-99dd-8d065f6cdabd",
+    "atlas": "",
+    "rect": [
+      6,
+      2,
+      46,
+      52
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

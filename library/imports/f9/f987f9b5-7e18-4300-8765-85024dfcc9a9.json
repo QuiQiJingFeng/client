@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "timebar_icon_chest",
+    "texture": "8d3f28d1-5c02-4a04-ac9d-ebb609aedf87",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      48,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      52
+    ]
+  }
+}

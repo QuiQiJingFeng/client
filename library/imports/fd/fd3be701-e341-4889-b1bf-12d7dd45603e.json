@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mapbg_aircity",
+    "texture": "b34601c6-c758-4a6d-ac95-2ff86655bbd1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      192,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      192,
+      40
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sea_bg2",
+    "texture": "0a68bd40-0aec-4b68-b70b-8ad356971d4c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      154,
+      19
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      154,
+      19
+    ]
+  }
+}

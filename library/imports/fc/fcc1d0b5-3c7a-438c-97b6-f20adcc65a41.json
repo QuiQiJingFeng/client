@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wajueji_yin",
+    "texture": "6253b4fb-9c5c-4199-88cb-7ecadb003353",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      107,
+      160
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      107,
+      160
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "f2d201c4-b185-4ff9-bff0-833938a8647c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "fashion_coin": {
+      "ver": "1.0.3",
+      "uuid": "118c61a4-9196-4a7b-ac4b-9f6a17297e88",
+      "rawTextureUuid": "f2d201c4-b185-4ff9-bff0-833938a8647c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 6,
+      "trimY": 6,
+      "width": 44,
+      "height": 44,
+      "rawWidth": 56,
+      "rawHeight": 56,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

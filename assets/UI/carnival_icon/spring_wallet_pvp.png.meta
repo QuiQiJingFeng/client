@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "88a3fc30-dc98-4125-a992-58e97d3fc058",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "spring_wallet_pvp": {
+      "ver": "1.0.3",
+      "uuid": "db58f6df-c60f-40a8-83cb-0a9df2eeac65",
+      "rawTextureUuid": "88a3fc30-dc98-4125-a992-58e97d3fc058",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 4,
+      "trimY": 4,
+      "width": 48,
+      "height": 48,
+      "rawWidth": 56,
+      "rawHeight": 56,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

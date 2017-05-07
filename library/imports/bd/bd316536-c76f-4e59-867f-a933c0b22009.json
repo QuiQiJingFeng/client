@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "evolution",
+    "texture": "5a0da543-2135-480c-ae37-51d20749dff7",
+    "atlas": "",
+    "rect": [
+      4,
+      4,
+      77,
+      82
+    ],
+    "offset": [
+      -0.5,
+      2.5
+    ],
+    "originalSize": [
+      86,
+      95
+    ]
+  }
+}

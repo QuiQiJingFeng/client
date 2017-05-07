@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mainui_friend",
+    "texture": "d7b98308-bff6-4651-aa91-17ac313a25cd",
+    "atlas": "",
+    "rect": [
+      8,
+      5,
+      73,
+      74
+    ],
+    "offset": [
+      1.5,
+      5.5
+    ],
+    "originalSize": [
+      86,
+      95
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+
+loading.png
+size: 244,92
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blood_diamond_header
+  rotate: false
+  xy: 176, 9
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+candy1
+  rotate: false
+  xy: 2, 2
+  size: 52, 30
+  orig: 52, 30
+  offset: 0, 0
+  index: -1
+candy2
+  rotate: false
+  xy: 56, 2
+  size: 52, 30
+  orig: 52, 30
+  offset: 0, 0
+  index: -1
+coin_header
+  rotate: false
+  xy: 210, 9
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+golem
+  rotate: false
+  xy: 2, 34
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+man
+  rotate: false
+  xy: 176, 43
+  size: 58, 47
+  orig: 58, 47
+  offset: 0, 0
+  index: -1
+ore_picks
+  rotate: false
+  xy: 60, 34
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+sword
+  rotate: false
+  xy: 118, 34
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1

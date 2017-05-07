@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boxing2",
+    "texture": "8268d80e-c9ca-4372-b4a8-3d3c95ab1b81",
+    "atlas": "",
+    "rect": [
+      14,
+      12,
+      69,
+      47
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      97,
+      71
+    ]
+  }
+}

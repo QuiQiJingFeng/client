@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rune_select",
+    "texture": "7a9f5a36-5f97-4b13-9be4-89f4e7a96945",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      90,
+      93
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      90,
+      93
+    ]
+  }
+}

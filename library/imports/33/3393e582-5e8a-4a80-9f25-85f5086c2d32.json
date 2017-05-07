@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "level_txt",
+    "texture": "144faa56-c916-4159-866f-a23961989bc5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      20,
+      17
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      20,
+      17
+    ]
+  }
+}

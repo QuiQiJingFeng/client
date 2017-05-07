@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "564a4173-aecc-4375-8a84-144ec6744284",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "rock_magma": {
+      "ver": "1.0.3",
+      "uuid": "b58b7283-9c37-45ac-a0de-0319caa58104",
+      "rawTextureUuid": "564a4173-aecc-4375-8a84-144ec6744284",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -8,
+      "offsetY": -1,
+      "trimX": 2,
+      "trimY": 4,
+      "width": 1004,
+      "height": 122,
+      "rawWidth": 1024,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

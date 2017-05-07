@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "car_light_00016",
+    "texture": "8de07454-dc2f-47f9-9f8b-4ac6aa27f220",
+    "atlas": "",
+    "rect": [
+      30,
+      15,
+      35,
+      6
+    ],
+    "offset": [
+      12.5,
+      12
+    ],
+    "originalSize": [
+      70,
+      60
+    ]
+  }
+}

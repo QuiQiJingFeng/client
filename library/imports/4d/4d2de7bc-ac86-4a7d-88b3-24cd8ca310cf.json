@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "suolian",
+    "texture": "b6d1d865-f615-40d2-8556-fedcd58a074f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      9,
+      142
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      9,
+      142
+    ]
+  }
+}

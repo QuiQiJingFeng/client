@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gassen_exp",
+    "texture": "ec4f64e4-0a55-4eff-be1c-74706e623be0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      46,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      46,
+      46
+    ]
+  }
+}

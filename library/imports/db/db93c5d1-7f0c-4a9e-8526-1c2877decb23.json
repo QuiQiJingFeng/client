@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "txt_gang",
+    "texture": "f2764bb4-c0d7-4e0c-8df4-7da8e1ecbe44",
+    "atlas": "",
+    "rect": [
+      3,
+      0,
+      52,
+      56
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

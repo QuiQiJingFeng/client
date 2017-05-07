@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mission_icon_boss",
+    "texture": "7f03c81c-a19b-43c6-a285-18a35f00c1fc",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      32,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      34,
+      40
+    ]
+  }
+}

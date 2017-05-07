@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mining_specialore",
+    "texture": "2d71a205-7613-4c56-b8a3-a3119507b941",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      20,
+      20
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      24
+    ]
+  }
+}

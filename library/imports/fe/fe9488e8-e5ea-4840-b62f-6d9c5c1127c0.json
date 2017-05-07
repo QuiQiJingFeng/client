@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "firecrackers5",
+    "texture": "5c81d4bd-7739-40eb-aa22-7dcfba6e27f8",
+    "atlas": "",
+    "rect": [
+      14,
+      1,
+      30,
+      54
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

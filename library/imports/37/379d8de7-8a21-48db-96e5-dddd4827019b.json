@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rewardbtn_tipbg",
+    "texture": "a72e4072-38de-42a6-8682-2d6e22a74583",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      32
+    ]
+  }
+}

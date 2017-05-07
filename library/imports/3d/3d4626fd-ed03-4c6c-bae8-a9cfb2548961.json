@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "float_ground",
+    "texture": "c45d71ad-c421-4747-aaef-0683c05c4e6c",
+    "atlas": "",
+    "rect": [
+      8,
+      0,
+      77,
+      26
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      92,
+      26
+    ]
+  }
+}

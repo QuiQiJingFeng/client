@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "herolist_bgempty_d",
+    "texture": "9e5622d5-3fe5-4bba-8410-e9357dd3e1b8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      56,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

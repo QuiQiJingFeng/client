@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "weapon_ticket",
+    "texture": "266e083c-c5ff-4eb7-8ce9-db77d8a8b2a7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      60,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      50
+    ]
+  }
+}

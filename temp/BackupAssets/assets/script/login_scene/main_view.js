@@ -4,10 +4,10 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        gamecenter_btn: cc.Button,
-        facebook_btn:   cc.Button,
-        google_btn:     cc.Button,
-        guest_btn:     cc.Button
+        mu77_login:    cc.Button,
+        weichat_btn:   cc.Button,
+        guest_btn:     cc.Button,
+        login_anim:    sp.Skeleton,
     },
 
     // use this for initialization
@@ -17,11 +17,15 @@ cc.Class({
         event_dispatcher.Init();
         network.Init();
 
-        self.gamecenter_btn.node.on('click',self.GameCenterLogin,self);
-        self.facebook_btn.node.on('click',self.FaceBookLogin,self);
-        self.google_btn.node.on('click',self.GoogleLogin,self);
+        self.mu77_login.node.on('click',self.Mu77Login,self);
+        self.weichat_btn.node.on('click',self.WeichatLogin,self);;
         self.guest_btn.node.on('click',self.GuestLogin,self);
-
+        
+        self.login_anim.setEventListener(function(param1,param2){
+            cc.log("param1=>",param1);
+            cc.log("param2=>",param2);
+        });
+        
         self.RegisterNetEvent();    
     },
 
@@ -33,17 +37,13 @@ cc.Class({
         });
 
     },
-    //GameCenter登录
-    GameCenterLogin:function(event) {
+    //MU77登录
+    Mu77Login:function(event) {
         cc.log("GAME CENTER....");
     },
-    //FaceBook登录
-    FaceBookLogin:function(event) {
+    //微信登录
+    WeichatLogin:function(event) {
         cc.log("FACE BOOK....");
-    },
-    //Google登录
-    GoogleLogin:function(event) {
-        cc.log("Google....");
     },
     //游客登录
     GuestLogin:function(event) {

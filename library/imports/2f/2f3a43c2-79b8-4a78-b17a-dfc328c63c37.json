@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "campaign",
+    "texture": "5b0d0981-6ec5-41df-9528-a6c7f2054496",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      996,
+      123
+    ],
+    "offset": [
+      -12,
+      0.5
+    ],
+    "originalSize": [
+      1024,
+      128
+    ]
+  }
+}

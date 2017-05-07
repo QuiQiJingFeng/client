@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mud_ground",
+    "texture": "aa2c2b7b-f297-4911-ae60-3c0fe5d3279e",
+    "atlas": "",
+    "rect": [
+      7,
+      29,
+      80,
+      54
+    ],
+    "offset": [
+      1,
+      -14.5
+    ],
+    "originalSize": [
+      92,
+      83
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "maze_eventbtn_passbg_d",
+    "texture": "108e6f3a-3e14-420b-afa5-461549d7aa6c",
+    "atlas": "",
+    "rect": [
+      8,
+      2,
+      77,
+      61
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      91,
+      63
+    ]
+  }
+}

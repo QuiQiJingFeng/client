@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "maze_txt",
+    "texture": "99b67ece-cc2d-44f6-85b5-c3e93afd0c8c",
+    "atlas": "",
+    "rect": [
+      2,
+      5,
+      189,
+      291
+    ],
+    "offset": [
+      -0.5,
+      -1.5
+    ],
+    "originalSize": [
+      194,
+      298
+    ]
+  }
+}

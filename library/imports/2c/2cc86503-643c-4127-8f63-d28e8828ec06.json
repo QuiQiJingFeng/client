@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "txt_lu",
+    "texture": "12e08fd0-e89a-4e41-8381-e11717f86748",
+    "atlas": "",
+    "rect": [
+      3,
+      0,
+      52,
+      56
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

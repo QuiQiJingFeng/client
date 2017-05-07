@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "paper_bg7_d",
+    "texture": "77cf81c4-3fcc-40c1-9995-059c165da6d1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      315,
+      87
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      315,
+      87
+    ],
+    "capInsets": [
+      81,
+      30,
+      30,
+      30
+    ]
+  }
+}

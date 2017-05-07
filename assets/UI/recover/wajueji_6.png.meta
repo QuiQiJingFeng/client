@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "075180d0-3726-405a-951e-e9b7edf2253f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "wajueji_6": {
+      "ver": "1.0.3",
+      "uuid": "c430719c-b08d-4713-b44c-ab01d4ad9a45",
+      "rawTextureUuid": "075180d0-3726-405a-951e-e9b7edf2253f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": 0,
+      "trimX": 3,
+      "trimY": 2,
+      "width": 101,
+      "height": 15,
+      "rawWidth": 105,
+      "rawHeight": 19,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

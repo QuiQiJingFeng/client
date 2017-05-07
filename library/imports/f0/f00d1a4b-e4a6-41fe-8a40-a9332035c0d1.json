@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "maze_timebar_bg",
+    "texture": "ecb2641d-2d4b-45ba-b5eb-2b0602e0709b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      32,
+      69
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      69
+    ],
+    "capInsets": [
+      16,
+      20,
+      15,
+      15
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "novice_talker",
+    "texture": "bf6a5220-c4a1-49cc-97bf-85bfc622939d",
+    "atlas": "",
+    "rect": [
+      238,
+      97,
+      0,
+      0
+    ],
+    "offset": [
+      119,
+      -48.5
+    ],
+    "originalSize": [
+      238,
+      97
+    ]
+  }
+}

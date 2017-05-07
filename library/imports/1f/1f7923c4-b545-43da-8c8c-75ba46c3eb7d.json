@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "maze_map_path_d",
+    "texture": "77b9d7c7-7e84-4ed8-974e-2521b4615516",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      241,
+      122
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      241,
+      122
+    ]
+  }
+}

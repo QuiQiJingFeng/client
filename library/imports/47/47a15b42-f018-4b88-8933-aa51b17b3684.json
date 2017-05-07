@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "strength_pt",
+    "texture": "b47637d8-7883-4345-bf25-4200a50dfef5",
+    "atlas": "",
+    "rect": [
+      5,
+      5,
+      46,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

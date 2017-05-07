@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stone004",
+    "texture": "8ce7339e-d582-435a-bc0a-8671fb698847",
+    "atlas": "",
+    "rect": [
+      1,
+      22,
+      80,
+      107
+    ],
+    "offset": [
+      0,
+      -10.5
+    ],
+    "originalSize": [
+      82,
+      130
+    ]
+  }
+}

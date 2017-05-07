@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rune_circle",
+    "texture": "756ca4ca-b05f-4588-8dad-0133613ce2bb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      77,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      77,
+      76
+    ]
+  }
+}

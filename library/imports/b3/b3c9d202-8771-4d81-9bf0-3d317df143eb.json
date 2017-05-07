@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yun_ani_010",
+    "texture": "84a5f460-d71d-48a7-b718-df0eb3279789",
+    "atlas": "",
+    "rect": [
+      2,
+      0,
+      36,
+      35
+    ],
+    "offset": [
+      -0.5,
+      3
+    ],
+    "originalSize": [
+      41,
+      41
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tower_door",
+    "texture": "cd1da519-c994-42a1-b393-713810737551",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      69,
+      86
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      69,
+      86
+    ]
+  }
+}

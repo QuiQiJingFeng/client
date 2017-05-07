@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "999695c0-2066-4c61-b509-17c37414122b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "relic_dibiao2": {
+      "ver": "1.0.3",
+      "uuid": "fc45f8d4-2e95-437a-9367-fcd3f53ab91b",
+      "rawTextureUuid": "999695c0-2066-4c61-b509-17c37414122b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": -13,
+      "trimX": 7,
+      "trimY": 26,
+      "width": 80,
+      "height": 57,
+      "rawWidth": 92,
+      "rawHeight": 83,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

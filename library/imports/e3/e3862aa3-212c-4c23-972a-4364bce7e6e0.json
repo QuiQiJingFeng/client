@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "biography_icon2",
+    "texture": "767ad7fd-3fe7-4a87-a715-77ecc3f6adf5",
+    "atlas": "",
+    "rect": [
+      1,
+      7,
+      113,
+      27
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      116,
+      42
+    ]
+  }
+}

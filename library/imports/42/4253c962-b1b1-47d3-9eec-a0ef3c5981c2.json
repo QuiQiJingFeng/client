@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lingdang",
+    "texture": "64648008-5bf2-4948-84b4-de91b857aee1",
+    "atlas": "",
+    "rect": [
+      1,
+      5,
+      54,
+      48
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

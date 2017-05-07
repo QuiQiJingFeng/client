@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guild_newyear",
+    "texture": "5bf4c56c-0052-4644-947e-8e08d1f937fb",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      815,
+      326
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      819,
+      330
+    ]
+  }
+}

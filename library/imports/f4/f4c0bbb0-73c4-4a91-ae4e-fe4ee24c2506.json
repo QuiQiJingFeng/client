@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pvp",
+    "texture": "38d1791a-6c87-47e2-96df-65e08b60ced2",
+    "atlas": "",
+    "rect": [
+      8,
+      5,
+      63,
+      70
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      80,
+      80
+    ]
+  }
+}

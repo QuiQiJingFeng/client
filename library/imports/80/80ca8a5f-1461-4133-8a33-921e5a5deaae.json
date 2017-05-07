@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yearbook_appicon",
+    "texture": "ea0352b1-02f4-4865-bb35-d8f1351191e3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      180,
+      180
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      180,
+      180
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "location_detail_light",
+    "texture": "af4da9e2-c08c-46ed-b12c-00600b4392d8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      8,
+      8
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      8,
+      8
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mapbg_mountain",
+    "texture": "a22ab17d-a9d8-4597-917c-5d37c5eaa077",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      192,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      192,
+      40
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "74d6b9b7-30d7-42db-b565-f4bbf4793ff1",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "destiny_reward_itembg_d": {
+      "ver": "1.0.3",
+      "uuid": "da90beb7-5c8a-4448-b748-dd44ccb18ef2",
+      "rawTextureUuid": "74d6b9b7-30d7-42db-b565-f4bbf4793ff1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 1,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 211,
+      "height": 84,
+      "rawWidth": 211,
+      "rawHeight": 86,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

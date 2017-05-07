@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guildwar_me_btn1",
+    "texture": "cfdf62f4-6b3b-4b80-b2a1-0d0938e145a2",
+    "atlas": "",
+    "rect": [
+      14,
+      10,
+      34,
+      44
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      62,
+      64
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "miner_card",
+    "texture": "212b5b7c-1e93-4894-94d8-429a9e72027e",
+    "atlas": "",
+    "rect": [
+      2,
+      0,
+      54,
+      56
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "city_dibiao_z",
+    "texture": "0b2ac1c1-312b-4171-9c58-666bb96b5dd9",
+    "atlas": "",
+    "rect": [
+      7,
+      26,
+      80,
+      57
+    ],
+    "offset": [
+      1,
+      -13
+    ],
+    "originalSize": [
+      92,
+      83
+    ]
+  }
+}

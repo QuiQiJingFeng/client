@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "crown",
+    "texture": "a7b6129a-812d-4844-895a-902af3585031",
+    "atlas": "",
+    "rect": [
+      0,
+      13,
+      56,
+      34
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

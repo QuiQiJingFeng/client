@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rank_points_icon",
+    "texture": "d0015755-cd57-4ea6-af28-f7df98fdf0bd",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      30,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      30,
+      32
+    ]
+  }
+}

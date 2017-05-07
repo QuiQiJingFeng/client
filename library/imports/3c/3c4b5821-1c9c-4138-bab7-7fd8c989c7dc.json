@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lose_light",
+    "texture": "9e89ef1b-f1a1-4a25-8bab-68748bfd64e3",
+    "atlas": "",
+    "rect": [
+      5,
+      2,
+      141,
+      147
+    ],
+    "offset": [
+      -52.5,
+      52.5
+    ],
+    "originalSize": [
+      256,
+      256
+    ]
+  }
+}

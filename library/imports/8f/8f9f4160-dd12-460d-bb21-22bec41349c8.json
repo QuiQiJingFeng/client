@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cultivation_up",
+    "texture": "e3c48cfa-8f95-4a20-a709-eca6596a719b",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      428,
+      229
+    ],
+    "offset": [
+      -40,
+      11.5
+    ],
+    "originalSize": [
+      512,
+      256
+    ]
+  }
+}

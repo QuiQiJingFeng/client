@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mapbg_city",
+    "texture": "6ffb777f-d19d-4769-b68e-035896e9db57",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      192,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      192,
+      40
+    ]
+  }
+}

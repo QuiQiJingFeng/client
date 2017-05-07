@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ether_small",
+    "texture": "c0443893-9461-44ca-b32d-ab421a28eb17",
+    "atlas": "",
+    "rect": [
+      1,
+      4,
+      29,
+      31
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      31,
+      39
+    ]
+  }
+}

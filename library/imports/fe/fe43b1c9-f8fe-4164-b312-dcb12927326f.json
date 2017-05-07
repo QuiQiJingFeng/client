@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mine_resource05",
+    "texture": "9fe3a458-ac70-4066-8a8c-15c34c6b973b",
+    "atlas": "",
+    "rect": [
+      8,
+      12,
+      40,
+      30
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

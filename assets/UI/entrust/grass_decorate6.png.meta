@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "78c1c9a4-64f2-4037-8287-6b03324ee00b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "grass_decorate6": {
+      "ver": "1.0.3",
+      "uuid": "74bc9095-b588-4d2b-ab0b-21271a0ebc4d",
+      "rawTextureUuid": "78c1c9a4-64f2-4037-8287-6b03324ee00b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 34,
+      "height": 44,
+      "rawWidth": 34,
+      "rawHeight": 44,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

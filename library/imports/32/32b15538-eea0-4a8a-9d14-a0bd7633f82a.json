@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "maze_eventbtn_waitbg",
+    "texture": "9348d425-cac3-42e2-a3ea-7659ddb0a978",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      143,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      143,
+      72
+    ]
+  }
+}

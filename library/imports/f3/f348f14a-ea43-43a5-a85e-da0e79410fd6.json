@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mine_lv4",
+    "texture": "e01c8d33-a33d-40d1-9661-357f4d7a8c8c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      53,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      30
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blood_diamond_store",
+    "texture": "1051c4be-b543-4da9-aeff-0868ec8e3663",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      74,
+      74
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      74,
+      74
+    ]
+  }
+}

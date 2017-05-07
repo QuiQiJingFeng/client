@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mining_picksbox_bar",
+    "texture": "c1bc88d4-9cc0-4f24-a6db-744ba1dca133",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      363,
+      13
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      363,
+      13
+    ]
+  }
+}

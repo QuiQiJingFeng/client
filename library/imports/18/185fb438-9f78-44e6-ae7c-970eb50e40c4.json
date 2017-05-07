@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "huaquan",
+    "texture": "e32f8a52-8dcf-4edb-a7db-030015aadacb",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      54,
+      54
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      56
+    ]
+  }
+}

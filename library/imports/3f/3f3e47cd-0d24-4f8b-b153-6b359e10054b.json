@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "power_light",
+    "texture": "cc765874-96f9-4d6b-a2e8-ca228b8e4a47",
+    "atlas": "",
+    "rect": [
+      14,
+      0,
+      172,
+      192
+    ],
+    "offset": [
+      3.5,
+      0.5
+    ],
+    "originalSize": [
+      193,
+      193
+    ]
+  }
+}

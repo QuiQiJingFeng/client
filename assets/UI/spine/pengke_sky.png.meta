@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "d17600a7-685e-417f-84bf-f333ab8ec824",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "pengke_sky": {
+      "ver": "1.0.3",
+      "uuid": "58f7e40a-ae5f-4295-b0f0-b1164334ef7b",
+      "rawTextureUuid": "d17600a7-685e-417f-84bf-f333ab8ec824",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -72,
+      "offsetY": 8,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 876,
+      "height": 1004,
+      "rawWidth": 1024,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

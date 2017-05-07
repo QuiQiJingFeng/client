@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "efd18bca-09d4-48f6-96d3-a4814b98c18e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "car_light_00005": {
+      "ver": "1.0.3",
+      "uuid": "eac3f4b0-2dda-434c-bd11-adc28c5ec9df",
+      "rawTextureUuid": "efd18bca-09d4-48f6-96d3-a4814b98c18e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1.5,
+      "offsetY": -2.5,
+      "trimX": 3,
+      "trimY": 14,
+      "width": 61,
+      "height": 37,
+      "rawWidth": 70,
+      "rawHeight": 60,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

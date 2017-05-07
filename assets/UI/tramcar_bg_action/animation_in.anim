@@ -1,0 +1,113 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "animation_in",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "Image_1/Node_image_1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                749.4836,
+                -103.2054
+              ]
+            }
+          ]
+        }
+      },
+      "Image_1/Node_image_2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                420.99109999999996,
+                -49.538799999999995
+              ]
+            }
+          ]
+        }
+      },
+      "Image_1/Node_image_3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                490,
+                62.5
+              ]
+            }
+          ]
+        }
+      },
+      "Image_1/Node_image_up_1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                620,
+                163.5
+              ]
+            }
+          ]
+        }
+      },
+      "Image_1/Node_image_up_2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                220,
+                163.5
+              ]
+            }
+          ]
+        }
+      },
+      "Image_1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 2
+            }
+          ]
+        }
+      },
+      "Node_6": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": []
+        }
+      }
+    }
+  },
+  "events": []
+}

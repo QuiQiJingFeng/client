@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "d6d51522-6801-4b81-b2ca-2e451cd967b6",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "medusa_queen": {
+      "ver": "1.0.3",
+      "uuid": "36878067-292d-4a38-81aa-fdabd460894a",
+      "rawTextureUuid": "d6d51522-6801-4b81-b2ca-2e451cd967b6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 58,
+      "height": 58,
+      "rawWidth": 60,
+      "rawHeight": 60,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

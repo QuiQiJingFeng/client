@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guild",
+    "texture": "f43038f1-3576-4ca6-8d54-7afbf0ffe9eb",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      815,
+      322
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      819,
+      326
+    ]
+  }
+}

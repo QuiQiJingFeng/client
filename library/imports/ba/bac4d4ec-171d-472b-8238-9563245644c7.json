@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "destiny_change",
+    "texture": "98fc41d6-3267-49fb-bf48-5d5ddb2a15f0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      30,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      30,
+      30
+    ]
+  }
+}

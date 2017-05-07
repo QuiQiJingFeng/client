@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cover_skill_bar",
+    "texture": "682bc854-c8ac-4e84-9113-9c3c2b8318d1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      363,
+      13
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      363,
+      13
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tramcar_attack",
+    "texture": "cd581248-18f6-46a1-b288-98170ec689cd",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      54,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      54,
+      46
+    ]
+  }
+}
