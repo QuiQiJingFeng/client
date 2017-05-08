@@ -11,7 +11,7 @@ network.Init = function() {
 
 network.Connect = function() {
     let self = this;
-    let url = "ws://192.168.1.100:8888";
+    let url = "ws://127.0.0.1:8888";
     if(self.socket) return;
     self.socket = new WebSocket(url);
     self.socket.onopen = function (event) {
@@ -31,15 +31,14 @@ network.Connect = function() {
             let msg = protobuf.decode(event.data);
             let obj = JSON.parse(msg);
             let event_name = Object.keys(obj)[0];
-            self:DispatchEvent(event_name,obj[event_name]);
+            self.DispatchEvent(event_name,obj[event_name]);
         }else {
             var fileReader = new FileReader();  
             fileReader.onload  = function(progressEvent) { 
-                let self = this; 
                 let msg = protobuf.decode(self.result);  
                 let obj = JSON.parse(msg);
                 let event_name = Object.keys(obj)[0];
-                self:DispatchEvent(event_name,obj[event_name]);
+                self.DispatchEvent(event_name,obj[event_name]);
             };  
             fileReader.readAsArrayBuffer(event.data); 
         }
