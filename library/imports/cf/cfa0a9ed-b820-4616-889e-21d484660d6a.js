@@ -2,13 +2,14 @@
 
 var utils = {};
 
-utils.SendPostRequest = function (ServerLink, data, callback, errcall) {
+utils.SendPostRequest = function (server_path, data, callback, errcall) {
     var post_data = JSON.stringify(data);
     var xhr = cc.loader.getXMLHttpRequest();
-    xhr.open("POST", ServerLink);
+    xhr.open("POST", server_path);
     //xhr.open("GET", ServerLink+link+"?"+parm,false);
-    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.setRequestHeader("Content-Type", "application/json");
     xhr.send(post_data);
+    cc.log("FYD====>>>>>FINISH ", post_data);
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4 && xhr.status == 200) {
             var result = xhr.responseText;

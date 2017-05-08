@@ -5,8 +5,8 @@ login_logic.Init = function() {
     self.RegisterNetEvent();
     self.RegisterLogicEvent();
 
-    self.login_path = "http://127.0.0.1:3000/";
-    self.register_path = "http://127.0.0.1:3000/";
+    self.login_path = "http://127.0.0.1:3000/login";
+    self.register_path = "http://127.0.0.1:3000/register";
 }
 
 login_logic.RegisterNetEvent = function() {
@@ -32,7 +32,7 @@ login_logic.RegisterLogicEvent = function() {
 login_logic.Mu77Login = function(msg) {
         let self = this;
         self.data = msg;
-        let post_data = JSON.stringify(msg)
+        let post_data = {"action":"login","account":msg.account,"password":msg.password};
         appUtils.SendPostRequest(self.login_path,post_data,function(content){
             let value = JSON.parse(content);
             if(value.result == "success") {
@@ -45,15 +45,12 @@ login_logic.Mu77Login = function(msg) {
         });
 }
 
-login_logic.Mu77Register = function(msg,call_back) {
+login_logic.Mu77Register = function(msg) {
         let self = this;
-        let data = {} 
-        data.account = msg.account;
-        data.password = msg.password;
-
         let result = false;
-        let post_data = JSON.stringify(data)
+        let post_data = {"action":"register","account":msg.account,"password":msg.password};
         appUtils.SendPostRequest(self.register_path,post_data,function(content){
+            cc.log("content => ",content);
             let value = JSON.parse(content);
             if(value.result == "success") {
                 appEvent.DispatchEvent("login_success",value)
