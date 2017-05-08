@@ -21,11 +21,31 @@
     "LoginBtn",
     "ServerBtn",
     "appEvent",
-    "DispatchEvent"
+    "DispatchEvent",
+    "data",
+    "sys",
+    "isNative",
+    "platform",
+    "msg",
+    "require",
+    "account",
+    "password",
+    "version",
+    "server_id",
+    "device_id",
+    "device_type",
+    "channel",
+    "locale",
+    "net_mode",
+    "device_platform",
+    "send_msg",
+    "login",
+    "appNet",
+    "Send"
   ],
-  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,kBAAaL,GAAGM,MADR;AAERC,mBAAaP,GAAGM,MAFR;AAGRE,oBAAaR,GAAGM;AAHR,KAHP;;AASL;AACAG,YAAQ,kBAAY;AAChB,YAAIC,OAAO,IAAX;;AAEAA,aAAKL,QAAL,CAAcM,IAAd,CAAmBC,EAAnB,CAAsB,OAAtB,EAA8BF,KAAKG,OAAnC,EAA2CH,IAA3C;AACAA,aAAKH,SAAL,CAAeI,IAAf,CAAoBC,EAApB,CAAuB,OAAvB,EAA+BF,KAAKI,QAApC,EAA6CJ,IAA7C;AACAA,aAAKF,UAAL,CAAgBG,IAAhB,CAAqBC,EAArB,CAAwB,OAAxB,EAAgCF,KAAKK,SAArC,EAA+CL,IAA/C;AACH,KAhBI;;AAkBLG,aAAS,mBAAW;AAChBG,iBAASC,aAAT,CAAuB,YAAvB;AACH,KApBI;;AAsBLH,cAAU,oBAAW,CAEpB,CAxBI;;AA0BLC,eAAW,qBAAW;AAClBC,iBAASC,aAAT,CAAuB,kBAAvB;AACH;;AAED;AACA;;AAEA;AAjCK,CAAT",
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,kBAAaL,GAAGM,MADR;AAERC,mBAAaP,GAAGM,MAFR;AAGRE,oBAAaR,GAAGM;AAHR,KAHP;;AASL;AACAG,YAAQ,kBAAY;AAChB,YAAIC,OAAO,IAAX;;AAEAA,aAAKL,QAAL,CAAcM,IAAd,CAAmBC,EAAnB,CAAsB,OAAtB,EAA8BF,KAAKG,OAAnC,EAA2CH,IAA3C;AACAA,aAAKH,SAAL,CAAeI,IAAf,CAAoBC,EAApB,CAAuB,OAAvB,EAA+BF,KAAKI,QAApC,EAA6CJ,IAA7C;AACAA,aAAKF,UAAL,CAAgBG,IAAhB,CAAqBC,EAArB,CAAwB,OAAxB,EAAgCF,KAAKK,SAArC,EAA+CL,IAA/C;AACH,KAhBI;;AAkBLG,aAAS,mBAAW;AAChBG,iBAASC,aAAT,CAAuB,YAAvB;AACH,KApBI;;AAsBLH,cAAU,oBAAW;AACjB,YAAII,OAAO,EAAX;AACA,YAAGlB,GAAGmB,GAAH,CAAOC,QAAV,EAAmB;AACfF,iBAAKG,QAAL,GAAgBrB,GAAGmB,GAAH,CAAOE,QAAvB;AACH,SAFD,MAEK;AACDH,iBAAKG,QAAL,GAAgB,WAAhB,CADC,CACoC;AACxC;AACD,YAAIC,MAAMC,QAAQ,aAAR,CAAV;;AAGAL,aAAKM,OAAL,GAAeF,IAAIJ,IAAJ,CAASM,OAAxB;AACAN,aAAKO,QAAL,GAAgBH,IAAIJ,IAAJ,CAASO,QAAzB;AACAP,aAAKQ,OAAL,GAAe,OAAf;AACAR,aAAKS,SAAL,GAAiB,CAAjB;AACAT,aAAKU,SAAL,GAAiB,QAAjB;AACAV,aAAKW,WAAL,GAAmB,KAAnB;AACAX,aAAKY,OAAL,GAAe,KAAf;AACAZ,aAAKa,MAAL,GAAc,OAAd;AACAb,aAAKc,QAAL,GAAgB,IAAhB;AACAd,aAAKe,eAAL,GAAuB,KAAvB;;AAEA,YAAIC,WAAW,EAACC,OAAMjB,IAAP,EAAf;AACAkB,eAAOC,IAAP,CAAYH,QAAZ;AACH,KA7CI;;AA+CLnB,eAAW,qBAAW;AAClBC,iBAASC,aAAT,CAAuB,kBAAvB;AACH;;AAED;AACA;;AAEA;AAtDK,CAAT",
   "file": "unknown",
   "sourcesContent": [
-    "cc.Class({\n    extends: cc.Component,\n\n    properties: {\n        back_btn:    cc.Button,\n        login_btn:   cc.Button,\n        server_btn:  cc.Button\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        let self = this;\n\n        self.back_btn.node.on('click',self.BackBtn,self);\n        self.login_btn.node.on('click',self.LoginBtn,self);\n        self.server_btn.node.on('click',self.ServerBtn,self);\n    },\n\n    BackBtn: function() {\n        appEvent.DispatchEvent(\"back_login\");\n    },\n\n    LoginBtn: function() {\n\n    },\n\n    ServerBtn: function() {\n        appEvent.DispatchEvent(\"show_server_list\");\n    }\n\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\n"
+    "cc.Class({\n    extends: cc.Component,\n\n    properties: {\n        back_btn:    cc.Button,\n        login_btn:   cc.Button,\n        server_btn:  cc.Button\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        let self = this;\n\n        self.back_btn.node.on('click',self.BackBtn,self);\n        self.login_btn.node.on('click',self.LoginBtn,self);\n        self.server_btn.node.on('click',self.ServerBtn,self);\n    },\n\n    BackBtn: function() {\n        appEvent.DispatchEvent(\"back_login\");\n    },\n\n    LoginBtn: function() {\n        let data = {}\n        if(cc.sys.isNative){\n            data.platform = cc.sys.platform;\n        }else{\n            data.platform = \"cc.sys.os\";         //browser windows android ios\n        }\n        let msg = require(\"login_logic\");\n        \n\n        data.account = msg.data.account;\n        data.password = msg.data.password;\n        data.version = \"1.0.0\";\n        data.server_id = 1;\n        data.device_id = \"XEG-4L\";\n        data.device_type = \"MI4\";\n        data.channel = \"ddd\";\n        data.locale = \"zh-CN\";\n        data.net_mode = \"3G\";\n        data.device_platform = \"IOS\";\n\n        let send_msg = {login:data};\n        appNet.Send(send_msg);\n    },\n\n    ServerBtn: function() {\n        appEvent.DispatchEvent(\"show_server_list\");\n    }\n\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\n"
   ]
 }

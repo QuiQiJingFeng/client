@@ -17,7 +17,7 @@ network.Init = function () {
 
 network.Connect = function () {
     var self = this;
-    var url = "ws://192.168.1.100:8888";
+    var url = "ws://127.0.0.1:8888";
     if (self.socket) return;
     self.socket = new WebSocket(url);
     self.socket.onopen = function (event) {
@@ -35,17 +35,16 @@ network.Connect = function () {
     self.socket.onmessage = function (event) {
         if (cc.sys.isNative) {
             var msg = protobuf.decode(event.data);
-            var _obj = JSON.parse(msg);
-            var event_name = Object.keys(_obj)[0];
-            self: DispatchEvent(event_name, _obj[event_name]);
+            var obj = JSON.parse(msg);
+            var event_name = Object.keys(obj)[0];
+            self.DispatchEvent(event_name, obj[event_name]);
         } else {
             var fileReader = new FileReader();
             fileReader.onload = function (progressEvent) {
-                var self = this;
-                var msg = protobuf.decode(self.result);
+                var msg = protobuf.decode(this.result);
                 var obj = JSON.parse(msg);
                 var event_name = Object.keys(obj)[0];
-                self: DispatchEvent(event_name, obj[event_name]);
+                self.DispatchEvent(event_name, obj[event_name]);
             };
             fileReader.readAsArrayBuffer(event.data);
         }
@@ -70,7 +69,7 @@ network.RegisterEvent = function (event_name, handle) {
 
 network.DispatchEvent = function (event_name, data) {
     var self = this;
-    self.event_dispatcher.DispatchEvent(event_name, obj[event_name]);
+    self.event_dispatcher.DispatchEvent(event_name, data);
 };
 
 module.exports = network;

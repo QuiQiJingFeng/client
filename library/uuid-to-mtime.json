@@ -234,11 +234,6 @@
     "meta": 1494231819000,
     "relativePath": "resources/proto"
   },
-  "a94c3281-be32-48fb-9792-1cb29ca416f1": {
-    "asset": 1493964346000,
-    "meta": 1494231819000,
-    "relativePath": "resources/proto/protocol.js"
-  },
   "caa467ab-8850-476a-b3b5-4a431aef5cf3": {
     "asset": 1494231100000,
     "meta": 1494231819000,
@@ -11119,11 +11114,6 @@
     "meta": 1494231829000,
     "relativePath": "UI/spine/touch_effect.png"
   },
-  "4d5e0bdb-d37e-433a-af61-d65483c8fa3f": {
-    "asset": 1494231100000,
-    "meta": 1494231819000,
-    "relativePath": "script/common/network.js"
-  },
   "9189b25c-a133-4758-8d58-02bb1d1b99dd": {
     "asset": 1494231100000,
     "meta": 1494231819000,
@@ -11133,16 +11123,6 @@
     "asset": 1494231100000,
     "meta": 1494231819000,
     "relativePath": "script/login_scene/register_panel.js"
-  },
-  "947c5b6e-9efd-4b56-bbcd-131b4652c0ad": {
-    "asset": 1494231100000,
-    "meta": 1494231819000,
-    "relativePath": "script/login_scene/main_view.js"
-  },
-  "f66602df-1566-4679-aadd-43d00d80366a": {
-    "asset": 1494231100000,
-    "meta": 1494231819000,
-    "relativePath": "script/login_scene/server_panel.js"
   },
   "66ea5c5e-2d71-41da-8f65-8353f4172bbf": {
     "asset": 1494231100000,
@@ -11154,14 +11134,34 @@
     "meta": 1494231819000,
     "relativePath": "texture"
   },
-  "9443b45d-2ec8-4d5c-bb63-ec658b4ede6c": {
-    "asset": 1494233663000,
-    "meta": 1494233666000,
-    "relativePath": "script/login_scene/login_logic.js"
-  },
   "cfa0a9ed-b820-4616-889e-21d484660d6a": {
-    "asset": 1494234340000,
-    "meta": 1494234342000,
+    "asset": 1494234819000,
+    "meta": 1494236993000,
     "relativePath": "script/common/utils.js"
+  },
+  "947c5b6e-9efd-4b56-bbcd-131b4652c0ad": {
+    "asset": 1494237278000,
+    "meta": 1494237473000,
+    "relativePath": "script/login_scene/main_view.js"
+  },
+  "f66602df-1566-4679-aadd-43d00d80366a": {
+    "asset": 1494247623000,
+    "meta": 1494247626000,
+    "relativePath": "script/login_scene/server_panel.js"
+  },
+  "a94c3281-be32-48fb-9792-1cb29ca416f1": {
+    "asset": 1494248973000,
+    "meta": 1494249113000,
+    "relativePath": "resources/proto/protocol.js"
+  },
+  "4d5e0bdb-d37e-433a-af61-d65483c8fa3f": {
+    "asset": 1494249250000,
+    "meta": 1494249320000,
+    "relativePath": "script/common/network.js"
+  },
+  "9443b45d-2ec8-4d5c-bb63-ec658b4ede6c": {
+    "asset": 1494249316000,
+    "meta": 1494249320000,
+    "relativePath": "script/login_scene/login_logic.js"
   }
 }

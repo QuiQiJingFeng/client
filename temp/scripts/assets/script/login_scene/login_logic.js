@@ -38,8 +38,8 @@ login_logic.Mu77Login = function (msg) {
     self.data = msg;
     var post_data = { "action": "login", "account": msg.account, "password": msg.password };
     appUtils.SendPostRequest(self.login_path, post_data, function (content) {
-        cc.log("content => ", content);
         var value = JSON.parse(content);
+        value = JSON.parse(value);
         if (value.result == "success") {
             appEvent.DispatchEvent("login_success", value);
         } else {
@@ -52,11 +52,12 @@ login_logic.Mu77Login = function (msg) {
 
 login_logic.Mu77Register = function (msg) {
     var self = this;
+    self.data = msg;
     var result = false;
     var post_data = { "action": "register", "account": msg.account, "password": msg.password };
     appUtils.SendPostRequest(self.register_path, post_data, function (content) {
-        cc.log("content => ", content);
         var value = JSON.parse(content);
+        value = JSON.parse(value);
         if (value.result == "success") {
             appEvent.DispatchEvent("login_success", value);
         } else {

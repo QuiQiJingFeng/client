@@ -13,7 +13,6 @@ utils.SendPostRequest = function (server_path, data, callback, errcall) {
     //xhr.open("GET", ServerLink+link+"?"+parm,false);
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.send(post_data);
-    cc.log("FYD====>>>>>FINISH ", post_data);
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4 && xhr.status == 200) {
             var result = xhr.responseText;

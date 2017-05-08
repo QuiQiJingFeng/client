@@ -11,9 +11,7 @@ login_logic.Init = function() {
 
 login_logic.RegisterNetEvent = function() {
    appNet.RegisterEvent("login_ret",function(data) {
-        //,,,,,
-        cc.log("login msg ->",JSON.stringify(data));
-        
+
     });
 }
 
@@ -35,6 +33,7 @@ login_logic.Mu77Login = function(msg) {
         let post_data = {"action":"login","account":msg.account,"password":msg.password};
         appUtils.SendPostRequest(self.login_path,post_data,function(content){
             let value = JSON.parse(content);
+            value = JSON.parse(value);
             if(value.result == "success") {
                 appEvent.DispatchEvent("login_success",value)
             }else {
@@ -47,11 +46,12 @@ login_logic.Mu77Login = function(msg) {
 
 login_logic.Mu77Register = function(msg) {
         let self = this;
+        self.data = msg;
         let result = false;
         let post_data = {"action":"register","account":msg.account,"password":msg.password};
         appUtils.SendPostRequest(self.register_path,post_data,function(content){
-            cc.log("content => ",content);
             let value = JSON.parse(content);
+            value = JSON.parse(value);
             if(value.result == "success") {
                 appEvent.DispatchEvent("login_success",value)
             }else {

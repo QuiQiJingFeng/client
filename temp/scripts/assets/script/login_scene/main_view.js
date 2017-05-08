@@ -41,6 +41,8 @@ cc.Class({
         appEvent.RegisterEvent("login_success", function (data) {
             self.server_panel.active = true;
             self.register_node.active = false;
+
+            appNet.Connect();
         });
 
         appEvent.RegisterEvent("login_failure", function (result) {

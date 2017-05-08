@@ -1,68 +1,83 @@
-2017-05-08T08:23:31.702Z - normal: Load ~/.CocosCreator/settings.json
-2017-05-08T08:23:31.709Z - normal: checking language setting...
-2017-05-08T08:23:31.710Z - normal: Language: zh
-2017-05-08T08:23:32.651Z - success: protocol editor-framework registered
-2017-05-08T08:23:32.651Z - success: protocol app registered
-2017-05-08T08:23:32.651Z - success: protocol theme registered
-2017-05-08T08:23:32.651Z - success: protocol profile registered
-2017-05-08T08:23:32.652Z - success: protocol packages registered
-2017-05-08T08:23:32.654Z - success: protocol unpack registerred
-2017-05-08T08:23:32.654Z - success: protocol disable-commonjs registerred
-2017-05-08T08:23:32.844Z - normal: connected!
-2017-05-08T08:23:32.847Z - normal: Check project /Users/mu77/SKYNET/client
-2017-05-08T08:23:32.848Z - normal: Initializing Cocos2d
-2017-05-08T08:23:33.424Z - normal: Initializing Asset Database
-2017-05-08T08:23:33.459Z - success: protocol uuid registerred
-2017-05-08T08:23:33.459Z - success: protocol db registerred
-2017-05-08T08:23:33.459Z - success: protocol thumbnail registerred
-2017-05-08T08:23:33.459Z - normal: Loading editor/builtin packages
-2017-05-08T08:23:33.665Z - success: assets loaded
-2017-05-08T08:23:33.669Z - success: builder loaded
-2017-05-08T08:23:33.674Z - success: hierarchy loaded
-2017-05-08T08:23:33.679Z - success: inspector loaded
-2017-05-08T08:23:33.681Z - success: keystore loaded
-2017-05-08T08:23:33.685Z - success: node-library loaded
-2017-05-08T08:23:33.687Z - success: preferences loaded
-2017-05-08T08:23:33.704Z - success: project-importer loaded
-2017-05-08T08:23:33.707Z - success: project-settings loaded
-2017-05-08T08:23:33.710Z - success: ui-kit loaded
-2017-05-08T08:23:33.725Z - success: ui-grid loaded
-2017-05-08T08:23:33.743Z - success: scene loaded
-2017-05-08T08:23:33.745Z - success: sprite-editor loaded
-2017-05-08T08:23:34.025Z - success: store loaded
-2017-05-08T08:23:34.042Z - success: timeline loaded
-2017-05-08T08:23:34.042Z - normal: Loading builtin packages
-2017-05-08T08:23:34.056Z - success: anysdk loaded
-2017-05-08T08:23:34.068Z - success: asset-db-debugger loaded
-2017-05-08T08:23:34.070Z - success: code-editor loaded
-2017-05-08T08:23:34.077Z - success: color-picker loaded
-2017-05-08T08:23:34.081Z - success: console loaded
-2017-05-08T08:23:34.086Z - success: package-manager loaded
-2017-05-08T08:23:34.090Z - success: tester loaded
-2017-05-08T08:23:34.093Z - success: ui-kit-preview-extra loaded
-2017-05-08T08:23:34.096Z - success: ui-kit-preview loaded
-2017-05-08T08:23:34.100Z - success: ui-tree loaded
-2017-05-08T08:23:34.167Z - normal: Initializing project /Users/mu77/SKYNET/client
-2017-05-08T08:23:34.182Z - normal: Loading packages
-2017-05-08T08:23:34.187Z - normal: Watching packages
-2017-05-08T08:23:34.198Z - normal: Run Application
-2017-05-08T08:23:52.883Z - success: preview server running at http://localhost:7456
-2017-05-08T08:23:52.883Z - normal: Compiling scripts...
-2017-05-08T08:23:57.070Z - normal: Compiled project javascript file successfully
-2017-05-08T08:24:02.083Z - normal: 1.4.2
-2017-05-08T08:28:38.852Z - normal: Compiled project javascript file successfully
-2017-05-08T08:30:23.767Z - normal: Compiled project javascript file successfully
-2017-05-08T08:33:16.652Z - normal: Compiled project javascript file successfully
-2017-05-08T08:34:53.785Z - normal: Compiled project javascript file successfully
-2017-05-08T08:35:39.153Z - normal: Compiled project javascript file successfully
-2017-05-08T08:37:44.329Z - normal: Compiled project javascript file successfully
-2017-05-08T08:47:13.274Z - normal: Compiled project javascript file successfully
-2017-05-08T08:47:58.858Z - normal: Compiled project javascript file successfully
-2017-05-08T08:48:50.147Z - normal: Compiled project javascript file successfully
-2017-05-08T08:50:05.703Z - normal: Compiled project javascript file successfully
-2017-05-08T08:50:50.616Z - normal: Compiled project javascript file successfully
-2017-05-08T08:51:52.548Z - normal: Compiled project javascript file successfully
-2017-05-08T08:54:30.745Z - normal: Compiled project javascript file successfully
-2017-05-08T09:01:01.219Z - normal: Compiled project javascript file successfully
-2017-05-08T09:03:32.977Z - normal: Compiled project javascript file successfully
-2017-05-08T09:05:46.568Z - normal: Compiled project javascript file successfully
+2017-05-08T09:49:46.867Z - normal: Load ~/.CocosCreator/settings.json
+2017-05-08T09:49:46.873Z - normal: checking language setting...
+2017-05-08T09:49:46.874Z - normal: Language: zh
+2017-05-08T09:49:47.849Z - success: protocol editor-framework registered
+2017-05-08T09:49:47.849Z - success: protocol app registered
+2017-05-08T09:49:47.850Z - success: protocol theme registered
+2017-05-08T09:49:47.850Z - success: protocol profile registered
+2017-05-08T09:49:47.850Z - success: protocol packages registered
+2017-05-08T09:49:47.853Z - success: protocol unpack registerred
+2017-05-08T09:49:47.853Z - success: protocol disable-commonjs registerred
+2017-05-08T09:49:48.046Z - normal: connected!
+2017-05-08T09:49:48.049Z - normal: Check project /Users/mu77/SKYNET/client
+2017-05-08T09:49:48.050Z - normal: Initializing Cocos2d
+2017-05-08T09:49:48.545Z - normal: Initializing Asset Database
+2017-05-08T09:49:48.599Z - success: protocol uuid registerred
+2017-05-08T09:49:48.599Z - success: protocol db registerred
+2017-05-08T09:49:48.599Z - success: protocol thumbnail registerred
+2017-05-08T09:49:48.600Z - normal: Loading editor/builtin packages
+2017-05-08T09:49:48.793Z - success: assets loaded
+2017-05-08T09:49:48.797Z - success: builder loaded
+2017-05-08T09:49:48.801Z - success: hierarchy loaded
+2017-05-08T09:49:48.806Z - success: inspector loaded
+2017-05-08T09:49:48.808Z - success: keystore loaded
+2017-05-08T09:49:48.812Z - success: node-library loaded
+2017-05-08T09:49:48.814Z - success: preferences loaded
+2017-05-08T09:49:48.831Z - success: project-importer loaded
+2017-05-08T09:49:48.834Z - success: project-settings loaded
+2017-05-08T09:49:48.837Z - success: ui-kit loaded
+2017-05-08T09:49:48.850Z - success: ui-grid loaded
+2017-05-08T09:49:48.855Z - success: scene loaded
+2017-05-08T09:49:48.857Z - success: sprite-editor loaded
+2017-05-08T09:49:49.125Z - success: store loaded
+2017-05-08T09:49:49.142Z - success: timeline loaded
+2017-05-08T09:49:49.142Z - normal: Loading builtin packages
+2017-05-08T09:49:49.156Z - success: anysdk loaded
+2017-05-08T09:49:49.168Z - success: asset-db-debugger loaded
+2017-05-08T09:49:49.169Z - success: code-editor loaded
+2017-05-08T09:49:49.176Z - success: color-picker loaded
+2017-05-08T09:49:49.182Z - success: console loaded
+2017-05-08T09:49:49.186Z - success: package-manager loaded
+2017-05-08T09:49:49.190Z - success: tester loaded
+2017-05-08T09:49:49.194Z - success: ui-kit-preview-extra loaded
+2017-05-08T09:49:49.197Z - success: ui-kit-preview loaded
+2017-05-08T09:49:49.201Z - success: ui-tree loaded
+2017-05-08T09:49:49.311Z - normal: Initializing project /Users/mu77/SKYNET/client
+2017-05-08T09:49:49.330Z - normal: Loading packages
+2017-05-08T09:49:49.334Z - normal: Watching packages
+2017-05-08T09:49:49.346Z - normal: Run Application
+2017-05-08T09:49:55.107Z - success: preview server running at http://localhost:7456
+2017-05-08T09:49:55.108Z - normal: Compiling scripts...
+2017-05-08T09:49:58.507Z - normal: Compiled project javascript file successfully
+2017-05-08T09:50:03.177Z - normal: 1.4.2
+2017-05-08T09:57:56.936Z - normal: Compiled project javascript file successfully
+2017-05-08T10:00:27.463Z - normal: Compiled project javascript file successfully
+2017-05-08T10:01:05.948Z - normal: Compiled project javascript file successfully
+2017-05-08T10:02:36.299Z - normal: Compiled project javascript file successfully
+2017-05-08T10:04:19.224Z - normal: Compiled project javascript file successfully
+2017-05-08T10:06:46.966Z - normal: Compiled project javascript file successfully
+2017-05-08T10:07:13.262Z - normal: Compiled project javascript file successfully
+2017-05-08T10:08:34.567Z - normal: Compiled project javascript file successfully
+2017-05-08T10:09:05.288Z - normal: Compiled project javascript file successfully
+2017-05-08T10:10:36.590Z - normal: Compiled project javascript file successfully
+2017-05-08T10:11:37.565Z - normal: Compiled project javascript file successfully
+2017-05-08T10:12:05.375Z - normal: Compiled project javascript file successfully
+2017-05-08T10:13:08.439Z - normal: Compiled project javascript file successfully
+2017-05-08T10:14:02.394Z - normal: Compiled project javascript file successfully
+2017-05-08T10:14:13.136Z - normal: Compiled project javascript file successfully
+2017-05-08T10:15:46.217Z - normal: Compiled project javascript file successfully
+2017-05-08T10:18:59.509Z - normal: Compiled project javascript file successfully
+2017-05-08T10:20:20.693Z - normal: Compiled project javascript file successfully
+2017-05-08T10:21:44.731Z - normal: Compiled project javascript file successfully
+2017-05-08T10:22:50.939Z - normal: Compiled project javascript file successfully
+2017-05-08T10:24:21.187Z - normal: Compiled project javascript file successfully
+2017-05-08T10:25:59.683Z - normal: Compiled project javascript file successfully
+2017-05-08T10:28:27.130Z - normal: Compiled project javascript file successfully
+2017-05-08T12:43:47.949Z - normal: Compiled project javascript file successfully
+2017-05-08T12:44:28.231Z - normal: Compiled project javascript file successfully
+2017-05-08T12:47:11.507Z - normal: Compiled project javascript file successfully
+2017-05-08T12:47:55.823Z - normal: Compiled project javascript file successfully
+2017-05-08T13:11:59.232Z - normal: Compiled project javascript file successfully
+2017-05-08T13:12:50.095Z - normal: Compiled project javascript file successfully
+2017-05-08T13:13:44.767Z - normal: Compiled project javascript file successfully
+2017-05-08T13:15:25.239Z - normal: Compiled project javascript file successfully
