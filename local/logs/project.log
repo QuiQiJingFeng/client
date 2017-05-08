@@ -1,83 +1,90 @@
-2017-05-08T09:49:46.867Z - normal: Load ~/.CocosCreator/settings.json
-2017-05-08T09:49:46.873Z - normal: checking language setting...
-2017-05-08T09:49:46.874Z - normal: Language: zh
-2017-05-08T09:49:47.849Z - success: protocol editor-framework registered
-2017-05-08T09:49:47.849Z - success: protocol app registered
-2017-05-08T09:49:47.850Z - success: protocol theme registered
-2017-05-08T09:49:47.850Z - success: protocol profile registered
-2017-05-08T09:49:47.850Z - success: protocol packages registered
-2017-05-08T09:49:47.853Z - success: protocol unpack registerred
-2017-05-08T09:49:47.853Z - success: protocol disable-commonjs registerred
-2017-05-08T09:49:48.046Z - normal: connected!
-2017-05-08T09:49:48.049Z - normal: Check project /Users/mu77/SKYNET/client
-2017-05-08T09:49:48.050Z - normal: Initializing Cocos2d
-2017-05-08T09:49:48.545Z - normal: Initializing Asset Database
-2017-05-08T09:49:48.599Z - success: protocol uuid registerred
-2017-05-08T09:49:48.599Z - success: protocol db registerred
-2017-05-08T09:49:48.599Z - success: protocol thumbnail registerred
-2017-05-08T09:49:48.600Z - normal: Loading editor/builtin packages
-2017-05-08T09:49:48.793Z - success: assets loaded
-2017-05-08T09:49:48.797Z - success: builder loaded
-2017-05-08T09:49:48.801Z - success: hierarchy loaded
-2017-05-08T09:49:48.806Z - success: inspector loaded
-2017-05-08T09:49:48.808Z - success: keystore loaded
-2017-05-08T09:49:48.812Z - success: node-library loaded
-2017-05-08T09:49:48.814Z - success: preferences loaded
-2017-05-08T09:49:48.831Z - success: project-importer loaded
-2017-05-08T09:49:48.834Z - success: project-settings loaded
-2017-05-08T09:49:48.837Z - success: ui-kit loaded
-2017-05-08T09:49:48.850Z - success: ui-grid loaded
-2017-05-08T09:49:48.855Z - success: scene loaded
-2017-05-08T09:49:48.857Z - success: sprite-editor loaded
-2017-05-08T09:49:49.125Z - success: store loaded
-2017-05-08T09:49:49.142Z - success: timeline loaded
-2017-05-08T09:49:49.142Z - normal: Loading builtin packages
-2017-05-08T09:49:49.156Z - success: anysdk loaded
-2017-05-08T09:49:49.168Z - success: asset-db-debugger loaded
-2017-05-08T09:49:49.169Z - success: code-editor loaded
-2017-05-08T09:49:49.176Z - success: color-picker loaded
-2017-05-08T09:49:49.182Z - success: console loaded
-2017-05-08T09:49:49.186Z - success: package-manager loaded
-2017-05-08T09:49:49.190Z - success: tester loaded
-2017-05-08T09:49:49.194Z - success: ui-kit-preview-extra loaded
-2017-05-08T09:49:49.197Z - success: ui-kit-preview loaded
-2017-05-08T09:49:49.201Z - success: ui-tree loaded
-2017-05-08T09:49:49.311Z - normal: Initializing project /Users/mu77/SKYNET/client
-2017-05-08T09:49:49.330Z - normal: Loading packages
-2017-05-08T09:49:49.334Z - normal: Watching packages
-2017-05-08T09:49:49.346Z - normal: Run Application
-2017-05-08T09:49:55.107Z - success: preview server running at http://localhost:7456
-2017-05-08T09:49:55.108Z - normal: Compiling scripts...
-2017-05-08T09:49:58.507Z - normal: Compiled project javascript file successfully
-2017-05-08T09:50:03.177Z - normal: 1.4.2
-2017-05-08T09:57:56.936Z - normal: Compiled project javascript file successfully
-2017-05-08T10:00:27.463Z - normal: Compiled project javascript file successfully
-2017-05-08T10:01:05.948Z - normal: Compiled project javascript file successfully
-2017-05-08T10:02:36.299Z - normal: Compiled project javascript file successfully
-2017-05-08T10:04:19.224Z - normal: Compiled project javascript file successfully
-2017-05-08T10:06:46.966Z - normal: Compiled project javascript file successfully
-2017-05-08T10:07:13.262Z - normal: Compiled project javascript file successfully
-2017-05-08T10:08:34.567Z - normal: Compiled project javascript file successfully
-2017-05-08T10:09:05.288Z - normal: Compiled project javascript file successfully
-2017-05-08T10:10:36.590Z - normal: Compiled project javascript file successfully
-2017-05-08T10:11:37.565Z - normal: Compiled project javascript file successfully
-2017-05-08T10:12:05.375Z - normal: Compiled project javascript file successfully
-2017-05-08T10:13:08.439Z - normal: Compiled project javascript file successfully
-2017-05-08T10:14:02.394Z - normal: Compiled project javascript file successfully
-2017-05-08T10:14:13.136Z - normal: Compiled project javascript file successfully
-2017-05-08T10:15:46.217Z - normal: Compiled project javascript file successfully
-2017-05-08T10:18:59.509Z - normal: Compiled project javascript file successfully
-2017-05-08T10:20:20.693Z - normal: Compiled project javascript file successfully
-2017-05-08T10:21:44.731Z - normal: Compiled project javascript file successfully
-2017-05-08T10:22:50.939Z - normal: Compiled project javascript file successfully
-2017-05-08T10:24:21.187Z - normal: Compiled project javascript file successfully
-2017-05-08T10:25:59.683Z - normal: Compiled project javascript file successfully
-2017-05-08T10:28:27.130Z - normal: Compiled project javascript file successfully
-2017-05-08T12:43:47.949Z - normal: Compiled project javascript file successfully
-2017-05-08T12:44:28.231Z - normal: Compiled project javascript file successfully
-2017-05-08T12:47:11.507Z - normal: Compiled project javascript file successfully
-2017-05-08T12:47:55.823Z - normal: Compiled project javascript file successfully
-2017-05-08T13:11:59.232Z - normal: Compiled project javascript file successfully
-2017-05-08T13:12:50.095Z - normal: Compiled project javascript file successfully
-2017-05-08T13:13:44.767Z - normal: Compiled project javascript file successfully
-2017-05-08T13:15:25.239Z - normal: Compiled project javascript file successfully
+2017-05-08T14:19:12.532Z - normal: Load ~/.CocosCreator/settings.json
+2017-05-08T14:19:12.536Z - normal: checking language setting...
+2017-05-08T14:19:12.537Z - normal: Language: en
+2017-05-08T14:19:13.560Z - success: protocol editor-framework registered
+2017-05-08T14:19:13.561Z - success: protocol app registered
+2017-05-08T14:19:13.561Z - success: protocol theme registered
+2017-05-08T14:19:13.561Z - success: protocol profile registered
+2017-05-08T14:19:13.561Z - success: protocol packages registered
+2017-05-08T14:19:13.565Z - success: protocol unpack registerred
+2017-05-08T14:19:13.565Z - success: protocol disable-commonjs registerred
+2017-05-08T14:19:13.769Z - normal: connected!
+2017-05-08T14:19:13.772Z - normal: Check project /Users/jingfeng/PROJECT/client
+2017-05-08T14:19:13.775Z - normal: Initializing Cocos2d
+2017-05-08T14:19:14.236Z - normal: Initializing Asset Database
+2017-05-08T14:19:14.292Z - success: protocol uuid registerred
+2017-05-08T14:19:14.292Z - success: protocol db registerred
+2017-05-08T14:19:14.292Z - success: protocol thumbnail registerred
+2017-05-08T14:19:14.293Z - normal: Loading editor/builtin packages
+2017-05-08T14:19:14.512Z - success: assets loaded
+2017-05-08T14:19:14.517Z - success: builder loaded
+2017-05-08T14:19:14.523Z - success: hierarchy loaded
+2017-05-08T14:19:14.530Z - success: inspector loaded
+2017-05-08T14:19:14.532Z - success: keystore loaded
+2017-05-08T14:19:14.537Z - success: node-library loaded
+2017-05-08T14:19:14.540Z - success: preferences loaded
+2017-05-08T14:19:14.558Z - success: project-importer loaded
+2017-05-08T14:19:14.562Z - success: project-settings loaded
+2017-05-08T14:19:14.567Z - success: ui-kit loaded
+2017-05-08T14:19:14.582Z - success: ui-grid loaded
+2017-05-08T14:19:14.602Z - success: scene loaded
+2017-05-08T14:19:14.604Z - success: sprite-editor loaded
+2017-05-08T14:19:14.811Z - success: store loaded
+2017-05-08T14:19:14.833Z - success: timeline loaded
+2017-05-08T14:19:14.834Z - normal: Loading builtin packages
+2017-05-08T14:19:14.851Z - success: anysdk loaded
+2017-05-08T14:19:14.864Z - success: asset-db-debugger loaded
+2017-05-08T14:19:14.866Z - success: code-editor loaded
+2017-05-08T14:19:14.875Z - success: color-picker loaded
+2017-05-08T14:19:14.883Z - success: console loaded
+2017-05-08T14:19:14.890Z - success: package-manager loaded
+2017-05-08T14:19:14.896Z - success: tester loaded
+2017-05-08T14:19:14.901Z - success: ui-kit-preview-extra loaded
+2017-05-08T14:19:14.905Z - success: ui-kit-preview loaded
+2017-05-08T14:19:14.910Z - success: ui-tree loaded
+2017-05-08T14:19:14.998Z - normal: Initializing project /Users/jingfeng/PROJECT/client
+2017-05-08T14:19:15.030Z - normal: Loading packages
+2017-05-08T14:19:15.083Z - success: test loaded
+2017-05-08T14:19:15.084Z - normal: Watching packages
+2017-05-08T14:19:15.104Z - normal: Run Application
+2017-05-08T14:19:25.956Z - warn: [db-task][init] Backup unused meta file: db://assets/texture.meta
+2017-05-08T14:19:57.172Z - success: preview server running at http://localhost:7456
+2017-05-08T14:19:57.177Z - normal: Compiling scripts...
+2017-05-08T14:20:01.044Z - normal: Compiled project javascript file successfully
+2017-05-08T14:20:05.282Z - normal: 1.4.2
+2017-05-08T14:23:00.255Z - normal: Compiled project javascript file successfully
+2017-05-08T14:23:56.558Z - normal: Compiled project javascript file successfully
+2017-05-08T14:26:23.390Z - normal: Compiled project javascript file successfully
+2017-05-08T14:27:19.885Z - normal: Compiled project javascript file successfully
+2017-05-08T14:29:07.755Z - normal: Compiled project javascript file successfully
+2017-05-08T14:29:48.069Z - normal: Compiled project javascript file successfully
+2017-05-08T14:30:21.434Z - normal: Compiled project javascript file successfully
+2017-05-08T15:49:11.159Z - normal: Compiled project javascript file successfully
+2017-05-08T15:49:26.515Z - normal: Compiled project javascript file successfully
+2017-05-08T15:49:33.402Z - normal: Compiled project javascript file successfully
+2017-05-08T15:51:40.877Z - normal: Compiled project javascript file successfully
+2017-05-08T16:18:16.484Z - normal: Compiled project javascript file successfully
+2017-05-08T16:19:20.607Z - normal: Compiled project javascript file successfully
+2017-05-08T16:19:57.569Z - normal: Compiled project javascript file successfully
+2017-05-08T16:20:22.354Z - normal: Compiled project javascript file successfully
+2017-05-08T16:20:52.806Z - normal: Compiled project javascript file successfully
+2017-05-08T16:21:57.407Z - normal: Compiled project javascript file successfully
+2017-05-08T16:24:46.901Z - normal: Compiled project javascript file successfully
+2017-05-08T16:26:28.218Z - normal: Compiled project javascript file successfully
+2017-05-08T16:27:46.872Z - normal: Compiled project javascript file successfully
+2017-05-08T16:28:29.320Z - normal: Compiled project javascript file successfully
+2017-05-08T16:30:00.920Z - normal: Compiled project javascript file successfully
+2017-05-08T16:30:40.530Z - normal: Compiled project javascript file successfully
+2017-05-08T16:31:18.313Z - normal: Compiled project javascript file successfully
+2017-05-08T16:32:22.665Z - normal: Compiled project javascript file successfully
+2017-05-08T16:33:29.810Z - normal: Compiled project javascript file successfully
+2017-05-08T16:34:10.251Z - normal: Compiled project javascript file successfully
+2017-05-08T16:40:18.173Z - normal: Compiled project javascript file successfully
+2017-05-08T16:41:02.808Z - normal: Compiled project javascript file successfully
+2017-05-08T16:41:45.510Z - normal: Compiled project javascript file successfully
+2017-05-08T16:43:43.473Z - normal: Compiled project javascript file successfully
+2017-05-08T16:45:34.277Z - normal: Compiled project javascript file successfully
+2017-05-08T16:47:52.817Z - normal: Compiled project javascript file successfully
+2017-05-08T16:52:10.858Z - normal: Compiled project javascript file successfully
+2017-05-08T16:54:13.419Z - normal: Compiled project javascript file successfully
+2017-05-08T16:55:57.119Z - normal: Compiled project javascript file successfully

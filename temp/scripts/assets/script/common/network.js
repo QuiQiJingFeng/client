@@ -15,21 +15,24 @@ network.Init = function () {
     protobuf.Init();
 };
 
-network.Connect = function () {
+network.Connect = function (call_back) {
     var self = this;
     var url = "ws://127.0.0.1:8888";
-    if (self.socket) return;
+    if (self.socket) {
+        call_back();
+        return;
+    }
     self.socket = new WebSocket(url);
     self.socket.onopen = function (event) {
-        cc.log("onopen");
+        if (call_back) call_back();
     };
 
     self.socket.onerror = function (event) {
-        cc.log("-------------onerror", event);
+        self.DisConnect();
     };
 
     self.socket.onclose = function (event) {
-        console.log("---------------onclose", event);
+        self.DisConnect();
     };
 
     self.socket.onmessage = function (event) {
@@ -53,13 +56,17 @@ network.Connect = function () {
 
 network.DisConnect = function () {
     var self = this;
+    self.socket.close();
+    self.socket = null;
 };
 
 network.Send = function (msg) {
     var self = this;
-    if (!self.socket) return;
-    var buffer = protobuf.encode(msg);
-    self.socket.send(buffer);
+    self.Connect(function () {
+        cc.log("111111111");
+        var buffer = protobuf.encode(msg);
+        self.socket.send(buffer);
+    });
 };
 
 network.RegisterEvent = function (event_name, handle) {

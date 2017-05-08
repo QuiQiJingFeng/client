@@ -21,21 +21,16 @@ cc.Class({
         let self = this;
         let account = self.account_input.string;
         let password = self.password_input.string;
-        let msg = {}
-        msg.account = account;
-        msg.password = password;
-        appEvent.DispatchEvent("mu77_login",msg);
-        
+        let data = {account:account,password:password};
+        appEvent.DispatchEvent("LOGIN_LOGIC","MU77LOGIN",data); 
     },
 
     RegisterBtn: function() {
         let self = this;
         let account = self.account_input.string;
         let password = self.password_input.string;
-        let msg = {}
-        msg.account = account;
-        msg.password = password;
-        appEvent.DispatchEvent("mu77_register",msg);
+        let data = {account:account,password:password};
+        appEvent.DispatchEvent("LOGIN_LOGIC","MU77REGISTER",data);
     },
 
     CloseBtn: function() {

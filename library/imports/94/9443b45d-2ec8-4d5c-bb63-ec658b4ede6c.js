@@ -6,82 +6,87 @@ login_logic.Init = function () {
     var self = this;
     self.RegisterNetEvent();
     self.RegisterLogicEvent();
-
+    self.account = null;
+    self.password = null;
     self.login_path = "http://127.0.0.1:3000/login";
     self.register_path = "http://127.0.0.1:3000/register";
 };
 
 login_logic.RegisterNetEvent = function () {
     appNet.RegisterEvent("login_ret", function (data) {
-        //,,,,,
-        cc.log("login msg ->", JSON.stringify(data));
+        //load new scene
+        cc.log("login success");
     });
 };
 
 login_logic.RegisterLogicEvent = function () {
     var self = this;
-    appEvent.RegisterEvent("mu77_login", function (data) {
-        self.Mu77Login(data);
-    });
 
-    appEvent.RegisterEvent("mu77_register", function (data) {
-        self.Mu77Register(data);
+    appEvent.RegisterEvent("LOGIN_LOGIC", function (type, data) {
+        switch (type) {
+            case "MU77LOGIN":
+                {
+                    self.Mu77Login(data);
+                }break;
+            case "MU77REGISTER":
+                {
+                    self.Mu77Register(data);
+                }break;
+            case "LOGINSERVER":
+                {
+                    self.LoginServer();
+                }break;
+        }
     });
+};
+
+login_logic.LoginServer = function () {
+    var self = this;
+    var data = {};
+    data.platform = appUtils.GetPlatform();
+    data.account = self.account;
+    data.password = self.password;
+    data.version = "1.0.0";
+    data.server_id = 1;
+    data.device_id = "XEG-4L";
+    data.device_type = "MI4";
+    data.channel = "mu77";
+    data.locale = "zh-CN";
+    data.net_mode = "3G";
+    data.device_platform = "IOS";
+    var send_msg = { login: data };
+    appNet.Send(send_msg);
 };
 
 login_logic.Mu77Login = function (msg) {
     var self = this;
-    self.data = msg;
+    self.account = msg.account;
+    self.password = msg.password;
     var post_data = { "action": "login", "account": msg.account, "password": msg.password };
     appUtils.SendPostRequest(self.login_path, post_data, function (content) {
         var value = JSON.parse(content);
-        value = JSON.parse(value);
         if (value.result == "success") {
-            appEvent.DispatchEvent("login_success", value);
+            appEvent.DispatchEvent("LOGIN_VIEW_MODE", "SERVER_LIST");
         } else {
-            appEvent.DispatchEvent("login_failure", value.result);
+            //TODO 显示提示  登陆失败
         }
-    }, function (status) {
-        cc.log(self.login_path, "request error:==>status = ", status);
     });
 };
 
 login_logic.Mu77Register = function (msg) {
     var self = this;
-    self.data = msg;
+    self.account = msg.account;
+    self.password = msg.password;
     var result = false;
     var post_data = { "action": "register", "account": msg.account, "password": msg.password };
     appUtils.SendPostRequest(self.register_path, post_data, function (content) {
         var value = JSON.parse(content);
-        value = JSON.parse(value);
         if (value.result == "success") {
-            appEvent.DispatchEvent("login_success", value);
+            appEvent.DispatchEvent("LOGIN_VIEW_MODE", "SERVER_LIST");
         } else {
-            appEvent.DispatchEvent("login_failure", value.result);
+            //TODO 显示提示  注册失败
         }
-    }, function (status) {
-        cc.log(self.login_path, "request error:==>status = ", status);
     });
 };
 
 module.exports = login_logic;
-
-/*
-
-        if(cc.sys.isNative){
-            data.platform = cc.sys.platform;
-        }else{
-            data.platform = sys.os;         //browser windows android ios
-        }
-        data.version = "1.0.0";
-        data.server_id = 1;
-        data.device_id = "XEG-4L";
-        data.device_type = "MI4";
-        data.channel = data.login_type;
-        data.locale = "zh-CN";
-        data.net_mode = "3G";
-        data.device_platform = "IOS";
-
-        let send_msg = {login:data};
-        appNet.Send(send_msg);
-*/

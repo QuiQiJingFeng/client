@@ -15,11 +15,11 @@ let EventDisPatcher = function(){
         self.handlers[event_name] = handle
     }
 
-    event_dispatcher.DispatchEvent = function(event_name,data,call_back) {
+    event_dispatcher.DispatchEvent = function(event_name,param1,param2,param3) {
         let self = this;
         let handle = self.handlers[event_name]
         if(!handle) return;
-        return handle(data,call_back);
+        return handle(param1,param2,param3);
     }
 
     event_dispatcher.RemoveEventListener = function(event_name) {

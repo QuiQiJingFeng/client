@@ -6,24 +6,14 @@ cc.Class({
         register_node: cc.Node,
         server_panel:  cc.Node,
         bottom_panel:  cc.Node,
-        server_msgbox: cc.Node,
-        mu77_login: cc.Button,
-        weichat_btn: cc.Button,
-        guest_btn: cc.Button
+        server_msgbox: cc.Node
     },
 
     // use this for initialization
     onLoad: function () {
         let self = this;
 
-        self.mu77_login.node.on('click',self.Mu77Login,self);
-        self.weichat_btn.node.on('click',self.WeichatLogin,self);
-        self.guest_btn.node.on('click',self.GuestLogin,self);
         self.login_anim.addAnimation(1,"loop_1",true,1);
-
-        if(!cc.sys.isNative){
-            self.guest_btn.node.removeFromParent();
-        }  
 
         self.InitProject();
         self.RegisterLogicEvent();
@@ -31,27 +21,30 @@ cc.Class({
 
     RegisterLogicEvent:function() {
         let self = this;
-
-        appEvent.RegisterEvent("login_success",function(data){
-            self.server_panel.active = true;
-            self.register_node.active = false;
-
-            appNet.Connect();
+        //主界面只负责UI的显示管理
+        appEvent.RegisterEvent("LOGIN_VIEW_MODE",function(type){
+            self.SetViewMode(type);
         });
+    },
 
-        appEvent.RegisterEvent("login_failure",function(result){
-            cc.log("登陆失败",result);
-        });
-
-        appEvent.RegisterEvent("back_login",function(result){
-            self.server_panel.active = false;
-            self.register_node.active = false;
-            self.bottom_panel.active = true;
-        });
-
-        appEvent.RegisterEvent("show_server_list",function(result){
-            self.server_msgbox.active = true;
-        });
+    SetViewMode:function(type){
+        let self = this;
+        switch(type){
+            case "SERVER_LIST":{
+                appUtils.Show(self.server_panel);
+                appUtils.Hide(self.register_node);
+            }break;
+            case "BACK_LOGIN":{
+                appUtils.Hide(self.server_panel,self.register_node);
+                appUtils.Show(self.bottom_panel);                   
+            }break;
+            case "SERVER_MSGBOX":{
+                appUtils.Show(self.server_msgbox);
+            }break;
+            case "REGISTER_PANEL":{
+                appUtils.Show(self.register_node);
+            }break;
+        }
     },
 
     InitProject:function() {
@@ -64,21 +57,5 @@ cc.Class({
 
         let login_logic = require("login_logic");
         login_logic.Init();
-
-    },
-
-    //MU77登录
-    Mu77Login:function(event) {
-        let self = this;
-        self.register_node.active = true;
-    },
-    //微信登录
-    WeichatLogin:function(event) {
-
-    },
-    //游客登录
-    GuestLogin:function(event) {
-        cc.log("Guest....");
-
-    },
+    }
 });

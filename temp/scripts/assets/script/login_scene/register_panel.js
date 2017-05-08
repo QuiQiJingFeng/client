@@ -27,20 +27,16 @@ cc.Class({
         var self = this;
         var account = self.account_input.string;
         var password = self.password_input.string;
-        var msg = {};
-        msg.account = account;
-        msg.password = password;
-        appEvent.DispatchEvent("mu77_login", msg);
+        var data = { account: account, password: password };
+        appEvent.DispatchEvent("LOGIN_LOGIC", "MU77LOGIN", data);
     },
 
     RegisterBtn: function RegisterBtn() {
         var self = this;
         var account = self.account_input.string;
         var password = self.password_input.string;
-        var msg = {};
-        msg.account = account;
-        msg.password = password;
-        appEvent.DispatchEvent("mu77_register", msg);
+        var data = { account: account, password: password };
+        appEvent.DispatchEvent("LOGIN_LOGIC", "MU77REGISTER", data);
     },
 
     CloseBtn: function CloseBtn() {
