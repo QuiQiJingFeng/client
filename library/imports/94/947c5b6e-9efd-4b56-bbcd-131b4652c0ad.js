@@ -39,6 +39,7 @@ cc.Class({
                 }break;
             case "BACK_LOGIN":
                 {
+                    appNet.DisConnect();
                     appUtils.Hide(self.server_panel, self.register_node);
                     appUtils.Show(self.bottom_panel);
                 }break;

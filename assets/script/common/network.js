@@ -3,7 +3,7 @@ let network = {};
 
 network.Init = function() {
     let self = this;
-    self.socket = null;
+    self.socket = undefined;
     self.event_dispatcher = require("event_dispatcher")();
     self.event_dispatcher.Init();
     protobuf.Init();
@@ -50,8 +50,10 @@ network.Connect = function(call_back) {
 
 network.DisConnect = function() {
     let self = this;
-    self.socket.close();
-    self.socket = null; 
+    if(self.socket) {
+        self.socket.close();
+        self.socket = undefined; 
+    }
 }
 
 network.Send = function(msg) {

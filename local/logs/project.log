@@ -1,90 +1,101 @@
-2017-05-08T14:19:12.532Z - normal: Load ~/.CocosCreator/settings.json
-2017-05-08T14:19:12.536Z - normal: checking language setting...
-2017-05-08T14:19:12.537Z - normal: Language: en
-2017-05-08T14:19:13.560Z - success: protocol editor-framework registered
-2017-05-08T14:19:13.561Z - success: protocol app registered
-2017-05-08T14:19:13.561Z - success: protocol theme registered
-2017-05-08T14:19:13.561Z - success: protocol profile registered
-2017-05-08T14:19:13.561Z - success: protocol packages registered
-2017-05-08T14:19:13.565Z - success: protocol unpack registerred
-2017-05-08T14:19:13.565Z - success: protocol disable-commonjs registerred
-2017-05-08T14:19:13.769Z - normal: connected!
-2017-05-08T14:19:13.772Z - normal: Check project /Users/jingfeng/PROJECT/client
-2017-05-08T14:19:13.775Z - normal: Initializing Cocos2d
-2017-05-08T14:19:14.236Z - normal: Initializing Asset Database
-2017-05-08T14:19:14.292Z - success: protocol uuid registerred
-2017-05-08T14:19:14.292Z - success: protocol db registerred
-2017-05-08T14:19:14.292Z - success: protocol thumbnail registerred
-2017-05-08T14:19:14.293Z - normal: Loading editor/builtin packages
-2017-05-08T14:19:14.512Z - success: assets loaded
-2017-05-08T14:19:14.517Z - success: builder loaded
-2017-05-08T14:19:14.523Z - success: hierarchy loaded
-2017-05-08T14:19:14.530Z - success: inspector loaded
-2017-05-08T14:19:14.532Z - success: keystore loaded
-2017-05-08T14:19:14.537Z - success: node-library loaded
-2017-05-08T14:19:14.540Z - success: preferences loaded
-2017-05-08T14:19:14.558Z - success: project-importer loaded
-2017-05-08T14:19:14.562Z - success: project-settings loaded
-2017-05-08T14:19:14.567Z - success: ui-kit loaded
-2017-05-08T14:19:14.582Z - success: ui-grid loaded
-2017-05-08T14:19:14.602Z - success: scene loaded
-2017-05-08T14:19:14.604Z - success: sprite-editor loaded
-2017-05-08T14:19:14.811Z - success: store loaded
-2017-05-08T14:19:14.833Z - success: timeline loaded
-2017-05-08T14:19:14.834Z - normal: Loading builtin packages
-2017-05-08T14:19:14.851Z - success: anysdk loaded
-2017-05-08T14:19:14.864Z - success: asset-db-debugger loaded
-2017-05-08T14:19:14.866Z - success: code-editor loaded
-2017-05-08T14:19:14.875Z - success: color-picker loaded
-2017-05-08T14:19:14.883Z - success: console loaded
-2017-05-08T14:19:14.890Z - success: package-manager loaded
-2017-05-08T14:19:14.896Z - success: tester loaded
-2017-05-08T14:19:14.901Z - success: ui-kit-preview-extra loaded
-2017-05-08T14:19:14.905Z - success: ui-kit-preview loaded
-2017-05-08T14:19:14.910Z - success: ui-tree loaded
-2017-05-08T14:19:14.998Z - normal: Initializing project /Users/jingfeng/PROJECT/client
-2017-05-08T14:19:15.030Z - normal: Loading packages
-2017-05-08T14:19:15.083Z - success: test loaded
-2017-05-08T14:19:15.084Z - normal: Watching packages
-2017-05-08T14:19:15.104Z - normal: Run Application
-2017-05-08T14:19:25.956Z - warn: [db-task][init] Backup unused meta file: db://assets/texture.meta
-2017-05-08T14:19:57.172Z - success: preview server running at http://localhost:7456
-2017-05-08T14:19:57.177Z - normal: Compiling scripts...
-2017-05-08T14:20:01.044Z - normal: Compiled project javascript file successfully
-2017-05-08T14:20:05.282Z - normal: 1.4.2
-2017-05-08T14:23:00.255Z - normal: Compiled project javascript file successfully
-2017-05-08T14:23:56.558Z - normal: Compiled project javascript file successfully
-2017-05-08T14:26:23.390Z - normal: Compiled project javascript file successfully
-2017-05-08T14:27:19.885Z - normal: Compiled project javascript file successfully
-2017-05-08T14:29:07.755Z - normal: Compiled project javascript file successfully
-2017-05-08T14:29:48.069Z - normal: Compiled project javascript file successfully
-2017-05-08T14:30:21.434Z - normal: Compiled project javascript file successfully
-2017-05-08T15:49:11.159Z - normal: Compiled project javascript file successfully
-2017-05-08T15:49:26.515Z - normal: Compiled project javascript file successfully
-2017-05-08T15:49:33.402Z - normal: Compiled project javascript file successfully
-2017-05-08T15:51:40.877Z - normal: Compiled project javascript file successfully
-2017-05-08T16:18:16.484Z - normal: Compiled project javascript file successfully
-2017-05-08T16:19:20.607Z - normal: Compiled project javascript file successfully
-2017-05-08T16:19:57.569Z - normal: Compiled project javascript file successfully
-2017-05-08T16:20:22.354Z - normal: Compiled project javascript file successfully
-2017-05-08T16:20:52.806Z - normal: Compiled project javascript file successfully
-2017-05-08T16:21:57.407Z - normal: Compiled project javascript file successfully
-2017-05-08T16:24:46.901Z - normal: Compiled project javascript file successfully
-2017-05-08T16:26:28.218Z - normal: Compiled project javascript file successfully
-2017-05-08T16:27:46.872Z - normal: Compiled project javascript file successfully
-2017-05-08T16:28:29.320Z - normal: Compiled project javascript file successfully
-2017-05-08T16:30:00.920Z - normal: Compiled project javascript file successfully
-2017-05-08T16:30:40.530Z - normal: Compiled project javascript file successfully
-2017-05-08T16:31:18.313Z - normal: Compiled project javascript file successfully
-2017-05-08T16:32:22.665Z - normal: Compiled project javascript file successfully
-2017-05-08T16:33:29.810Z - normal: Compiled project javascript file successfully
-2017-05-08T16:34:10.251Z - normal: Compiled project javascript file successfully
-2017-05-08T16:40:18.173Z - normal: Compiled project javascript file successfully
-2017-05-08T16:41:02.808Z - normal: Compiled project javascript file successfully
-2017-05-08T16:41:45.510Z - normal: Compiled project javascript file successfully
-2017-05-08T16:43:43.473Z - normal: Compiled project javascript file successfully
-2017-05-08T16:45:34.277Z - normal: Compiled project javascript file successfully
-2017-05-08T16:47:52.817Z - normal: Compiled project javascript file successfully
-2017-05-08T16:52:10.858Z - normal: Compiled project javascript file successfully
-2017-05-08T16:54:13.419Z - normal: Compiled project javascript file successfully
-2017-05-08T16:55:57.119Z - normal: Compiled project javascript file successfully
+2017-05-21T08:32:47.733Z - normal: Load ~/.CocosCreator/settings.json
+2017-05-21T08:32:47.740Z - normal: checking language setting...
+2017-05-21T08:32:47.741Z - normal: Language: zh
+2017-05-21T08:32:48.798Z - success: protocol editor-framework registered
+2017-05-21T08:32:48.799Z - success: protocol app registered
+2017-05-21T08:32:48.799Z - success: protocol theme registered
+2017-05-21T08:32:48.799Z - success: protocol profile registered
+2017-05-21T08:32:48.799Z - success: protocol packages registered
+2017-05-21T08:32:48.802Z - success: protocol unpack registerred
+2017-05-21T08:32:48.802Z - success: protocol disable-commonjs registerred
+2017-05-21T08:32:48.990Z - normal: connected!
+2017-05-21T08:32:48.993Z - normal: Check project /Users/mu77/SKYNET/client
+2017-05-21T08:32:48.995Z - normal: Initializing Cocos2d
+2017-05-21T08:32:49.467Z - normal: Initializing Asset Database
+2017-05-21T08:32:49.518Z - success: protocol uuid registerred
+2017-05-21T08:32:49.518Z - success: protocol db registerred
+2017-05-21T08:32:49.519Z - success: protocol thumbnail registerred
+2017-05-21T08:32:49.519Z - normal: Loading editor/builtin packages
+2017-05-21T08:32:49.732Z - success: assets loaded
+2017-05-21T08:32:49.736Z - success: builder loaded
+2017-05-21T08:32:49.741Z - success: hierarchy loaded
+2017-05-21T08:32:49.746Z - success: inspector loaded
+2017-05-21T08:32:49.748Z - success: keystore loaded
+2017-05-21T08:32:49.753Z - success: node-library loaded
+2017-05-21T08:32:49.755Z - success: preferences loaded
+2017-05-21T08:32:49.771Z - success: project-importer loaded
+2017-05-21T08:32:49.775Z - success: project-settings loaded
+2017-05-21T08:32:49.779Z - success: ui-kit loaded
+2017-05-21T08:32:49.791Z - success: ui-grid loaded
+2017-05-21T08:32:49.807Z - success: scene loaded
+2017-05-21T08:32:49.808Z - success: sprite-editor loaded
+2017-05-21T08:32:50.091Z - success: store loaded
+2017-05-21T08:32:50.108Z - success: timeline loaded
+2017-05-21T08:32:50.108Z - normal: Loading builtin packages
+2017-05-21T08:32:50.121Z - success: anysdk loaded
+2017-05-21T08:32:50.134Z - success: asset-db-debugger loaded
+2017-05-21T08:32:50.136Z - success: code-editor loaded
+2017-05-21T08:32:50.142Z - success: color-picker loaded
+2017-05-21T08:32:50.147Z - success: console loaded
+2017-05-21T08:32:50.150Z - success: package-manager loaded
+2017-05-21T08:32:50.155Z - success: tester loaded
+2017-05-21T08:32:50.158Z - success: ui-kit-preview-extra loaded
+2017-05-21T08:32:50.161Z - success: ui-kit-preview loaded
+2017-05-21T08:32:50.165Z - success: ui-tree loaded
+2017-05-21T08:32:50.232Z - normal: Initializing project /Users/mu77/SKYNET/client
+2017-05-21T08:32:50.254Z - normal: Loading packages
+2017-05-21T08:32:50.258Z - normal: Watching packages
+2017-05-21T08:32:50.270Z - normal: Run Application
+2017-05-21T08:32:55.861Z - success: preview server running at http://localhost:7456
+2017-05-21T08:32:55.861Z - normal: Compiling scripts...
+2017-05-21T08:32:59.342Z - normal: Compiled project javascript file successfully
+2017-05-21T08:33:04.256Z - normal: 1.4.2
+2017-05-21T08:33:11.579Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 949.00
+2017-05-21T08:33:11.580Z - normal: Simulator: FRAME SCALE = 1.00
+2017-05-21T08:33:11.584Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-05-21T08:33:11.586Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-05-21T08:33:11.587Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-05-21T08:33:11.683Z - normal: Simulator: 
+2017-05-21T08:33:11.683Z - normal: Simulator: {
+2017-05-21T08:33:11.684Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-05-21T08:33:11.684Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-05-21T08:33:11.684Z - normal: Simulator: 	cocos2d.x.version: 1.4.1
+2017-05-21T08:33:11.685Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2017-05-21T08:33:11.685Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-05-21T08:33:11.685Z - normal: Simulator: 	gl.renderer: Intel Iris OpenGL Engine
+2017-05-21T08:33:11.686Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-05-21T08:33:11.687Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-05-21T08:33:11.690Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-05-21T08:33:11.690Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-05-21T08:33:11.693Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-05-21T08:33:11.693Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-05-21T08:33:11.694Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-05-21T08:33:11.694Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-05-21T08:33:11.695Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-05-21T08:33:11.696Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.18.65
+2017-05-21T08:33:11.697Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-05-21T08:33:11.698Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-05-21T08:33:11.698Z - normal: Simulator: }
+2017-05-21T08:33:11.698Z - normal: Simulator: 
+2017-05-21T08:33:11.699Z - normal: Simulator: 
+2017-05-21T08:33:11.699Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-05-21T08:33:11.773Z - normal: Simulator: Project Config:
+2017-05-21T08:33:11.774Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-05-21T08:33:11.774Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-05-21T08:33:11.775Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-05-21T08:33:11.775Z - normal: Simulator:     frame size: 960 x 640
+2017-05-21T08:33:11.788Z - normal: Simulator:     frame scale: 1.00
+2017-05-21T08:33:11.789Z - normal: Simulator:     show console: NO
+2017-05-21T08:33:11.789Z - normal: Simulator:     write debug log: NO ()
+2017-05-21T08:33:11.790Z - normal: Simulator:     listen: 
+2017-05-21T08:33:11.790Z - normal: Simulator:     debugger: none
+2017-05-21T08:33:11.791Z - normal: Simulator:     add searching path:
+2017-05-21T08:33:11.791Z - normal: Simulator: 
+2017-05-21T08:33:11.791Z - normal: Simulator: 
+2017-05-21T08:33:11.792Z - normal: Simulator: 
+2017-05-21T08:33:11.793Z - normal: Simulator: ------------------------------------------------
+2017-05-21T08:33:11.793Z - normal: Simulator: LOAD Js FILE: main.js
+2017-05-21T08:33:11.793Z - normal: Simulator: ------------------------------------------------
+2017-05-21T08:33:12.289Z - normal: Simulator: Cocos2d-JS v3.14
+2017-05-21T08:33:12.473Z - normal: Simulator: iShow!
+2017-05-21T08:33:16.204Z - info: shutdown preview server

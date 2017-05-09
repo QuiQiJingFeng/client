@@ -5,7 +5,7 @@ var network = {};
 
 network.Init = function () {
     var self = this;
-    self.socket = null;
+    self.socket = undefined;
     self.event_dispatcher = require("event_dispatcher")();
     self.event_dispatcher.Init();
     protobuf.Init();
@@ -15,8 +15,7 @@ network.Connect = function (call_back) {
     var self = this;
     var url = "ws://127.0.0.1:8888";
     if (self.socket) {
-        call_back();
-        return;
+        return call_back();
     }
     self.socket = new WebSocket(url);
     self.socket.onopen = function (event) {
@@ -52,14 +51,15 @@ network.Connect = function (call_back) {
 
 network.DisConnect = function () {
     var self = this;
-    self.socket.close();
-    self.socket = null;
+    if (self.socket) {
+        self.socket.close();
+        self.socket = undefined;
+    }
 };
 
 network.Send = function (msg) {
     var self = this;
     self.Connect(function () {
-        cc.log("111111111");
         var buffer = protobuf.encode(msg);
         self.socket.send(buffer);
     });
