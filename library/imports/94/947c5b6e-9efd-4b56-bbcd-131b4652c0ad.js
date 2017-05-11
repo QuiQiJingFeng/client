@@ -24,7 +24,7 @@ cc.Class({
 
         self.test_btn.node.on('click', function () {
             var server_list = self.table_view.getComponent("tableview");
-            var data = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}];
+            var data = [{ name: "逗比1" }, { name: "逗比2" }, { name: "逗比3" }, { name: "逗比4" }, { name: "逗比5" }, { name: "逗比6" }, { name: "逗比7" }, { name: "逗比8" }, { name: "逗比9" }];
             server_list.LoadData(data, true);
         });
     },

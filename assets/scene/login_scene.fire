@@ -9166,8 +9166,8 @@
     "content": {
       "__id__": 283
     },
-    "horizontal": false,
-    "vertical": true,
+    "horizontal": true,
+    "vertical": false,
     "inertia": true,
     "brake": 0.75,
     "elastic": true,
