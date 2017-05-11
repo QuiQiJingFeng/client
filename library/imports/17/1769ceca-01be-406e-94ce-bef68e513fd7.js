@@ -9,8 +9,9 @@ cc.Class({
     //代码加载完毕
     onLoad: function onLoad() {
         var self = this;
+        self.scrollview = self.node.getComponent("cc.ScrollView");
         //是否为竖直方向
-        self._vertical = self.node.getComponent("cc.ScrollView").vertical;
+        self._vertical = self.scrollview.vertical;
         //视口
         self.view_port = self.node.getChildByName("view");
         self.box = self.view_port.getBoundingBox();
@@ -21,14 +22,29 @@ cc.Class({
         self.item_size = template.getContentSize();
         self.item_anchor = template.getAnchorPoint();
 
-        self.reuse_pool = {};
-        self.used_cells = {};
+        self.reuse_cells = [];
+
+        self.node.on("scrolling", self.Scrolling, self);
+
+        self.node.on("scroll-ended", function () {
+            cc.log("---------------scroll-ended-------------");
+        });
     },
 
+    DequeueCell: function DequeueCell() {
+        var self = this;
+        if (self.reuse_cells.length > 0) {
+            return self.reuse_cells.pop();
+        }
+
+        return cc.instantiate(self.item);
+    },
+
+    //初始根据数据初始化
     LoadData: function LoadData(data) {
         var self = this;
-
         self.content.removeAllChildren();
+        self.scrollview.scrollToOffset(cc.p(0, 0));
         var offset_y = (1 - self.item_anchor.y) * self.item_size.height;
         var offset_x = self.item_anchor.x * self.item_size.width;
         var unit_x = self.item_size.width;
@@ -46,11 +62,9 @@ cc.Class({
             //世界坐标点
             var word_pos = self.content.convertToWorldSpace(pos);
             var new_pos = self.view_port.convertToNodeSpace(pos);
-            cc.log("new_pos=>", new_pos);
-            cc.log("self.box=>", self.box);
             var is_contain = cc.rectContainsPoint(self.box, pos);
             if (is_contain) {
-                var item = cc.instantiate(self.item);
+                var item = self.DequeueCell();
                 item.setPosition(cc.p(x, y));
                 self.content.addChild(item);
             }
@@ -62,6 +76,8 @@ cc.Class({
         self.content.setContentSize(cc.size(width, height));
     },
 
-    // called every frame, uncomment this function to activate update callback
-    update: function update(dt) {}
+    Scrolling: function Scrolling() {
+        cc.log("--------scrolling------------");
+    }
+
 });

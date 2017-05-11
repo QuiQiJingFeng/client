@@ -7,24 +7,38 @@ cc.Class({
     //代码加载完毕
     onLoad: function () {
         let self = this;
+        self.scrollview = self.node.getComponent("cc.ScrollView")
         //是否为竖直方向
-        self._vertical = self.node.getComponent("cc.ScrollView").vertical;
+        self._vertical = self.scrollview.vertical;
         //视口
         self.view_port = self.node.getChildByName("view");
         self.box = self.view_port.getBoundingBox();
         //内容节点
         self.content = self.view_port.getChildByName("content");
 
-
         let template = cc.instantiate(self.item);
         self.item_size = template.getContentSize();
         self.item_anchor = template.getAnchorPoint();
 
         
-        self.reuse_cells = {};
+        self.reuse_cells = [];
+
+        self.moving = false;
+        self.node.on("scrolling",self.Scrolling,self);
+        self.node.on("scroll-ended",self.ScrollEnd,self);
+    },
+
+    Scrolling: function () {
+        let self = this;
+        self.moving = true;
+    },
+
+    ScrollEnd: function () {
+        self.moving = false;
     },
 
     DequeueCell: function() {
+        let self = this;
         if(self.reuse_cells.length > 0) {
             return self.reuse_cells.pop();
         }
@@ -35,8 +49,8 @@ cc.Class({
     //初始根据数据初始化
     LoadData: function (data) {
         let self = this;
-
         self.content.removeAllChildren();
+        self.scrollview.scrollToOffset(cc.p(0,0));
         let offset_y = (1 - self.item_anchor.y) * self.item_size.height
         let offset_x = self.item_anchor.x * self.item_size.width
         let unit_x = self.item_size.width
@@ -69,9 +83,8 @@ cc.Class({
 
     // called every frame, uncomment this function to activate update callback
     update: function (dt) {
-        let children = self.content.getAllChildren();
-        for(var child in children) {
-            let pos = child.getPosition();
+        if(self.moving) {
+
         }
     },
 });
