@@ -4,19 +4,28 @@ var utils = {};
 
 utils.SendPostRequest = function (server_path, data, callback) {
     var post_data = JSON.stringify(data);
-    var xhr = cc.loader.getXMLHttpRequest();
-    xhr.open("POST", server_path);
-    //xhr.open("GET", ServerLink+link+"?"+parm,false);
-    xhr.setRequestHeader("Content-Type", "application/json");
-    xhr.send(post_data);
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            var result = xhr.responseText;
-            callback(xhr.responseText);
-        } else if (xhr.readyState == 4 && xhr.status != 200) {
-            cc.log("error state ", xhr.status, server_path);
+    var request = new XMLHttpRequest();
+    request.onreadystatechange = function () {
+        if (request.readyState == 4 && request.status == 200) {
+            var result = request.responseText;
+            callback(request.responseText);
         }
     };
+    request.open("POST", server_path);
+    request.setRequestHeader("Content-Type", "application/json");
+    request.send(post_data);
+};
+
+utils.SendGetRequest = function (url, callback) {
+    var request = new XMLHttpRequest();
+    request.onreadystatechange = function () {
+        if (request.readyState == 4 && request.status == 200) {
+            var response = request.responseText;
+            callback(response);
+        }
+    };
+    request.open("GET", url, true);
+    request.send();
 };
 
 utils.GetPlatform = function () {

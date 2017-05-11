@@ -12,7 +12,9 @@ cc.Class({
         register_node: cc.Node,
         server_panel: cc.Node,
         bottom_panel: cc.Node,
-        server_msgbox: cc.Node
+        server_msgbox: cc.Node,
+        table_view: cc.Node,
+        test_btn: cc.Button
     },
 
     // use this for initialization
@@ -23,17 +25,23 @@ cc.Class({
 
         self.InitProject();
         self.RegisterLogicEvent();
+
+        self.test_btn.node.on('click', function () {
+            var server_list = self.table_view.getComponent("tableview");
+            var data = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}];
+            server_list.LoadData(data, true);
+        });
     },
 
     RegisterLogicEvent: function RegisterLogicEvent() {
         var self = this;
         //主界面只负责UI的显示管理
-        appEvent.RegisterEvent("LOGIN_VIEW_MODE", function (type) {
-            self.SetViewMode(type);
+        appEvent.RegisterEvent("LOGIN_VIEW_MODE", function (type, data) {
+            self.SetViewMode(type, data);
         });
     },
 
-    SetViewMode: function SetViewMode(type) {
+    SetViewMode: function SetViewMode(type, data) {
         var self = this;
         switch (type) {
             case "SERVER_LIST":

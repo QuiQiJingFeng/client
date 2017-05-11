@@ -14,6 +14,7 @@ login_logic.Init = function () {
     self.password = null;
     self.login_path = "http://127.0.0.1:3000/login";
     self.register_path = "http://127.0.0.1:3000/register";
+    self.server_list_path = "http://127.0.0.1:3000/server_list.js";
 };
 
 login_logic.RegisterNetEvent = function () {
@@ -90,6 +91,16 @@ login_logic.Mu77Register = function (msg) {
         } else {
             //TODO 显示提示  注册失败
         }
+    });
+};
+
+login_logic.GetServerList = function (call_back) {
+    var self = this;
+    cc.log("sending-----------");
+    appUtils.SendGetRequest(self.server_list_path, function (content) {
+        cc.log("FYD====>", content);
+        var value = JSON.parse(content);
+        call_back(value);
     });
 };
 

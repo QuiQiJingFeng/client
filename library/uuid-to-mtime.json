@@ -220,8 +220,8 @@
     "relativePath": "script"
   },
   "65792a2e-9580-427a-83f6-f91e397e5ef5": {
-    "asset": 1494297337000,
-    "meta": 1494299668000,
+    "asset": 1494395644000,
+    "meta": 1494479714000,
     "relativePath": "script/login_scene"
   },
   "8cc80c40-b614-4c90-8cde-a5e58b196d90": {
@@ -240,13 +240,13 @@
     "relativePath": "script/common/protobuf.js"
   },
   "ae09e535-7d98-4589-bfc4-132fc0eabd1c": {
-    "asset": 1494297337000,
-    "meta": 1494299668000,
+    "asset": 1494506235000,
+    "meta": 1494506235000,
     "relativePath": "scene/login_scene.fire"
   },
   "cd82e0e4-05ca-4c45-9fc5-06d5afcf5a09": {
-    "asset": 1494231100000,
-    "meta": 1494299668000,
+    "asset": 1494394790000,
+    "meta": 1494479714000,
     "relativePath": "UI"
   },
   "201ef222-031e-48b8-887c-ae44ffc33a3d": {
@@ -11114,11 +11114,6 @@
     "meta": 1494299682000,
     "relativePath": "UI/spine/touch_effect.png"
   },
-  "66ea5c5e-2d71-41da-8f65-8353f4172bbf": {
-    "asset": 1494231100000,
-    "meta": 1494299668000,
-    "relativePath": "script/login_scene/server_msgbox.js"
-  },
   "a94c3281-be32-48fb-9792-1cb29ca416f1": {
     "asset": 1494248973000,
     "meta": 1494299668000,
@@ -11139,34 +11134,59 @@
     "meta": 1494299668000,
     "relativePath": "script/common/event_dispatcher.js"
   },
-  "cfa0a9ed-b820-4616-889e-21d484660d6a": {
-    "asset": 1494297337000,
-    "meta": 1494299668000,
-    "relativePath": "script/common/utils.js"
-  },
-  "9443b45d-2ec8-4d5c-bb63-ec658b4ede6c": {
-    "asset": 1494297337000,
-    "meta": 1494299668000,
-    "relativePath": "script/login_scene/login_logic.js"
-  },
   "7cee7ead-5b3d-4c57-b50f-ab52c5e48dd6": {
     "asset": 1493892483000,
     "meta": 1494299668000,
     "relativePath": "texture"
   },
-  "947c5b6e-9efd-4b56-bbcd-131b4652c0ad": {
-    "asset": 1494299927000,
-    "meta": 1494299934000,
-    "relativePath": "script/login_scene/main_view.js"
-  },
-  "f66602df-1566-4679-aadd-43d00d80366a": {
-    "asset": 1494299905000,
-    "meta": 1494299934000,
-    "relativePath": "script/login_scene/server_panel.js"
-  },
   "4d5e0bdb-d37e-433a-af61-d65483c8fa3f": {
     "asset": 1495355550000,
     "meta": 1495355574000,
     "relativePath": "script/common/network.js"
+  },
+  "8d28cf57-7694-4807-81c5-b0cda5fad5c8": {
+    "asset": 1494396391000,
+    "meta": 1494396391000,
+    "relativePath": "UI/server_item_btn.prefab"
+  },
+  "f66602df-1566-4679-aadd-43d00d80366a": {
+    "asset": 1494480967000,
+    "meta": 1494481034000,
+    "relativePath": "script/login_scene/server_panel.js"
+  },
+  "cfa0a9ed-b820-4616-889e-21d484660d6a": {
+    "asset": 1494482496000,
+    "meta": 1494482499000,
+    "relativePath": "script/common/utils.js"
+  },
+  "9443b45d-2ec8-4d5c-bb63-ec658b4ede6c": {
+    "asset": 1494483773000,
+    "meta": 1494483776000,
+    "relativePath": "script/login_scene/login_logic.js"
+  },
+  "66ea5c5e-2d71-41da-8f65-8353f4172bbf": {
+    "asset": 1494485794000,
+    "meta": 1494485801000,
+    "relativePath": "script/login_scene/server_msgbox.js"
+  },
+  "75f11d30-bc5d-479a-b6f1-0f71a626794b": {
+    "asset": 1494488561000,
+    "meta": 1494488561000,
+    "relativePath": "resources/scroll_view.prefab"
+  },
+  "fc906726-1340-4de5-8956-77695f2b59cd": {
+    "asset": 1494489254000,
+    "meta": 1494489256000,
+    "relativePath": "script/login_scene/server_list_view.js"
+  },
+  "947c5b6e-9efd-4b56-bbcd-131b4652c0ad": {
+    "asset": 1494503402000,
+    "meta": 1494503404000,
+    "relativePath": "script/login_scene/main_view.js"
+  },
+  "1769ceca-01be-406e-94ce-bef68e513fd7": {
+    "asset": 1494506396000,
+    "meta": 1494506399000,
+    "relativePath": "script/common/tableview.js"
   }
 }

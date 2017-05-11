@@ -8,6 +8,7 @@ login_logic.Init = function() {
     self.password = null;
     self.login_path = "http://127.0.0.1:3000/login";
     self.register_path = "http://127.0.0.1:3000/register";
+    self.server_list_path = "http://127.0.0.1:3000/server_list.js"
 }
 
 login_logic.RegisterNetEvent = function() {
@@ -83,7 +84,18 @@ login_logic.Mu77Register = function(msg) {
             }
         });
 }
- 
+
+login_logic.GetServerList = function(call_back) {
+        let self = this;
+        cc.log("sending-----------");
+        appUtils.SendGetRequest(self.server_list_path,function(content){
+            cc.log("FYD====>",content);
+            let value = JSON.parse(content);
+            call_back(value);
+        });
+}
+
+
 
 module.exports = login_logic;
 

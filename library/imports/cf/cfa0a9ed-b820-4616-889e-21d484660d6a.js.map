@@ -12,21 +12,22 @@
     "post_data",
     "JSON",
     "stringify",
-    "xhr",
-    "cc",
-    "loader",
-    "getXMLHttpRequest",
-    "open",
-    "setRequestHeader",
-    "send",
+    "request",
+    "XMLHttpRequest",
     "onreadystatechange",
     "readyState",
     "status",
     "result",
     "responseText",
-    "log",
+    "open",
+    "setRequestHeader",
+    "send",
+    "SendGetRequest",
+    "url",
+    "response",
     "GetPlatform",
     "platform",
+    "cc",
     "sys",
     "isNative",
     "browserType",
@@ -40,9 +41,9 @@
     "module",
     "exports"
   ],
-  "mappings": ";;AAAA,IAAIA,QAAQ,EAAZ;;AAEAA,MAAMC,eAAN,GAAwB,UAAUC,WAAV,EAAsBC,IAAtB,EAA2BC,QAA3B,EAAqC;AACzD,QAAIC,YAAYC,KAAKC,SAAL,CAAeJ,IAAf,CAAhB;AACA,QAAIK,MAAMC,GAAGC,MAAH,CAAUC,iBAAV,EAAV;AACAH,QAAII,IAAJ,CAAS,MAAT,EAAiBV,WAAjB;AACG;AACHM,QAAIK,gBAAJ,CAAqB,cAArB,EAAoC,kBAApC;AACAL,QAAIM,IAAJ,CAAST,SAAT;AACAG,QAAIO,kBAAJ,GAAyB,YAAY;AACjC,YAAIP,IAAIQ,UAAJ,IAAkB,CAAlB,IAAwBR,IAAIS,MAAJ,IAAc,GAA1C,EAAgD;AAC5C,gBAAIC,SAASV,IAAIW,YAAjB;AACAf,qBAASI,IAAIW,YAAb;AACH,SAHD,MAGM,IAAGX,IAAIQ,UAAJ,IAAkB,CAAlB,IAAwBR,IAAIS,MAAJ,IAAc,GAAzC,EAA+C;AACjDR,eAAGW,GAAH,CAAO,cAAP,EAAsBZ,IAAIS,MAA1B,EAAiCf,WAAjC;AACH;AACJ,KAPD;AAQH,CAfD;;AAiBAF,MAAMqB,WAAN,GAAoB,YAAW;AAC3B,QAAIC,WAAW,EAAf;AACA,QAAG,CAACb,GAAGc,GAAH,CAAOC,QAAX,EAAoB;AAChBF,mBAAW,aAAab,GAAGc,GAAH,CAAOE,WAA/B;AACH,KAFD,MAEK;AACDH,mBAAWb,GAAGc,GAAH,CAAOG,EAAlB,CADC,CAC6B;AACjC;AACD,WAAOJ,QAAP;AACH,CARD;;AAUAtB,MAAM2B,IAAN,GAAa,YAAW;AACpB,SAAI,IAAIC,IAAI,CAAZ,EAAcA,IAAIC,UAAUC,MAA5B,EAAoCF,GAApC,EAAyC;AAAM;AAC3CC,kBAAUD,CAAV,EAAaG,MAAb,GAAsB,KAAtB;AACH;AACJ,CAJD;;AAMA/B,MAAMgC,IAAN,GAAa,YAAW;AACpB,SAAI,IAAIJ,IAAI,CAAZ,EAAcA,IAAIC,UAAUC,MAA5B,EAAoCF,GAApC,EAAyC;AAAM;AAC3CC,kBAAUD,CAAV,EAAaG,MAAb,GAAsB,IAAtB;AACH;AACJ,CAJD;;AAMAE,OAAOC,OAAP,GAAiBlC,KAAjB",
+  "mappings": ";;AAAA,IAAIA,QAAQ,EAAZ;;AAEAA,MAAMC,eAAN,GAAwB,UAAUC,WAAV,EAAsBC,IAAtB,EAA2BC,QAA3B,EAAqC;AACzD,QAAIC,YAAYC,KAAKC,SAAL,CAAeJ,IAAf,CAAhB;AACA,QAAIK,UAAU,IAAIC,cAAJ,EAAd;AACAD,YAAQE,kBAAR,GAA6B,YAAY;AACrC,YAAIF,QAAQG,UAAR,IAAsB,CAAtB,IAA4BH,QAAQI,MAAR,IAAkB,GAAlD,EAAwD;AACpD,gBAAIC,SAASL,QAAQM,YAArB;AACAV,qBAASI,QAAQM,YAAjB;AACH;AACJ,KALD;AAMAN,YAAQO,IAAR,CAAa,MAAb,EAAqBb,WAArB;AACAM,YAAQQ,gBAAR,CAAyB,cAAzB,EAAwC,kBAAxC;AACAR,YAAQS,IAAR,CAAaZ,SAAb;AACH,CAZD;;AAcAL,MAAMkB,cAAN,GAAuB,UAAUC,GAAV,EAAcf,QAAd,EAAwB;AAC3C,QAAII,UAAU,IAAIC,cAAJ,EAAd;AACAD,YAAQE,kBAAR,GAA6B,YAAY;AACrC,YAAIF,QAAQG,UAAR,IAAsB,CAAtB,IAA4BH,QAAQI,MAAR,IAAkB,GAAlD,EAAwD;AACnD,gBAAIQ,WAAWZ,QAAQM,YAAvB;AACAV,qBAASgB,QAAT;AACJ;AACJ,KALD;AAMAZ,YAAQO,IAAR,CAAa,KAAb,EAAoBI,GAApB,EAAyB,IAAzB;AACAX,YAAQS,IAAR;AACH,CAVD;;AAYAjB,MAAMqB,WAAN,GAAoB,YAAW;AAC3B,QAAIC,WAAW,EAAf;AACA,QAAG,CAACC,GAAGC,GAAH,CAAOC,QAAX,EAAoB;AAChBH,mBAAW,aAAaC,GAAGC,GAAH,CAAOE,WAA/B;AACH,KAFD,MAEK;AACDJ,mBAAWC,GAAGC,GAAH,CAAOG,EAAlB,CADC,CAC6B;AACjC;AACD,WAAOL,QAAP;AACH,CARD;;AAUAtB,MAAM4B,IAAN,GAAa,YAAW;AACpB,SAAI,IAAIC,IAAI,CAAZ,EAAcA,IAAIC,UAAUC,MAA5B,EAAoCF,GAApC,EAAyC;AAAM;AAC3CC,kBAAUD,CAAV,EAAaG,MAAb,GAAsB,KAAtB;AACH;AACJ,CAJD;;AAMAhC,MAAMiC,IAAN,GAAa,YAAW;AACpB,SAAI,IAAIJ,IAAI,CAAZ,EAAcA,IAAIC,UAAUC,MAA5B,EAAoCF,GAApC,EAAyC;AAAM;AAC3CC,kBAAUD,CAAV,EAAaG,MAAb,GAAsB,IAAtB;AACH;AACJ,CAJD;;AAMAE,OAAOC,OAAP,GAAiBnC,KAAjB",
   "file": "unknown",
   "sourcesContent": [
-    "let utils = {};\n\nutils.SendPostRequest = function (server_path,data,callback) {\n    var post_data = JSON.stringify(data);\n    var xhr = cc.loader.getXMLHttpRequest();\n    xhr.open(\"POST\", server_path);\n       //xhr.open(\"GET\", ServerLink+link+\"?\"+parm,false);\n    xhr.setRequestHeader(\"Content-Type\",\"application/json\");\n    xhr.send(post_data);\n    xhr.onreadystatechange = function () {\n        if (xhr.readyState == 4 && (xhr.status == 200)) {            \n            var result = xhr.responseText;\n            callback(xhr.responseText);\n        }else if(xhr.readyState == 4 && (xhr.status != 200)) {\n            cc.log(\"error state \",xhr.status,server_path);\n        }\n    };\n}\n\nutils.GetPlatform = function() {\n    let platform = \"\";\n    if(!cc.sys.isNative){\n        platform = 'browser-' + cc.sys.browserType;\n    }else{\n        platform = cc.sys.os;         //browser windows android ios         \n    }\n    return platform;\n}\n\nutils.Hide = function() {\n    for(let i = 0;i < arguments.length; i++) {     //如果有，就累加  \n        arguments[i].active = false;\n    }\n}\n\nutils.Show = function() {\n    for(let i = 0;i < arguments.length; i++) {     //如果有，就累加  \n        arguments[i].active = true;\n    } \n}\n\nmodule.exports = utils;\n"
+    "let utils = {};\n\nutils.SendPostRequest = function (server_path,data,callback) {\n    var post_data = JSON.stringify(data);\n    var request = new XMLHttpRequest();\n    request.onreadystatechange = function () {\n        if (request.readyState == 4 && (request.status == 200)) {            \n            var result = request.responseText;\n            callback(request.responseText);\n        }\n    };\n    request.open(\"POST\", server_path);\n    request.setRequestHeader(\"Content-Type\",\"application/json\");\n    request.send(post_data);\n}\n\nutils.SendGetRequest = function (url,callback) {\n    let request = new XMLHttpRequest();\n    request.onreadystatechange = function () {\n        if (request.readyState == 4 && (request.status == 200)) {\n             var response = request.responseText;\n             callback(response);\n        }\n    };\n    request.open(\"GET\", url, true);\n    request.send();\n}\n\nutils.GetPlatform = function() {\n    let platform = \"\";\n    if(!cc.sys.isNative){\n        platform = 'browser-' + cc.sys.browserType;\n    }else{\n        platform = cc.sys.os;         //browser windows android ios         \n    }\n    return platform;\n}\n\nutils.Hide = function() {\n    for(let i = 0;i < arguments.length; i++) {     //如果有，就累加  \n        arguments[i].active = false;\n    }\n}\n\nutils.Show = function() {\n    for(let i = 0;i < arguments.length; i++) {     //如果有，就累加  \n        arguments[i].active = true;\n    } \n}\n\nmodule.exports = utils;\n"
   ]
 }
