@@ -29,7 +29,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 590,
+      "width": 480,
       "height": 80
     },
     "_children": [
@@ -49,8 +49,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 52,
-      "y": 441
+      "x": 319,
+      "y": 460
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -66,10 +66,13 @@
       },
       {
         "__id__": 12
+      },
+      {
+        "__id__": 13
       }
     ],
     "_prefab": {
-      "__id__": 13
+      "__id__": 14
     },
     "groupIndex": 0
   },
@@ -106,8 +109,8 @@
     "_scaleY": 0.5,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -246,
-      "y": -1
+      "x": -208,
+      "y": 2
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -159,9 +162,9 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "8d28cf57-7694-4807-81c5-b0cda5fad5c8"
     },
-    "fileId": "b028bbiJnhBfbwCKes/OUlJ",
+    "fileId": "071d7F4yJ9JJr1v1A9TjnpT",
     "sync": false
   },
   {
@@ -197,8 +200,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -205,
-      "y": 2
+      "x": -181,
+      "y": 5
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -245,9 +248,9 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "8d28cf57-7694-4807-81c5-b0cda5fad5c8"
     },
-    "fileId": "d5fedb+3NJD3ZFJfZT5BMx9",
+    "fileId": "e2f4cQuP1VCVbf0XmJjgN1N",
     "sync": false
   },
   {
@@ -283,8 +286,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 254,
-      "y": -1
+      "x": 199,
+      "y": 4
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -336,9 +339,9 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "8d28cf57-7694-4807-81c5-b0cda5fad5c8"
     },
-    "fileId": "84f88N85tNKsLTm6Tc1g0Gx",
+    "fileId": "e6220rKGzlHvaHvJEMa1JKE",
     "sync": false
   },
   {
@@ -426,14 +429,29 @@
     "_atlas": null
   },
   {
+    "__type__": "1160em6Eh5C+pGmkFyOlUP/",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "img": {
+      "__id__": 8
+    },
+    "name_txt": {
+      "__id__": 6
+    }
+  },
+  {
     "__type__": "cc.PrefabInfo",
     "root": {
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "8d28cf57-7694-4807-81c5-b0cda5fad5c8"
     },
-    "fileId": "432e5F993hBFY4BzJQ65aDP",
+    "fileId": "b11aaG7s6xDcL7rGJ0WJ4i8",
     "sync": false
   }
 ]

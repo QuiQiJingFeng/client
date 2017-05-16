@@ -3,7 +3,8 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        item: cc.Prefab
+        item: cc.Prefab,
+        item_script:"",     //指定cell脚本的名称
     },
     //代码加载完毕
     onLoad: function () {
@@ -21,20 +22,17 @@ cc.Class({
         let template = cc.instantiate(self.item);
         self.item_size = template.getContentSize();
         self.item_anchor = template.getAnchorPoint();
-
         
-        self.reuse_cells = new CCArray();
-        self.reuse_cells.init();
-
-        self.cur_cells = new CCArray();
-        self.cur_cells.init();
-
-        self.positions = new CCArray();
-        self.positions.init();
-
-        self.moving = false;
         self.node.on("scrolling",self.Scrolling,self);
         self.node.on("scroll-ended",self.ScrollEnd,self);
+    },
+
+    ResetProperty:function() {
+        let self = this;
+        self.reuse_cells = new CCArray();
+        self.cur_cells = new CCArray();
+        self.positions = new CCArray();
+        self.moving = false;
     },
 
     Scrolling: function () {
@@ -56,7 +54,9 @@ cc.Class({
             item = cc.instantiate(self.item);
         } 
         item.tag = idx;
-        item.getChildByName("name").getComponent("cc.Label").string = self.data[idx].name;
+        let msg = self.data[idx];
+        if(!msg) {cc.log("data 不存在-----",idx)}
+        item.getComponent(self.item_script).RefreshData(self.data[idx]);
         self.cur_cells.push(item);
         return item;
     },
@@ -64,6 +64,7 @@ cc.Class({
     //初始根据数据初始化
     LoadData: function (data) {
         let self = this;
+        self.ResetProperty();
         self.data = data;
         self.content.removeAllChildren();
         self.scrollview.scrollToOffset(cc.p(0,0));
@@ -99,7 +100,6 @@ cc.Class({
         self.content.setContentSize(cc.size(width,height));
     },
 
-    // called every frame, uncomment this function to activate update callback
     update: function (dt) {
         let self = this;
         if(self.moving) {

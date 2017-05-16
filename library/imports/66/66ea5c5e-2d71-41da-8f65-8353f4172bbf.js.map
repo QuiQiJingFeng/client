@@ -15,24 +15,28 @@
     "Button",
     "shadow",
     "Node",
-    "scroll_view",
+    "tableview",
     "onLoad",
     "self",
     "node",
     "on",
     "CloseBtn",
+    "appEvent",
+    "RegisterEvent",
+    "type",
     "onEnable",
     "active",
+    "first",
     "GetServerList",
     "value",
-    "component",
+    "data",
+    "game_server",
     "getComponent",
-    "log",
-    "onShow"
+    "LoadData"
   ],
-  "mappings": ";;AAAA,IAAIA,cAAcC,QAAQ,aAAR,CAAlB;AACAC,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,mBAAcL,GAAGM,MADT;AAERC,gBAAcP,GAAGQ,IAFT;AAGRC,qBAAaT,GAAGQ;AAHR,KAHP;;AASL;AACAE,YAAQ,kBAAY;AAChB,YAAIC,OAAO,IAAX;AACAA,aAAKN,SAAL,CAAeO,IAAf,CAAoBC,EAApB,CAAuB,OAAvB,EAA+BF,KAAKG,QAApC,EAA6CH,IAA7C;AACH,KAbI;;AAeLI,cAAU,oBAAW;AACjB,YAAIJ,OAAO,IAAX;AACAA,aAAKJ,MAAL,CAAYS,MAAZ,GAAqB,IAArB;AACAlB,oBAAYmB,aAAZ,CAA0B,UAASC,KAAT,EAAe;AACrC,gBAAIC,YAAYR,KAAKF,WAAL,CAAiBW,YAAjB,CAA8B,kBAA9B,CAAhB;AACApB,eAAGqB,GAAH,CAAO,cAAP,EAAsBF,SAAtB;AACAA,sBAAUG,MAAV,CAAiBJ,KAAjB;AAEH,SALD;AAMH,KAxBI;;AA0BLJ,cAAU,oBAAW;AACjB,YAAIH,OAAO,IAAX;AACAA,aAAKJ,MAAL,CAAYS,MAAZ,GAAqB,KAArB;AACAL,aAAKC,IAAL,CAAUI,MAAV,GAAmB,KAAnB;AACH;;AAED;AACA;;AAEA;AAnCK,CAAT",
+  "mappings": ";;AAAA,IAAIA,cAAcC,QAAQ,aAAR,CAAlB;AACAC,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,mBAAcL,GAAGM,MADT;AAERC,gBAAcP,GAAGQ,IAFT;AAGRC,mBAAWT,GAAGQ;AAHN,KAHP;;AASL;AACAE,YAAQ,kBAAY;AAChB,YAAIC,OAAO,IAAX;AACAA,aAAKN,SAAL,CAAeO,IAAf,CAAoBC,EAApB,CAAuB,OAAvB,EAA+BF,KAAKG,QAApC,EAA6CH,IAA7C;;AAGAI,iBAASC,aAAT,CAAuB,OAAvB,EAA+B,UAASC,IAAT,EAAc;AACzC,gBAAGA,QAAQ,eAAX,EAA2B;AACvBN,qBAAKG,QAAL;AACH;AACJ,SAJD;AAKH,KApBI;;AAsBLI,cAAU,oBAAW;AACjB,YAAIP,OAAO,IAAX;AACAA,aAAKJ,MAAL,CAAYY,MAAZ,GAAqB,IAArB;AACA,YAAG,CAACR,KAAKS,KAAT,EAAgB;AACZtB,wBAAYuB,aAAZ,CAA0B,UAASC,KAAT,EAAe;AACrC,oBAAIC,OAAOD,MAAME,WAAjB;AACA,oBAAIf,YAAYE,KAAKF,SAAL,CAAegB,YAAf,CAA4B,WAA5B,CAAhB;AACAhB,0BAAUiB,QAAV,CAAmBH,IAAnB;AAEH,aALD;AAMAZ,iBAAKS,KAAL,GAAa,IAAb;AACH;AAEJ,KAnCI;;AAqCLN,cAAU,oBAAW;AACjB,YAAIH,OAAO,IAAX;AACAA,aAAKJ,MAAL,CAAYY,MAAZ,GAAqB,KAArB;AACAR,aAAKC,IAAL,CAAUO,MAAV,GAAmB,KAAnB;AACH;;AAED;AACA;;AAEA;AA9CK,CAAT",
   "file": "unknown",
   "sourcesContent": [
-    "let login_logic = require(\"login_logic\");\ncc.Class({\n    extends: cc.Component,\n\n    properties: {\n        close_btn:    cc.Button,\n        shadow:       cc.Node,\n        scroll_view: cc.Node\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        let self = this;\n        self.close_btn.node.on('click',self.CloseBtn,self);\n    },\n\n    onEnable: function() {\n        let self = this;\n        self.shadow.active = true;\n        login_logic.GetServerList(function(value){\n            let component = self.scroll_view.getComponent('server_list_view');\n            cc.log(\"component==>\",component);\n            component.onShow(value);\n\n        });\n    },\n\n    CloseBtn: function() {\n        let self = this;\n        self.shadow.active = false;\n        self.node.active = false;\n    }\n\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\n"
+    "let login_logic = require(\"login_logic\");\ncc.Class({\n    extends: cc.Component,\n\n    properties: {\n        close_btn:    cc.Button,\n        shadow:       cc.Node,\n        tableview: cc.Node\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        let self = this;\n        self.close_btn.node.on('click',self.CloseBtn,self);\n\n\n        appEvent.RegisterEvent(\"Close\",function(type){\n            if(type == \"server_msgbox\"){\n                self.CloseBtn();\n            }\n        });\n    },\n\n    onEnable: function() {\n        let self = this;\n        self.shadow.active = true;\n        if(!self.first) {\n            login_logic.GetServerList(function(value){\n                let data = value.game_server;\n                let tableview = self.tableview.getComponent('tableview');\n                tableview.LoadData(data);\n\n            });\n            self.first = true;\n        }\n        \n    },\n\n    CloseBtn: function() {\n        let self = this;\n        self.shadow.active = false;\n        self.node.active = false;\n    }\n\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\n"
   ]
 }

@@ -17,24 +17,16 @@
     "server_panel",
     "bottom_panel",
     "server_msgbox",
-    "table_view",
-    "test_btn",
-    "Button",
+    "loading_panel",
     "onLoad",
     "self",
     "addAnimation",
     "InitProject",
     "RegisterLogicEvent",
-    "node",
-    "on",
-    "server_list",
-    "getComponent",
-    "data",
-    "name",
-    "LoadData",
     "appEvent",
     "RegisterEvent",
     "type",
+    "data",
     "SetViewMode",
     "appUtils",
     "Show",
@@ -44,11 +36,12 @@
     "window",
     "require",
     "Init",
+    "appConfig",
     "login_logic"
   ],
-  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,oBAAeC,GAAGC,QADV;AAERC,uBAAeR,GAAGS,IAFV;AAGRC,sBAAeV,GAAGS,IAHV;AAIRE,sBAAeX,GAAGS,IAJV;AAKRG,uBAAeZ,GAAGS,IALV;AAMRI,oBAAYb,GAAGS,IANP;AAORK,kBAAUd,GAAGe;AAPL,KAHP;;AAaL;AACAC,YAAQ,kBAAY;AAChB,YAAIC,OAAO,IAAX;;AAEAA,aAAKZ,UAAL,CAAgBa,YAAhB,CAA6B,CAA7B,EAA+B,QAA/B,EAAwC,IAAxC,EAA6C,CAA7C;;AAEAD,aAAKE,WAAL;AACAF,aAAKG,kBAAL;;AAEAH,aAAKH,QAAL,CAAcO,IAAd,CAAmBC,EAAnB,CAAsB,OAAtB,EAA8B,YAAU;AAChC,gBAAIC,cAAcN,KAAKJ,UAAL,CAAgBW,YAAhB,CAA6B,WAA7B,CAAlB;AACA,gBAAIC,OAAO,CAAC,EAACC,MAAK,KAAN,EAAD,EAAc,EAACA,MAAK,KAAN,EAAd,EAA2B,EAACA,MAAK,KAAN,EAA3B,EAAwC,EAACA,MAAK,KAAN,EAAxC,EAAqD,EAACA,MAAK,KAAN,EAArD,EAAkE,EAACA,MAAK,KAAN,EAAlE,EAA+E,EAACA,MAAK,KAAN,EAA/E,EAA4F,EAACA,MAAK,KAAN,EAA5F,EAAyG,EAACA,MAAK,KAAN,EAAzG,CAAX;AACAH,wBAAYI,QAAZ,CAAqBF,IAArB,EAA0B,IAA1B;AACP,SAJD;AAKH,KA3BI;;AA6BLL,wBAAmB,8BAAW;AAC1B,YAAIH,OAAO,IAAX;AACA;AACAW,iBAASC,aAAT,CAAuB,iBAAvB,EAAyC,UAASC,IAAT,EAAcL,IAAd,EAAmB;AACxDR,iBAAKc,WAAL,CAAiBD,IAAjB,EAAsBL,IAAtB;AACH,SAFD;AAGH,KAnCI;;AAqCLM,iBAAY,qBAASD,IAAT,EAAcL,IAAd,EAAmB;AAC3B,YAAIR,OAAO,IAAX;AACA,gBAAOa,IAAP;AACI,iBAAK,aAAL;AAAmB;AACfE,6BAASC,IAAT,CAAchB,KAAKP,YAAnB;AACAsB,6BAASE,IAAT,CAAcjB,KAAKT,aAAnB;AAEH;AACD,iBAAK,YAAL;AAAkB;AACd2B,2BAAOC,UAAP;AACAJ,6BAASE,IAAT,CAAcjB,KAAKP,YAAnB,EAAgCO,KAAKT,aAArC;AACAwB,6BAASC,IAAT,CAAchB,KAAKN,YAAnB;AAEH;AACD,iBAAK,eAAL;AAAqB;AACjBqB,6BAASC,IAAT,CAAchB,KAAKL,aAAnB;AACH;AACD,iBAAK,gBAAL;AAAsB;AAClBoB,6BAASC,IAAT,CAAchB,KAAKT,aAAnB;AACH;AAjBL;AAmBH,KA1DI;;AA4DLW,iBAAY,uBAAW;;AAEnBkB,eAAOF,MAAP,GAAgBG,QAAQ,SAAR,CAAhB;AACAD,eAAOF,MAAP,CAAcI,IAAd;AACAF,eAAOT,QAAP,GAAkBU,QAAQ,kBAAR,GAAlB;AACAD,eAAOT,QAAP,CAAgBW,IAAhB;AACAF,eAAOL,QAAP,GAAkBM,QAAQ,OAAR,CAAlB;;AAEA,YAAIE,cAAcF,QAAQ,aAAR,CAAlB;AACAE,oBAAYD,IAAZ;AACH;AAtEI,CAAT",
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,oBAAeC,GAAGC,QADV;AAERC,uBAAeR,GAAGS,IAFV;AAGRC,sBAAeV,GAAGS,IAHV;AAIRE,sBAAeX,GAAGS,IAJV;AAKRG,uBAAeZ,GAAGS,IALV;AAMRI,uBAAeb,GAAGS;AANV,KAHP;;AAYL;AACAK,YAAQ,kBAAY;AAChB,YAAIC,OAAO,IAAX;;AAEAA,aAAKV,UAAL,CAAgBW,YAAhB,CAA6B,CAA7B,EAA+B,QAA/B,EAAwC,IAAxC,EAA6C,CAA7C;;AAEAD,aAAKE,WAAL;AACAF,aAAKG,kBAAL;AACH,KApBI;;AAsBLA,wBAAmB,8BAAW;AAC1B,YAAIH,OAAO,IAAX;AACA;AACAI,iBAASC,aAAT,CAAuB,iBAAvB,EAAyC,UAASC,IAAT,EAAcC,IAAd,EAAmB;AACxDP,iBAAKQ,WAAL,CAAiBF,IAAjB,EAAsBC,IAAtB;AACH,SAFD;AAGH,KA5BI;;AA8BLC,iBAAY,qBAASF,IAAT,EAAcC,IAAd,EAAmB;AAC3B,YAAIP,OAAO,IAAX;AACA,gBAAOM,IAAP;AACI,iBAAK,aAAL;AAAmB;AACfG,6BAASC,IAAT,CAAcV,KAAKL,YAAnB;AACAc,6BAASE,IAAT,CAAcX,KAAKP,aAAnB;AAEH;AACD,iBAAK,YAAL;AAAkB;AACdmB,2BAAOC,UAAP;AACAJ,6BAASE,IAAT,CAAcX,KAAKL,YAAnB,EAAgCK,KAAKP,aAArC;AACAgB,6BAASC,IAAT,CAAcV,KAAKJ,YAAnB;AAEH;AACD,iBAAK,eAAL;AAAqB;AACjBa,6BAASC,IAAT,CAAcV,KAAKH,aAAnB;AACH;AACD,iBAAK,gBAAL;AAAsB;AAClBY,6BAASC,IAAT,CAAcV,KAAKP,aAAnB;AACH;AACD,iBAAK,aAAL;AAAmB;AACfgB,6BAASC,IAAT,CAAcV,KAAKF,aAAnB;AACH;AACD,iBAAK,aAAL;AAAmB;AACfW,6BAASE,IAAT,CAAcX,KAAKF,aAAnB;AACH;AAvBL;AAyBH,KAzDI;;AA2DLI,iBAAY,uBAAW;;AAEnBY,eAAOF,MAAP,GAAgBG,QAAQ,SAAR,CAAhB;AACAD,eAAOF,MAAP,CAAcI,IAAd;AACAF,eAAOV,QAAP,GAAkBW,QAAQ,kBAAR,GAAlB;AACAD,eAAOV,QAAP,CAAgBY,IAAhB;AACAF,eAAOL,QAAP,GAAkBM,QAAQ,OAAR,CAAlB;AACAD,eAAOG,SAAP,GAAmBF,QAAQ,gBAAR,CAAnB;AACAD,eAAOG,SAAP,CAAiBD,IAAjB;;AAEA,YAAIE,cAAcH,QAAQ,aAAR,CAAlB;AACAG,oBAAYF,IAAZ;AACH;AAvEI,CAAT",
   "file": "unknown",
   "sourcesContent": [
-    "cc.Class({\n    extends: cc.Component,\n\n    properties: {\n        login_anim:    sp.Skeleton,\n        register_node: cc.Node,\n        server_panel:  cc.Node,\n        bottom_panel:  cc.Node,\n        server_msgbox: cc.Node,\n        table_view: cc.Node,\n        test_btn: cc.Button\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        let self = this;\n\n        self.login_anim.addAnimation(1,\"loop_1\",true,1);\n\n        self.InitProject();\n        self.RegisterLogicEvent();\n\n        self.test_btn.node.on('click',function(){\n                let server_list = self.table_view.getComponent(\"tableview\");\n                let data = [{name:\"逗比1\"},{name:\"逗比2\"},{name:\"逗比3\"},{name:\"逗比4\"},{name:\"逗比5\"},{name:\"逗比6\"},{name:\"逗比7\"},{name:\"逗比8\"},{name:\"逗比9\"},];\n                server_list.LoadData(data,true);\n        });\n    },\n\n    RegisterLogicEvent:function() {\n        let self = this;\n        //主界面只负责UI的显示管理\n        appEvent.RegisterEvent(\"LOGIN_VIEW_MODE\",function(type,data){\n            self.SetViewMode(type,data);\n        });\n    },\n\n    SetViewMode:function(type,data){\n        let self = this;\n        switch(type){\n            case \"SERVER_LIST\":{\n                appUtils.Show(self.server_panel);\n                appUtils.Hide(self.register_node);\n\n            }break;\n            case \"BACK_LOGIN\":{\n                appNet.DisConnect();\n                appUtils.Hide(self.server_panel,self.register_node);\n                appUtils.Show(self.bottom_panel);     \n\n            }break;\n            case \"SERVER_MSGBOX\":{\n                appUtils.Show(self.server_msgbox);\n            }break;\n            case \"REGISTER_PANEL\":{\n                appUtils.Show(self.register_node);\n            }break;\n        }\n    },\n\n    InitProject:function() {\n\n        window.appNet = require(\"network\");\n        window.appNet.Init();\n        window.appEvent = require(\"event_dispatcher\")();\n        window.appEvent.Init();\n        window.appUtils = require(\"utils\");\n\n        let login_logic = require(\"login_logic\");\n        login_logic.Init();\n    }\n});\n"
+    "cc.Class({\n    extends: cc.Component,\n\n    properties: {\n        login_anim:    sp.Skeleton,\n        register_node: cc.Node,\n        server_panel:  cc.Node,\n        bottom_panel:  cc.Node,\n        server_msgbox: cc.Node,\n        loading_panel: cc.Node\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        let self = this;\n\n        self.login_anim.addAnimation(1,\"loop_1\",true,1);\n\n        self.InitProject();\n        self.RegisterLogicEvent();\n    },\n\n    RegisterLogicEvent:function() {\n        let self = this;\n        //主界面只负责UI的显示管理\n        appEvent.RegisterEvent(\"LOGIN_VIEW_MODE\",function(type,data){\n            self.SetViewMode(type,data);\n        });\n    },\n\n    SetViewMode:function(type,data){\n        let self = this;\n        switch(type){\n            case \"SERVER_LIST\":{\n                appUtils.Show(self.server_panel);\n                appUtils.Hide(self.register_node);\n\n            }break;\n            case \"BACK_LOGIN\":{\n                appNet.DisConnect();\n                appUtils.Hide(self.server_panel,self.register_node);\n                appUtils.Show(self.bottom_panel);     \n\n            }break;\n            case \"SERVER_MSGBOX\":{\n                appUtils.Show(self.server_msgbox);\n            }break;\n            case \"REGISTER_PANEL\":{\n                appUtils.Show(self.register_node);\n            }break;\n            case \"SHOW_LODING\":{\n                appUtils.Show(self.loading_panel);\n            }break;\n            case \"HIDE_LODING\":{\n                appUtils.Hide(self.loading_panel);\n            }break;\n        }\n    },\n\n    InitProject:function() {\n\n        window.appNet = require(\"network\");\n        window.appNet.Init();\n        window.appEvent = require(\"event_dispatcher\")();\n        window.appEvent.Init();\n        window.appUtils = require(\"utils\");\n        window.appConfig = require(\"config_manager\");\n        window.appConfig.Init();\n\n        let login_logic = require(\"login_logic\");\n        login_logic.Init();\n    }\n});\n"
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "csv",
+    "require",
+    "utils",
+    "config_manager",
+    "Init",
+    "self",
+    "ReadFromFile",
+    "content",
+    "mercenary",
+    "ParseCSV",
+    "console",
+    "log",
+    "ReloadData",
+    "module",
+    "exports"
+  ],
+  "mappings": ";;AAAA,IAAIA,MAAMC,QAAQ,KAAR,CAAV;AACA,IAAIC,QAAQD,QAAQ,OAAR,CAAZ;;AAEA,IAAIE,iBAAiB,EAArB;;AAEAA,eAAeC,IAAf,GAAsB,YAAU;AAC5B,QAAIC,OAAO,IAAX;;AAEAH,UAAMI,YAAN,CAAmB,oBAAnB,EAAwC,UAASC,OAAT,EAAiB;AACtDF,aAAKG,SAAL,GAAiBR,IAAIS,QAAJ,CAAaF,OAAb,CAAjB;AACAG,gBAAQC,GAAR,CAAY,WAAZ,EAAwBN,KAAKG,SAA7B;AACF,KAHD;AAIH,CAPD;;AASAL,eAAeS,UAAf,GAA4B,YAAU,CAErC,CAFD;;AAIAC,OAAOC,OAAP,GAAiBX,cAAjB",
+  "file": "unknown",
+  "sourcesContent": [
+    "let csv = require(\"csv\");\nlet utils = require(\"utils\");\n\nlet config_manager = {};\n\nconfig_manager.Init = function(){\n    let self = this;\n    \n    utils.ReadFromFile(\"data/mercenary.csv\",function(content){\n       self.mercenary = csv.ParseCSV(content);\n       console.log(\"FYD===>\\n\",self.mercenary);\n    });\n}\n\nconfig_manager.ReloadData = function(){\n\n}\n\nmodule.exports = config_manager;"
+  ]
+}

@@ -15,6 +15,9 @@ login_logic.RegisterNetEvent = function() {
    appNet.RegisterEvent("login_ret",function(data) {
         //load new scene
         cc.log("login success");
+        appEvent.DispatchEvent("LOGIN_VIEW_MODE","HIDE_LODING");
+        cc.director.loadScene('loading_scene');
+        
    });
 }
 
@@ -39,17 +42,19 @@ login_logic.RegisterLogicEvent = function() {
 login_logic.LoginServer = function() {
         let self = this;
         let data = {}
-        data.platform = appUtils.GetPlatform();
+        
         data.account = self.account;
         data.password = self.password;
         data.version = "1.0.0";
         data.server_id = 1;
-        data.device_id = "XEG-4L";
-        data.device_type = "MI4";
-        data.channel = "mu77";
         data.locale = "zh-CN";
+        data.platform = appUtils.GetPlatform();
+        data.channel = "mu77";
+        data.device_type = "MI4";
         data.net_mode = "3G";
-        data.device_platform = "IOS";
+
+
+        
         let send_msg = {login:data};
         appNet.Send(send_msg);
 }
@@ -87,15 +92,11 @@ login_logic.Mu77Register = function(msg) {
 
 login_logic.GetServerList = function(call_back) {
         let self = this;
-        cc.log("sending-----------");
         appUtils.SendGetRequest(self.server_list_path,function(content){
-            cc.log("FYD====>",content);
             let value = JSON.parse(content);
             call_back(value);
         });
 }
-
-
 
 module.exports = login_logic;
 

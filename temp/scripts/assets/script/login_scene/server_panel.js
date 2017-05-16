@@ -10,7 +10,8 @@ cc.Class({
     properties: {
         back_btn: cc.Button,
         login_btn: cc.Button,
-        server_btn: cc.Button
+        server_btn: cc.Button,
+        server_name: cc.Label
     },
 
     // use this for initialization
@@ -19,6 +20,10 @@ cc.Class({
         self.back_btn.node.on('click', self.BackBtn, self);
         self.login_btn.node.on('click', self.LoginBtn, self);
         self.server_btn.node.on('click', self.ServerBtn, self);
+
+        appEvent.RegisterEvent("SELECT_SERVER", function (data) {
+            self.server_name.string = data.name;
+        });
     },
 
     BackBtn: function BackBtn() {
@@ -26,6 +31,7 @@ cc.Class({
     },
 
     LoginBtn: function LoginBtn() {
+        appEvent.DispatchEvent("LOGIN_VIEW_MODE", "SHOW_LODING");
         appEvent.DispatchEvent("LOGIN_LOGIC", "LOGINSERVER");
     },
 

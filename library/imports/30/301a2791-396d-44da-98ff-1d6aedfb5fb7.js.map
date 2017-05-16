@@ -1,0 +1,35 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "CCArray",
+    "require",
+    "csv",
+    "ParseCSV",
+    "content",
+    "temp",
+    "split",
+    "types",
+    "fileds",
+    "config",
+    "id",
+    "length",
+    "values",
+    "cell",
+    "index",
+    "key",
+    "type",
+    "value",
+    "parseFloat",
+    "push",
+    "module",
+    "exports"
+  ],
+  "mappings": ";;AAAA,IAAIA,UAAUC,QAAQ,SAAR,CAAd;AACA,IAAIC,MAAM,EAAV;;AAEAA,IAAIC,QAAJ,GAAe,UAAUC,OAAV,EAAkB;;AAE7B,QAAIC,OAAOD,QAAQE,KAAR,CAAc,IAAd,CAAX;AACA,QAAIC,QAAQF,KAAK,CAAL,EAAQC,KAAR,CAAc,GAAd,CAAZ;AACA,QAAIE,SAASH,KAAK,CAAL,EAAQC,KAAR,CAAc,GAAd,CAAb;AACA,QAAIG,SAAS,EAAb;AACA,SAAI,IAAIC,KAAK,CAAb,EAAeA,KAAKL,KAAKM,MAAzB,EAAgCD,IAAhC,EAAqC;AACjC,YAAIE,SAASP,KAAKK,EAAL,EAASJ,KAAT,CAAe,GAAf,CAAb;AACA,YAAIO,OAAO,EAAX;AACA,aAAI,IAAIC,KAAR,IAAiBF,MAAjB,EAAyB;;AAErB,gBAAIG,MAAMP,OAAOM,KAAP,CAAV;AACA,gBAAIE,OAAOT,MAAMO,KAAN,CAAX;AACA,gBAAIG,QAAQL,OAAOE,KAAP,CAAZ;AACA,gBAAGE,QAAQ,QAAX,EAAoB;AAChBC,wBAAQC,WAAWD,KAAX,CAAR;AACH,aAFD,MAEM,IAAGD,QAAQ,SAAX,EAAqB;AACvBC,wBAASA,SAAS,GAAlB;AACH;AACDJ,iBAAKE,GAAL,IAAYE,KAAZ;AACH;AACDR,eAAOU,IAAP,CAAYN,IAAZ;AACH;AACD,WAAOJ,MAAP;AACH,CAxBD;;AA0BAW,OAAOC,OAAP,GAAiBnB,GAAjB",
+  "file": "unknown",
+  "sourcesContent": [
+    "let CCArray = require(\"CCArray\");\nlet csv = {};\n\ncsv.ParseCSV = function (content){\n    \n    let temp = content.split('\\n');\n    let types = temp[1].split(',');\n    let fileds = temp[2].split(',');\n    let config = [];\n    for(let id = 3;id < temp.length;id++){\n        let values = temp[id].split(',');\n        let cell = {};\n        for(let index in values) {\n\n            let key = fileds[index];\n            let type = types[index];\n            let value = values[index];\n            if(type == 'number'){\n                value = parseFloat(value);\n            }else if(type == 'boolean'){\n                value = (value == '1');\n            }\n            cell[key] = value;\n        }\n        config.push(cell);\n    }\n    return config;\n}\n\nmodule.exports = csv;"
+  ]
+}

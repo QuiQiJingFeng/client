@@ -1,0 +1,15 @@
+ID,英雄名,口号,图鉴是否出现,职业,动画,性别,种族,英雄品质（1 白色，2 绿色，3 蓝色，4 紫色，5 金色，6 闪金）,觉醒级,是否可合成（0 可以合成，1 不可合成）,初始战力,战力系数,英雄技能,流派（1 代表暴击流，2 代表回复流，3 代表纯粹流，4 为其他）,是否可解雇,介绍,灵魂碎片,附加技能1,附加技能2,合作技,合作技2,限界突破,主角判断,英雄宝具,宝具ICON,宝具名字,注释,宝具先攻加成,宝具防御加成,宝具闪避加成,宝具王者加成,技能覆盖率（技能触表中的技能触发概率）,强度,是否拥有被动,被动强度,合战加成,巨魔BOSS加成,上阵数量限制,二阶宝具,解雇获得魂骨数量(必须大于10，召唤是该字段的1.5倍),佣兵的起始召唤时间,初始冷却时间(分钟),冷却时间(分钟)
+number,string,string,boolean,number,string,number,number,number,number,boolean,number,number,number,number,boolean,string,number,number,number,number,number,boolean,boolean,boolean,string,string,string,number,number,number,number,number,number,number,number,boolean,boolean,number,boolean,number,string,number,number
+ID,name,slogan,library_mark,job,sprite,sex,race,quality,max_wakeup,is_unique,init_bp,bp_factor,skill1,genre,can_fire,introduction,soul_chip,skill2,skill3,ex_skill1,ex_skill2,can_upgrade_force,can_upgrade_destiny,have_artifact,artifact_icon,artifact_name,artifact——annotation,artifact_speed,artifact_defense,artifact_dodge,artifact_authority,use_skill_percent,strength,is_passive,passive_strength,campaign_addition,boss_addition,num_limit,have_artifact_upgrade,soul_bone,start_time,start_burial_time,burial_time
+1,主角,,,107,99000001,2,28,5,8,1,80,1,,,0,这就是你啊！,,,,,,0,1,0,,,,,,,,,,,,,,0,0,,,,
+2,主角,,,107,99000002,2,28,5,8,1,80,1,,,0,这就是你啊！,,,,,,0,1,0,,,,,,,,,,,,,,0,0,,,,
+3,主角,,,107,99000003,2,28,5,8,1,80,1,,,0,这就是你啊！,,,,,,0,1,0,,,,,,,,,,,,,,0,0,,,,
+4,主角,,,107,99000004,3,28,5,8,1,80,1,,,0,这就是你啊！,,,,,,0,1,0,,,,,,,,,,,,,,0,0,,,,
+5,主角,,,107,99000005,3,28,5,8,1,80,1,,,0,这就是你啊！,,,,,,0,1,0,,,,,,,,,,,,,,0,0,,,,
+6,主角,,,107,99000006,3,28,5,8,1,80,1,,,0,这就是你啊！,,,,,,0,1,0,,,,,,,,,,,,,,0,0,,,,
+7,主角,,,107,99100001,2,28,6,8,1,320,1.55,,,0,这就是你啊！,,,,,,0,1,0,,,,,,,,,,,,,,0,0,,,,
+8,主角,,,107,99100002,2,28,6,8,1,320,1.55,,,0,这就是你啊！,,,,,,0,1,0,,,,,,,,,,,,,,0,0,,,,
+9,主角,,,107,99100003,2,28,6,8,1,320,1.55,,,0,这就是你啊！,,,,,,0,1,0,,,,,,,,,,,,,,0,0,,,,
+10,主角,,,107,99100004,3,28,6,8,1,320,1.55,,,0,这就是你啊！,,,,,,0,1,0,,,,,,,,,,,,,,0,0,,,,
+11,主角,,,107,99100005,3,28,6,8,1,320,1.55,,,0,这就是你啊！,,,,,,0,1,0,,,,,,,,,,,,,,0,0,,,,
+12,主角,,,107,99100006,3,28,6,8,1,320,1.55,,,0,这就是你啊！,,,,,,0,1,0,,,,,,,,,,,,,,0,0,,,,

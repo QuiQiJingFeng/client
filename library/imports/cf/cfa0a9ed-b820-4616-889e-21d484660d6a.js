@@ -52,4 +52,14 @@ utils.Show = function () {
     }
 };
 
+utils.ReadFromFile = function (file_name, callback) {
+    cc.loader.loadRes(file_name, function (err, tex) {
+        if (err) {
+            cc.log("ReadFromFile ERROR:=>", err);
+        } else {
+            callback(tex);
+        }
+    });
+};
+
 module.exports = utils;

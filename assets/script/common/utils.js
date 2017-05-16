@@ -26,7 +26,7 @@ utils.SendGetRequest = function (url,callback) {
     request.send();
 }
 
-utils.GetPlatform = function() {
+utils.GetPlatform = function () {
     let platform = "";
     if(!cc.sys.isNative){
         platform = 'browser-' + cc.sys.browserType;
@@ -36,16 +36,26 @@ utils.GetPlatform = function() {
     return platform;
 }
 
-utils.Hide = function() {
+utils.Hide = function () {
     for(let i = 0;i < arguments.length; i++) {     //如果有，就累加  
         arguments[i].active = false;
     }
 }
 
-utils.Show = function() {
+utils.Show = function () {
     for(let i = 0;i < arguments.length; i++) {     //如果有，就累加  
         arguments[i].active = true;
     } 
+}
+
+utils.ReadFromFile = function (file_name,callback){
+    cc.loader.loadRes(file_name, function (err, tex) {
+        if(err){
+            cc.log("ReadFromFile ERROR:=>",err);
+        }else{
+            callback(tex);
+        }
+    });
 }
 
 module.exports = utils;

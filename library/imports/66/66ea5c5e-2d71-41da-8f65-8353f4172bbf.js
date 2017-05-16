@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 var login_logic = require("login_logic");
 cc.Class({
@@ -7,23 +7,32 @@ cc.Class({
     properties: {
         close_btn: cc.Button,
         shadow: cc.Node,
-        scroll_view: cc.Node
+        tableview: cc.Node
     },
 
     // use this for initialization
     onLoad: function onLoad() {
         var self = this;
         self.close_btn.node.on('click', self.CloseBtn, self);
+
+        appEvent.RegisterEvent("Close", function (type) {
+            if (type == "server_msgbox") {
+                self.CloseBtn();
+            }
+        });
     },
 
     onEnable: function onEnable() {
         var self = this;
         self.shadow.active = true;
-        login_logic.GetServerList(function (value) {
-            var component = self.scroll_view.getComponent('server_list_view');
-            cc.log("component==>", component);
-            component.onShow(value);
-        });
+        if (!self.first) {
+            login_logic.GetServerList(function (value) {
+                var data = value.game_server;
+                var tableview = self.tableview.getComponent('tableview');
+                tableview.LoadData(data);
+            });
+            self.first = true;
+        }
     },
 
     CloseBtn: function CloseBtn() {

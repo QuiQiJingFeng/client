@@ -7,8 +7,7 @@ cc.Class({
         server_panel:  cc.Node,
         bottom_panel:  cc.Node,
         server_msgbox: cc.Node,
-        table_view: cc.Node,
-        test_btn: cc.Button
+        loading_panel: cc.Node
     },
 
     // use this for initialization
@@ -19,12 +18,6 @@ cc.Class({
 
         self.InitProject();
         self.RegisterLogicEvent();
-
-        self.test_btn.node.on('click',function(){
-                let server_list = self.table_view.getComponent("tableview");
-                let data = [{name:"逗比1"},{name:"逗比2"},{name:"逗比3"},{name:"逗比4"},{name:"逗比5"},{name:"逗比6"},{name:"逗比7"},{name:"逗比8"},{name:"逗比9"},];
-                server_list.LoadData(data,true);
-        });
     },
 
     RegisterLogicEvent:function() {
@@ -55,6 +48,12 @@ cc.Class({
             case "REGISTER_PANEL":{
                 appUtils.Show(self.register_node);
             }break;
+            case "SHOW_LODING":{
+                appUtils.Show(self.loading_panel);
+            }break;
+            case "HIDE_LODING":{
+                appUtils.Hide(self.loading_panel);
+            }break;
         }
     },
 
@@ -65,6 +64,8 @@ cc.Class({
         window.appEvent = require("event_dispatcher")();
         window.appEvent.Init();
         window.appUtils = require("utils");
+        window.appConfig = require("config_manager");
+        window.appConfig.Init();
 
         let login_logic = require("login_logic");
         login_logic.Init();

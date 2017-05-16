@@ -1,0 +1,33 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "login_logic",
+    "require",
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "name_txt",
+    "Label",
+    "onLoad",
+    "self",
+    "node",
+    "on",
+    "ClickEvent",
+    "appEvent",
+    "DispatchEvent",
+    "data",
+    "RefreshData",
+    "string",
+    "name"
+  ],
+  "mappings": ";;AAAA,IAAIA,cAAcC,QAAQ,aAAR,CAAlB;AACAC,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,kBAAUL,GAAGM;AADL,KAHP;AAMLC,YAAQ,kBAAY;AAChB,YAAIC,OAAO,IAAX;AACAA,aAAKC,IAAL,CAAUC,EAAV,CAAa,OAAb,EAAqBF,KAAKG,UAA1B,EAAqCH,IAArC;AACH,KATI;AAUL;AACAG,gBAAY,sBAAW;AACnB,YAAIH,OAAO,IAAX;AACAI,iBAASC,aAAT,CAAuB,eAAvB,EAAuCL,KAAKM,IAA5C;AACAF,iBAASC,aAAT,CAAuB,OAAvB,EAA+B,eAA/B;AAEH,KAhBI;AAiBL;AACAE,iBAAa,qBAAUD,IAAV,EAAgB;AACzB,YAAIN,OAAO,IAAX;AACAA,aAAKM,IAAL,GAAYA,IAAZ;AACAN,aAAKH,QAAL,CAAcW,MAAd,GAAuBF,KAAKG,IAA5B;AACH;AAtBI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "let login_logic = require(\"login_logic\");\ncc.Class({\n    extends: cc.Component,\n\n    properties: {\n        name_txt: cc.Label\n    },\n    onLoad: function () {\n        let self = this;\n        self.node.on(\"click\",self.ClickEvent,self);\n    },\n    //注册点击方法\n    ClickEvent: function() {\n        let self = this;\n        appEvent.DispatchEvent(\"SELECT_SERVER\",self.data);\n        appEvent.DispatchEvent(\"Close\",\"server_msgbox\");\n\n    },\n    //刷新数据\n    RefreshData: function (data) {\n        let self = this;\n        self.data = data;\n        self.name_txt.string = data.name;\n    }\n});\n"
+  ]
+}

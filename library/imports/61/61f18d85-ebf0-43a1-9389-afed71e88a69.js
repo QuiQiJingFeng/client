@@ -1,18 +1,23 @@
 "use strict";
 
-var CCArray = function CCArray() {
+var CCArray = function CCArray(temp_array) {
 
     var array = {};
 
-    array.init = function () {
+    array.init = function (temp_array) {
         var self = this;
-        self.cells = [];
+        if (temp_array) {
+            self.cells = temp_array;
+        } else {
+            self.cells = [];
+        }
     };
     //将元素插入指定位置
     array.insert = function (index, item) {
         var self = this;
         self.cells.splice(index, 0, item);
     };
+
     //将元素放到数组末尾
     array.push = function (item) {
         var self = this;
@@ -80,6 +85,8 @@ var CCArray = function CCArray() {
         var self = this;
         return self.cells.length;
     };
+
+    array.init(temp_array);
     return array;
 };
 
