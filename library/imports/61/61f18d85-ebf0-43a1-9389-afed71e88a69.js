@@ -1,6 +1,10 @@
 "use strict";
 
-var CCArray = function CCArray(temp_array) {
+/*
+    @author  FYD
+    @date    2017.07.06
+*/
+var FYDArray = function FYDArray(temp_array) {
 
     var array = {};
 
@@ -90,4 +94,4 @@ var CCArray = function CCArray(temp_array) {
     return array;
 };
 
-module.exports = CCArray;
+module.exports = FYDArray;

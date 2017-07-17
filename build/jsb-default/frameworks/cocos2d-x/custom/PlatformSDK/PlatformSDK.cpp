@@ -7,8 +7,6 @@
 
 PlatformSDK* PlatformSDK:: _instance = NULL;
 
-PlatformSDK::PlatformSDK(){
-}
 PlatformSDK::~PlatformSDK(){  
 }
 

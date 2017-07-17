@@ -10,7 +10,7 @@
   "keystoreAliasPassword": "",
   "keystorePassword": "",
   "keystorePath": "",
-  "platform": "android",
+  "platform": "mac",
   "previewHeight": "720",
   "previewWidth": "1280",
   "sourceMaps": false,

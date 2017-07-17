@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "FYDConst",
+    "module",
+    "exports"
+  ],
+  "mappings": ";;;;;;AAAA,IAAIA,WAAW,EAAf;;AAEAA,SAAS,QAAT,8DACE,iBADF,EACsB,YADtB,qCAEE,aAFF,EAEkB,MAFlB;;AAMAC,OAAOC,OAAP,GAAiBF,QAAjB",
+  "file": "unknown",
+  "sourcesContent": [
+    "let FYDConst = {}\n\nFYDConst[\"loding\"] = {\n\t[\"wait_for_loding\"]: \"正在加载资源，请稍候\",\n\t[\"login_ready\"]: \"准备登陆\"\n}\n\n\nmodule.exports = FYDConst;"
+  ]
+}

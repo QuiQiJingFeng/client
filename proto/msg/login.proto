@@ -9,6 +9,7 @@ enum Result {
     version_too_low = 5;    //当前版本太低,请升级版本
     server_is_busy = 6;     //系统繁忙
     repeated_login = 7;     //重复登录
+    create_role = 8;        //创建角色
 }
 //-------------------
 //      登录        

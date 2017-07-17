@@ -7,11 +7,9 @@
 class PlatformSDK
 {
 private:
-    PlatformSDK();
-private:
     static PlatformSDK* _instance;
 public:
-   PlatformSDK* getInstance();
+   static PlatformSDK* getInstance();
    void distroyInstance();
    ~PlatformSDK();
 

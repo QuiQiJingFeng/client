@@ -17,6 +17,12 @@ module.exports = require("protobufjs").newBuilder({})['import']({
                     "type": "msg.login.Logout",
                     "name": "logout",
                     "id": 4
+                },
+                {
+                    "rule": "optional",
+                    "type": "msg.user.CreateName",
+                    "name": "create_name",
+                    "id": 5
                 }
             ]
         },
@@ -35,6 +41,12 @@ module.exports = require("protobufjs").newBuilder({})['import']({
                     "type": "msg.login.LogoutRet",
                     "name": "logout_ret",
                     "id": 4
+                },
+                {
+                    "rule": "optional",
+                    "type": "msg.user.CreateNameRet",
+                    "name": "create_name_ret",
+                    "id": 5
                 }
             ]
         },
@@ -192,6 +204,66 @@ module.exports = require("protobufjs").newBuilder({})['import']({
                                 {
                                     "name": "repeated_login",
                                     "id": 7
+                                },
+                                {
+                                    "name": "create_role",
+                                    "id": 8
+                                }
+                            ]
+                        }
+                    ],
+                    "isNamespace": true
+                },
+                {
+                    "name": "user",
+                    "fields": [],
+                    "syntax": "proto2",
+                    "messages": [
+                        {
+                            "name": "CreateName",
+                            "syntax": "proto2",
+                            "fields": [
+                                {
+                                    "rule": "required",
+                                    "type": "string",
+                                    "name": "user_name",
+                                    "id": 1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "CreateNameRet",
+                            "syntax": "proto2",
+                            "fields": [
+                                {
+                                    "rule": "required",
+                                    "type": "Result",
+                                    "name": "result",
+                                    "id": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "enums": [
+                        {
+                            "name": "Result",
+                            "syntax": "proto2",
+                            "values": [
+                                {
+                                    "name": "success",
+                                    "id": 0
+                                },
+                                {
+                                    "name": "failure",
+                                    "id": 1
+                                },
+                                {
+                                    "name": "has_emoji",
+                                    "id": 2
+                                },
+                                {
+                                    "name": "max_num_char",
+                                    "id": 3
                                 }
                             ]
                         }

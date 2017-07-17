@@ -22,8 +22,8 @@ module.exports = require("protobufjs").newBuilder({})['import']({
             "id": 4
         }, {
             "rule": "optional",
-            "type": "msg.login.Reconnect",
-            "name": "reconnect",
+            "type": "msg.user.CreateName",
+            "name": "create_name",
             "id": 5
         }]
     }, {
@@ -41,8 +41,8 @@ module.exports = require("protobufjs").newBuilder({})['import']({
             "id": 4
         }, {
             "rule": "optional",
-            "type": "msg.login.ReconnectRet",
-            "name": "reconnect_ret",
+            "type": "msg.user.CreateNameRet",
+            "name": "create_name_ret",
             "id": 5
         }]
     }, {
@@ -69,48 +69,38 @@ module.exports = require("protobufjs").newBuilder({})['import']({
                 }, {
                     "rule": "required",
                     "type": "string",
-                    "name": "platform",
-                    "id": 3
-                }, {
-                    "rule": "required",
-                    "type": "string",
                     "name": "version",
-                    "id": 4
+                    "id": 3
                 }, {
                     "rule": "required",
                     "type": "int32",
                     "name": "server_id",
-                    "id": 5
-                }, {
-                    "rule": "required",
-                    "type": "string",
-                    "name": "device_id",
-                    "id": 6
-                }, {
-                    "rule": "required",
-                    "type": "string",
-                    "name": "device_type",
-                    "id": 7
-                }, {
-                    "rule": "required",
-                    "type": "string",
-                    "name": "channel",
-                    "id": 8
+                    "id": 4
                 }, {
                     "rule": "required",
                     "type": "string",
                     "name": "locale",
-                    "id": 9
+                    "id": 5
+                }, {
+                    "rule": "required",
+                    "type": "string",
+                    "name": "platform",
+                    "id": 6
+                }, {
+                    "rule": "required",
+                    "type": "string",
+                    "name": "channel",
+                    "id": 7
+                }, {
+                    "rule": "required",
+                    "type": "string",
+                    "name": "device_type",
+                    "id": 8
                 }, {
                     "rule": "required",
                     "type": "string",
                     "name": "net_mode",
-                    "id": 10
-                }, {
-                    "rule": "required",
-                    "type": "string",
-                    "name": "device_platform",
-                    "id": 11
+                    "id": 9
                 }]
             }, {
                 "name": "LoginRet",
@@ -132,47 +122,9 @@ module.exports = require("protobufjs").newBuilder({})['import']({
                     "id": 3
                 }, {
                     "rule": "optional",
-                    "type": "string",
-                    "name": "reconnect_token",
+                    "type": "int32",
+                    "name": "time_zone",
                     "id": 4
-                }, {
-                    "rule": "optional",
-                    "type": "int32",
-                    "name": "time_zone",
-                    "id": 5
-                }]
-            }, {
-                "name": "Reconnect",
-                "syntax": "proto2",
-                "fields": [{
-                    "rule": "required",
-                    "type": "string",
-                    "name": "user_id",
-                    "id": 1
-                }, {
-                    "rule": "required",
-                    "type": "string",
-                    "name": "reconnect_token",
-                    "id": 2
-                }]
-            }, {
-                "name": "ReconnectRet",
-                "syntax": "proto2",
-                "fields": [{
-                    "rule": "required",
-                    "type": "Result",
-                    "name": "result",
-                    "id": 1
-                }, {
-                    "rule": "optional",
-                    "type": "uint32",
-                    "name": "server_time",
-                    "id": 2
-                }, {
-                    "rule": "optional",
-                    "type": "int32",
-                    "name": "time_zone",
-                    "id": 3
                 }]
             }, {
                 "name": "Logout",
@@ -213,11 +165,52 @@ module.exports = require("protobufjs").newBuilder({})['import']({
                     "name": "server_is_busy",
                     "id": 6
                 }, {
-                    "name": "reconnect_failure",
+                    "name": "repeated_login",
                     "id": 7
                 }, {
-                    "name": "repeated_login",
+                    "name": "create_role",
                     "id": 8
+                }]
+            }],
+            "isNamespace": true
+        }, {
+            "name": "user",
+            "fields": [],
+            "syntax": "proto2",
+            "messages": [{
+                "name": "CreateName",
+                "syntax": "proto2",
+                "fields": [{
+                    "rule": "required",
+                    "type": "string",
+                    "name": "user_name",
+                    "id": 1
+                }]
+            }, {
+                "name": "CreateNameRet",
+                "syntax": "proto2",
+                "fields": [{
+                    "rule": "required",
+                    "type": "Result",
+                    "name": "result",
+                    "id": 1
+                }]
+            }],
+            "enums": [{
+                "name": "Result",
+                "syntax": "proto2",
+                "values": [{
+                    "name": "success",
+                    "id": 0
+                }, {
+                    "name": "failure",
+                    "id": 1
+                }, {
+                    "name": "has_emoji",
+                    "id": 2
+                }, {
+                    "name": "max_num_char",
+                    "id": 3
                 }]
             }],
             "isNamespace": true
