@@ -28,11 +28,6 @@ cc.Class({
         self.txt_tip.string = self._str_state;
         //预加载资源
         self.startPreloading();
-        console.log("FYD==========>>>>111");
-        console.log("PlatformSDK = ", cc.PlatformSDK);
-        var inst = cc.PlatformSDK.prototype.getInstance();
-        inst.excuteFunc("FYD=====test");
-        console.log("FYD==========>>>>22222");
     },
 
     startPreloading: function startPreloading() {

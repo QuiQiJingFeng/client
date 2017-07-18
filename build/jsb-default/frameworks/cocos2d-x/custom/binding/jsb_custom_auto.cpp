@@ -38,25 +38,58 @@ bool js_custom_PlatformSDK_distroyInstance(JSContext *cx, uint32_t argc, jsval *
     JS_ReportError(cx, "js_custom_PlatformSDK_distroyInstance : wrong number of arguments: %d, was expecting %d", argc, 0);
     return false;
 }
+//argc =>arg count 参数的数量
+//vp => JS:Value * 指向参数数组的指针
 bool js_custom_PlatformSDK_excuteFunc(JSContext *cx, uint32_t argc, jsval *vp)
 {
+    //根据vp/argc将所有的参数获取并放到args中  ,通过get(idx)可以获取到对应的参数
     JS::CallArgs args = JS::CallArgsFromVp(argc, vp);
-    bool ok = true;
     JS::RootedObject obj(cx, args.thisv().toObjectOrNull());
     js_proxy_t *proxy = jsb_get_js_proxy(obj);
     PlatformSDK* cobj = (PlatformSDK *)(proxy ? proxy->ptr : NULL);
     JSB_PRECONDITION2( cobj, cx, false, "js_custom_PlatformSDK_excuteFunc : Invalid Native Object");
-    if (argc == 1) {
-        const char* arg0 = nullptr;
-        std::string arg0_tmp; ok &= jsval_to_std_string(cx, args.get(0), &arg0_tmp); arg0 = arg0_tmp.c_str();
-        JSB_PRECONDITION2(ok, cx, false, "js_custom_PlatformSDK_excuteFunc : Error processing arguments");
-        cobj->excuteFunc(arg0);
-        args.rval().setUndefined();
-        return true;
-    }
 
-    JS_ReportError(cx, "js_custom_PlatformSDK_excuteFunc : wrong number of arguments: %d, was expecting %d", argc, 1);
-    return false;
+    std::string json = "";
+    char temp[256];
+    if(argc > 0){
+        for (int idx = 0; idx< argc; idx++) {
+            JS::HandleValue param = args.get(idx);
+            if(param.isString()){
+                JSStringWrapper str(param.toString());
+                std::string arg = str.get();
+                sprintf(temp,"\"%s\",",arg.c_str());
+                json += std::string(temp);
+            }else if(param.isInt32()){
+                int arg = param.toInt32();
+                sprintf(temp,"%d",arg);
+                json += std::string(temp);
+            }
+            else if(param.isNumber()) {
+                double arg = param.toNumber();
+                sprintf(temp,"%f",arg);
+                json += std::string(temp);
+            }else if(param.isBoolean()) {
+                bool arg = param.toBoolean();
+                std::string result;
+                if(arg){
+                    result = "true";
+                }else{
+                    result = "false";
+                }
+                sprintf(temp,"%s,",result.c_str());
+                json += std::string(temp);
+            }else if(JS_TypeOfValue(cx, param) == JSTYPE_FUNCTION){
+                JS::RootedObject jstarget(cx, args.thisv().toObjectOrNull());
+                std::shared_ptr<JSFunctionWrapper> func(new JSFunctionWrapper(cx, jstarget, args.get(idx), args.thisv()));
+                PlatformSDK::getInstance()->setCallBack(func);
+            }
+        }
+    }
+    json = "["+json+"]";
+    cobj->excuteFunc(json);
+    args.rval().setUndefined();
+    
+    return true;
 }
 bool js_custom_PlatformSDK_getInstance(JSContext *cx, uint32_t argc, jsval *vp)
 {

@@ -1,16 +1,16 @@
 {
-  "androidStudio": false,
-  "apiLevel": "android-19",
+  "androidStudio": true,
+  "apiLevel": "android-25",
   "appABIs": [
     "armeabi"
   ],
   "buildPath": "./build",
-  "debug": false,
+  "debug": true,
   "keystoreAlias": "",
   "keystoreAliasPassword": "",
   "keystorePassword": "",
   "keystorePath": "",
-  "platform": "mac",
+  "platform": "android",
   "previewHeight": "720",
   "previewWidth": "1280",
   "sourceMaps": false,

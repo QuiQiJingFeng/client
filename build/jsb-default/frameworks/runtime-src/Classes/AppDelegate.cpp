@@ -20,6 +20,10 @@
 
 #include "js_module_register.h"
 
+//-----------------------FYD CUSTOM-----------------------//
+#include "custom/binding/jsb_custom_auto.hpp"
+//-----------------------FYD CUSTOM-----------------------//
+
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID || CC_TARGET_PLATFORM == CC_PLATFORM_IOS) && PACKAGE_AS
 #include "SDKManager.h"
 #include "jsb_anysdk_protocols_auto.hpp"
@@ -71,6 +75,10 @@ bool AppDelegate::applicationDidFinishLaunching()
     js_module_register();
     
     ScriptingCore* sc = ScriptingCore::getInstance();
+    //-----------------------FYD CUSTOM-----------------------//
+    sc->addRegisterCallback(register_all_custom);
+    //-----------------------FYD CUSTOM-----------------------//
+    
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID || CC_TARGET_PLATFORM == CC_PLATFORM_IOS) && PACKAGE_AS    
     sc->addRegisterCallback(register_all_anysdk_framework);
     sc->addRegisterCallback(register_all_anysdk_manual);
