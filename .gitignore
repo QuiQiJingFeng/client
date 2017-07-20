@@ -1,3 +1,9 @@
 bin/
 obj/
 gen/
+build/
+library/
+local/
+temp/
+node_modules/
+libs/
