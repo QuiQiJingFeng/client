@@ -405,7 +405,7 @@
     "_N$returnType": 1,
     "_N$inputFlag": 3,
     "_N$inputMode": 6,
-    "_N$fontSize": 60,
+    "_N$fontSize": 30,
     "_N$lineHeight": 70,
     "_N$fontColor": {
       "__type__": "cc.Color",
@@ -414,7 +414,7 @@
       "b": 255,
       "a": 255
     },
-    "_N$placeholder": "Lucy",
+    "_N$placeholder": "请输入角色名",
     "_N$placeholderFontSize": 60,
     "_N$placeholderFontColor": {
       "__type__": "cc.Color",
@@ -423,7 +423,7 @@
       "b": 150,
       "a": 255
     },
-    "_N$maxLength": 8,
+    "_N$maxLength": 16,
     "_N$stayOnTop": false
   },
   {
@@ -576,8 +576,8 @@
     "target": {
       "__id__": 2
     },
-    "component": "CreateRole",
-    "handler": "onRandomBtnClicked",
+    "component": "creat_role",
+    "handler": "onBtnRandomNameClicked",
     "customEventData": ""
   },
   {
@@ -987,6 +987,7 @@
     },
     "_enabled": true,
     "isAlignOnce": false,
+    "_target": null,
     "_alignFlags": 16,
     "_left": 0,
     "_right": 0,
@@ -1020,7 +1021,7 @@
     "_fitHeight": true
   },
   {
-    "__type__": "5d56bFYy/REb77pQCq9YHh6",
+    "__type__": "2e01dWMt6dG7YvZ6kZZsmuj",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -1029,6 +1030,9 @@
     "_enabled": true,
     "inputName": {
       "__id__": 9
+    },
+    "confirmBtn": {
+      "__id__": 18
     }
   }
 ]

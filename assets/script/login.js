@@ -2,8 +2,6 @@
     extends: cc.Component,
 
     properties: {
-        _mima:null,
-        _mimaIndex:0,
         _login_path: "http://127.0.0.1:3000/login",
         _register_path:"http://127.0.0.1:3000/register",
         _guest_path:"http://127.0.0.1:3000/guest",
@@ -68,19 +66,7 @@
         var self = this;
         cc.vv.anysdkMgr.login();
     },
-    
-    onBtnMIMAClicked:function(event){
-        if(this._mima[this._mimaIndex] == event.target.name){
-            this._mimaIndex++;
-            if(this._mimaIndex == this._mima.length){
-                cc.find("Canvas/btn_guest").active = true;
-            }
-        }
-        else{
-            console.log("oh ho~~~");
-            this._mimaIndex = 0;
-        }
-    },
+
     //登陆逻辑
     onLogin:function(account,password){
         let self = this;
