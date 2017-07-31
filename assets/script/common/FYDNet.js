@@ -36,8 +36,14 @@ FYDNet.Connect = function(call_back) {
             fileReader.onload  = function(progressEvent) { 
                 let msg = app.Proto.decode(this.result);  
                 let obj = JSON.parse(msg);
-                let event_name = Object.keys(obj)[0];
-                app.Event.DispatchEvent(event_name,obj[event_name]);
+                let event_name,content
+                for(var key in obj){
+                    if(obj[key]){
+                        event_name = key
+                        content = obj[key]
+                    }
+                }
+                app.Event.DispatchEvent(event_name,content);
             };  
             fileReader.readAsArrayBuffer(event.data); 
         }

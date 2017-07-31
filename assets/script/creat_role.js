@@ -14,6 +14,17 @@ cc.Class({
     onLoad: function () {
         let self = this;
         self.generalRandomName();
+
+        app.Net.RegisterEvent("create_name_ret",function(recv_msg){
+            console.log(recv_msg);
+            let result = recv_msg.result;
+            console.log("create_name_ret result = "+result);
+            if(result == "success"){
+                 cc.director.loadScene("hall");
+            }else{
+                //显示登陆失败提示
+            }
+        });
     },
 
     generalRandomName : function () {
@@ -30,16 +41,7 @@ cc.Class({
     },
     onConfirmBtnClicked : function (){
         let self = this;
-        app.Net.Send({"create_name":{"user_name" : self.inputName.string}});
-
-        app.Net.RegisterEvent("create_name_ret",function(recv_msg){
-            let result = recv_msg.result;
-            console.log("create_name_ret result = "+result);
-            if(result == "success"){
-                 cc.director.loadScene("hall");
-            }else{
-                //显示登陆失败提示
-            }
-        });
+        console.log("FYD====>create_name");
+        app.Net.Send({create_name:{user_name : self.inputName.string,role_id : 1}});
     }
 });

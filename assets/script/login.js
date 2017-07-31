@@ -24,6 +24,22 @@
             cc.find("Canvas/login_view/btn_guest").active = false;
             cc.find("Canvas/login_view/btn_weixin").active = true;
         }
+
+        app.Net.RegisterEvent("login_ret",function(recv_msg){
+            let result = recv_msg.result;
+            if(result == "success"){
+                console.log("FFFFF=====>success");
+                cc.director.loadScene("hall");
+            }else if(result == "create_role"){
+                console.log("FFFFF=====>create_role");
+                cc.director.loadScene("createrole");
+            }else if(result == "auth_failer"){
+                //显示登陆失败提示
+                console.log("result = "+result);
+            }else{
+                console.log("result = "+result);
+            }
+        });
     },
     
     onBtnWeiChatClicked:function(){
@@ -43,6 +59,7 @@
         console.log("游客登录------");
         let self = this;
         let account = app.Utils.GetValueForKey("guest_account");
+        account = false;
         if (!account){
             account = app.Utils.GeneralAccount();   
         }
@@ -78,24 +95,11 @@
         data.server_id = 1;
         data.locale = "zh-CN";
         data.platform = app.Utils.GetPlatform();
-        data.channel = "mu77";
+        data.logintype = "mu77";
         data.device_type = "MI4";
         data.net_mode = "3G";
 
 
         app.Net.Send({login:data});
-
-        app.Net.RegisterEvent("login_ret",function(recv_msg){
-            let result = recv_msg.result;
-            if(result == "success"){
-                console.log("FFFFF=====>success");
-                cc.director.loadScene("hall");
-            }else if(result == "create_role"){
-                console.log("FFFFF=====>create_role");
-                cc.director.loadScene("createrole");
-            }else if(result == "auth_failer"){
-                //显示登陆失败提示
-            }
-        });
     }
 });

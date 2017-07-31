@@ -814,8 +814,8 @@
     "target": {
       "__id__": 2
     },
-    "component": "CreateRole",
-    "handler": "onBtnConfirmClicked",
+    "component": "creat_role",
+    "handler": "onConfirmBtnClicked",
     "customEventData": ""
   },
   {

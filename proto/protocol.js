@@ -103,7 +103,7 @@ module.exports = require("protobufjs").newBuilder({})['import']({
                                 {
                                     "rule": "required",
                                     "type": "string",
-                                    "name": "channel",
+                                    "name": "logintype",
                                     "id": 7
                                 },
                                 {
@@ -228,6 +228,12 @@ module.exports = require("protobufjs").newBuilder({})['import']({
                                     "type": "string",
                                     "name": "user_name",
                                     "id": 1
+                                },
+                                {
+                                    "rule": "required",
+                                    "type": "int32",
+                                    "name": "role_id",
+                                    "id": 2
                                 }
                             ]
                         },
