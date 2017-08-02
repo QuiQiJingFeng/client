@@ -1358,7 +1358,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "ui_wait_view",
+    "_name": "loading_view",
     "_objFlags": 0,
     "_opacity": 255,
     "_color": {
@@ -1546,7 +1546,7 @@
       "__id__": 35
     },
     "asset": {
-      "__uuid__": "d5635cb0-01fd-4876-95ea-dd6b7cd3f1b1"
+      "__uuid__": "18dd1844-dc3c-47f2-a3e4-865024075aa1"
     },
     "fileId": "8b98bNahuFNG6hdvCi1NEQZ",
     "sync": false
@@ -1639,7 +1639,7 @@
       "__id__": 35
     },
     "asset": {
-      "__uuid__": "d5635cb0-01fd-4876-95ea-dd6b7cd3f1b1"
+      "__uuid__": "18dd1844-dc3c-47f2-a3e4-865024075aa1"
     },
     "fileId": "08edc5qMi1GNIOPT1/+Q4CE",
     "sync": false
@@ -1725,7 +1725,7 @@
       "__id__": 35
     },
     "asset": {
-      "__uuid__": "d5635cb0-01fd-4876-95ea-dd6b7cd3f1b1"
+      "__uuid__": "18dd1844-dc3c-47f2-a3e4-865024075aa1"
     },
     "fileId": "6ca22GIGnND4ZgWPY/knc9m",
     "sync": false
@@ -1818,9 +1818,9 @@
       "__id__": 35
     },
     "asset": {
-      "__uuid__": "d5635cb0-01fd-4876-95ea-dd6b7cd3f1b1"
+      "__uuid__": "18dd1844-dc3c-47f2-a3e4-865024075aa1"
     },
-    "fileId": "c3fefzKTgRNL5VgfiSpLfOV",
+    "fileId": "fc986CvSNlLcoxOpCTf74gY",
     "sync": false
   },
   {
@@ -1911,7 +1911,7 @@
       "__id__": 35
     },
     "asset": {
-      "__uuid__": "d5635cb0-01fd-4876-95ea-dd6b7cd3f1b1"
+      "__uuid__": "18dd1844-dc3c-47f2-a3e4-865024075aa1"
     },
     "fileId": "15461fSawBG87CnfB3s49cE",
     "sync": false
@@ -1972,9 +1972,9 @@
       "__id__": 35
     },
     "asset": {
-      "__uuid__": "d5635cb0-01fd-4876-95ea-dd6b7cd3f1b1"
+      "__uuid__": "18dd1844-dc3c-47f2-a3e4-865024075aa1"
     },
-    "fileId": "8f12cJXjThP5ILDjCfdQMUv",
+    "fileId": "5a8b92b2RRJaJlIbUsFPiXS",
     "sync": false
   },
   {
@@ -2001,11 +2001,7 @@
       "__id__": 2
     },
     "_enabled": true,
-    "_mima": null,
-    "_mimaIndex": 0,
-    "_login_path": "http://127.0.0.1:3000/login",
-    "_register_path": "http://127.0.0.1:3000/register",
-    "_guest_path": "http://127.0.0.1:3000/guest",
-    "_server_list_path": "http://127.0.0.1:3000/server_list.js"
+    "_login_path": "http://queqijingfeng.site:3000/login",
+    "_register_path": "http://queqijingfeng.site:3000/register"
   }
 ]

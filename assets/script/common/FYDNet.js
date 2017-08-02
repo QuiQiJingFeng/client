@@ -10,7 +10,7 @@ FYDNet.Connect = function(call_back) {
     if(self.socket) {
         return call_back();
     }
-    let url = "ws://127.0.0.1:8888";
+    let url = "ws://queqijingfeng.site:8888";
     self.socket = new WebSocket(url);
     self.socket.onopen = function (event) {
         if(call_back)

@@ -1,4 +1,5 @@
-require("common")
+require("common");
+let loading_view = require("loading_view");
 // Compatible with v1.5.0+
 cc.Class({
     extends: cc.Component,
@@ -20,6 +21,8 @@ cc.Class({
             cvs.fitWidth = true;
         }
         self.txt_tip.string = self._str_state;
+
+
         //预加载资源
         self.startPreloading();
     },
@@ -46,8 +49,18 @@ cc.Class({
         self._is_loding = false;
         self._str_state = app.Const["loding"]["login_ready"];
         cc.loader.onComplete = null;
-        //切换到登陆场景
-        cc.director.loadScene("login");
+
+        let comman_views = ["loading_view"];
+        let ref_count = 0;
+        for(var i=0;i<comman_views.length;i++){
+            require(comman_views[i]).Init(function(){
+                ref_count++;
+                if(ref_count == comman_views.length){
+                    //切换到登陆场景
+                    cc.director.loadScene("login");
+                }
+            })
+        } 
     },
 
     // called every frame, uncomment self function to activate update callback

@@ -2,10 +2,8 @@
     extends: cc.Component,
 
     properties: {
-        _login_path: "http://127.0.0.1:3000/login",
-        _register_path:"http://127.0.0.1:3000/register",
-        _guest_path:"http://127.0.0.1:3000/guest",
-        _server_list_path:"http://127.0.0.1:3000/server_list.js"
+        _login_path: "http://queqijingfeng.site:3000/login",
+        _register_path:"http://queqijingfeng.site:3000/register",
     },
 
     // use this for initialization
@@ -28,10 +26,8 @@
         app.Net.RegisterEvent("login_ret",function(recv_msg){
             let result = recv_msg.result;
             if(result == "success"){
-                console.log("FFFFF=====>success");
                 cc.director.loadScene("hall");
             }else if(result == "create_role"){
-                console.log("FFFFF=====>create_role");
                 cc.director.loadScene("createrole");
             }else if(result == "auth_failer"){
                 //显示登陆失败提示
@@ -58,6 +54,7 @@
     onBtnGuestClicked:function(){
         console.log("游客登录------");
         let self = this;
+        if(true) return;
         let account = app.Utils.GetValueForKey("guest_account");
         account = false;
         if (!account){
@@ -65,9 +62,9 @@
         }
         let password = "123456";
         //游客登录
-        let post_data = {"action":"guest","account":account,"password":password};
-
-        app.Utils.SendPostRequest(self._guest_path,post_data,function(content){
+        let post_data = {"action":"register","account":account,"password":password};
+        console.log(self._register_path);
+        app.Utils.SendPostRequest(self._register_path,post_data,function(content){
             let value = JSON.parse(content);
             if(value.result == "success") {
                 app.Utils.SetValueForKey("guest_account",account);
