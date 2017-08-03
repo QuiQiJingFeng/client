@@ -1,3 +1,4 @@
+ let user_logic = require("user");
  cc.Class({
     extends: cc.Component,
 
@@ -8,6 +9,8 @@
 
     // use this for initialization
     onLoad: function () {
+        user_logic.Init();
+
         if(!cc.sys.isNative){
             var cvs = this.node.getComponent(cc.Canvas);
             cvs.fitHeight = true;
@@ -26,6 +29,7 @@
         app.Net.RegisterEvent("login_ret",function(recv_msg){
             let result = recv_msg.result;
             if(result == "success"){
+                user_logic.QueryUserInfo();
                 cc.director.loadScene("hall");
             }else if(result == "create_role"){
                 cc.director.loadScene("createrole");
@@ -54,7 +58,6 @@
     onBtnGuestClicked:function(){
         console.log("游客登录------");
         let self = this;
-        if(true) return;
         let account = app.Utils.GetValueForKey("guest_account");
         account = false;
         if (!account){

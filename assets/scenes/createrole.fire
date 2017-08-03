@@ -96,10 +96,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 25
+        "__id__": 29
       },
       {
-        "__id__": 26
+        "__id__": 30
       }
     ],
     "_prefab": null,
@@ -226,7 +226,7 @@
         "__id__": 20
       },
       {
-        "__id__": 22
+        "__id__": 24
       }
     ],
     "_rotationX": 0,
@@ -248,7 +248,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 24
+        "__id__": 28
       }
     ],
     "_prefab": null,
@@ -820,7 +820,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "sex_man",
+    "_name": "btnSex_man",
     "_objFlags": 0,
     "_opacity": 255,
     "_color": {
@@ -865,6 +865,9 @@
     "_components": [
       {
         "__id__": 21
+      },
+      {
+        "__id__": 22
       }
     ],
     "_prefab": null,
@@ -899,8 +902,71 @@
     }
   },
   {
+    "__type__": "cc.Button",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 20
+    },
+    "_enabled": true,
+    "transition": 3,
+    "pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "duration": 0.1,
+    "zoomScale": 0.8,
+    "pressedSprite": null,
+    "hoverSprite": null,
+    "clickEvents": [
+      {
+        "__id__": 23
+      }
+    ],
+    "_N$interactable": true,
+    "_N$enableAutoGrayEffect": false,
+    "_N$normalColor": {
+      "__type__": "cc.Color",
+      "r": 214,
+      "g": 214,
+      "b": 214,
+      "a": 255
+    },
+    "_N$disabledColor": {
+      "__type__": "cc.Color",
+      "r": 124,
+      "g": 124,
+      "b": 124,
+      "a": 255
+    },
+    "_N$normalSprite": null,
+    "_N$disabledSprite": null,
+    "_N$target": {
+      "__id__": 20
+    }
+  },
+  {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 2
+    },
+    "component": "creat_role",
+    "handler": "onBtnSelectMan",
+    "customEventData": ""
+  },
+  {
     "__type__": "cc.Node",
-    "_name": "sex_women",
+    "_name": "btnSex_women",
     "_objFlags": 0,
     "_opacity": 255,
     "_color": {
@@ -944,7 +1010,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 23
+        "__id__": 25
+      },
+      {
+        "__id__": 26
       }
     ],
     "_prefab": null,
@@ -955,7 +1024,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 22
+      "__id__": 24
     },
     "_enabled": true,
     "_spriteFrame": {
@@ -977,6 +1046,69 @@
     "_atlas": {
       "__uuid__": "0a6fef68-87a0-430b-abe7-82b0526bb5bc"
     }
+  },
+  {
+    "__type__": "cc.Button",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 24
+    },
+    "_enabled": true,
+    "transition": 3,
+    "pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "duration": 0.1,
+    "zoomScale": 0.8,
+    "pressedSprite": null,
+    "hoverSprite": null,
+    "clickEvents": [
+      {
+        "__id__": 27
+      }
+    ],
+    "_N$interactable": true,
+    "_N$enableAutoGrayEffect": false,
+    "_N$normalColor": {
+      "__type__": "cc.Color",
+      "r": 214,
+      "g": 214,
+      "b": 214,
+      "a": 255
+    },
+    "_N$disabledColor": {
+      "__type__": "cc.Color",
+      "r": 124,
+      "g": 124,
+      "b": 124,
+      "a": 255
+    },
+    "_N$normalSprite": null,
+    "_N$disabledSprite": null,
+    "_N$target": {
+      "__id__": 24
+    }
+  },
+  {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 2
+    },
+    "component": "creat_role",
+    "handler": "onBtnSelectWoman",
+    "customEventData": ""
   },
   {
     "__type__": "cc.Widget",
@@ -1033,6 +1165,9 @@
     },
     "confirmBtn": {
       "__id__": 18
+    },
+    "bgRole": {
+      "__id__": 7
     }
   }
 ]

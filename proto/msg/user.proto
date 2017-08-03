@@ -1,3 +1,4 @@
+syntax = "proto2";
 package msg.user;
 
 enum Result {
@@ -18,3 +19,13 @@ message CreateNameRet {
     required Result result = 1;             
 }
 
+message QueryBaseInfo {             
+}
+
+message QueryBaseInfoRet { 
+    required Result result = 1;
+    required string user_name = 2;
+    required int32 role_id = 3;
+    required int32 card_num = 4; 
+    required string user_id = 5; 
+}

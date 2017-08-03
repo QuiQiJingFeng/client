@@ -1,4 +1,5 @@
 require("common");
+ let user_logic = require("user");
 // Compatible with v1.5.0+
 let random_name = require("random_name");
 
@@ -7,26 +8,25 @@ cc.Class({
 
     properties: {
         inputName:cc.EditBox,
-        confirmBtn:cc.Button
+        confirmBtn:cc.Button,
+        bgRole:cc.Sprite,
+        select_index:0,
     },
 
     // use self for initialization
     onLoad: function () {
         let self = this;
-        self.generalRandomName();
 
+        self.generalRandomName();
         app.Net.RegisterEvent("create_name_ret",function(recv_msg){
-            console.log(recv_msg);
             let result = recv_msg.result;
-            console.log("create_name_ret result = "+result);
             if(result == "success"){
-                 cc.director.loadScene("hall");
+                 user_logic.QueryUserInfo();
             }else{
                 //显示登陆失败提示
             }
         });
     },
-
     generalRandomName : function () {
         let self = this;
         let r1 = Math.floor(Math.random()*random_name["r1"].length) + 1;
@@ -41,7 +41,20 @@ cc.Class({
     },
     onConfirmBtnClicked : function (){
         let self = this;
-        console.log("FYD====>create_name");
-        app.Net.Send({create_name:{user_name : self.inputName.string,role_id : 1}});
+        app.Net.Send({create_name:{user_name : self.inputName.string,role_id : self.select_index}});
+    },
+    onBtnSelectMan : function (){
+        let self = this;
+        cc.loader.loadRes("textures/images/GameEnd/GameEnd10", cc.SpriteFrame, function (err, frame) {
+            self.bgRole.spriteFrame = frame;
+            self.select_index = 1;
+        });
+    },
+    onBtnSelectWoman : function (){
+        let self = this;
+        cc.loader.loadRes("textures/images/GameEnd/GameEnd9", cc.SpriteFrame, function (err, frame) {
+            self.bgRole.spriteFrame = frame;
+            self.select_index = 0;
+        });
     }
 });

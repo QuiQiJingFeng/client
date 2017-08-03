@@ -23,6 +23,18 @@ module.exports = require("protobufjs").newBuilder({})['import']({
                     "type": "msg.user.CreateName",
                     "name": "create_name",
                     "id": 5
+                },
+                {
+                    "rule": "optional",
+                    "type": "msg.user.QueryBaseInfo",
+                    "name": "query_base_info",
+                    "id": 6
+                },
+                {
+                    "rule": "optional",
+                    "type": "msg.payment.QueryProducts",
+                    "name": "query_products",
+                    "id": 7
                 }
             ]
         },
@@ -47,6 +59,18 @@ module.exports = require("protobufjs").newBuilder({})['import']({
                     "type": "msg.user.CreateNameRet",
                     "name": "create_name_ret",
                     "id": 5
+                },
+                {
+                    "rule": "optional",
+                    "type": "msg.user.QueryBaseInfoRet",
+                    "name": "query_base_info_ret",
+                    "id": 6
+                },
+                {
+                    "rule": "optional",
+                    "type": "msg.payment.QueryProductsRet",
+                    "name": "query_products_ret",
+                    "id": 7
                 }
             ]
         },
@@ -248,6 +272,47 @@ module.exports = require("protobufjs").newBuilder({})['import']({
                                     "id": 1
                                 }
                             ]
+                        },
+                        {
+                            "name": "QueryBaseInfo",
+                            "syntax": "proto2",
+                            "fields": []
+                        },
+                        {
+                            "name": "QueryBaseInfoRet",
+                            "syntax": "proto2",
+                            "fields": [
+                                {
+                                    "rule": "required",
+                                    "type": "Result",
+                                    "name": "result",
+                                    "id": 1
+                                },
+                                {
+                                    "rule": "required",
+                                    "type": "string",
+                                    "name": "user_name",
+                                    "id": 2
+                                },
+                                {
+                                    "rule": "required",
+                                    "type": "int32",
+                                    "name": "role_id",
+                                    "id": 3
+                                },
+                                {
+                                    "rule": "required",
+                                    "type": "int32",
+                                    "name": "card_num",
+                                    "id": 4
+                                },
+                                {
+                                    "rule": "required",
+                                    "type": "string",
+                                    "name": "user_id",
+                                    "id": 5
+                                }
+                            ]
                         }
                     ],
                     "enums": [
@@ -270,6 +335,112 @@ module.exports = require("protobufjs").newBuilder({})['import']({
                                 {
                                     "name": "max_num_char",
                                     "id": 3
+                                }
+                            ]
+                        }
+                    ],
+                    "isNamespace": true
+                },
+                {
+                    "name": "payment",
+                    "fields": [],
+                    "syntax": "proto2",
+                    "messages": [
+                        {
+                            "name": "GoodItem",
+                            "syntax": "proto2",
+                            "fields": [
+                                {
+                                    "rule": "required",
+                                    "type": "int32",
+                                    "name": "good_id",
+                                    "id": 1
+                                },
+                                {
+                                    "rule": "required",
+                                    "type": "string",
+                                    "name": "product_id",
+                                    "id": 2
+                                },
+                                {
+                                    "rule": "required",
+                                    "type": "string",
+                                    "name": "name",
+                                    "id": 3
+                                },
+                                {
+                                    "rule": "required",
+                                    "type": "double",
+                                    "name": "price",
+                                    "id": 4
+                                },
+                                {
+                                    "rule": "required",
+                                    "type": "int32",
+                                    "name": "num",
+                                    "id": 5
+                                },
+                                {
+                                    "rule": "optional",
+                                    "type": "int32",
+                                    "name": "first_pay_gift",
+                                    "id": 6
+                                },
+                                {
+                                    "rule": "optional",
+                                    "type": "int32",
+                                    "name": "gift",
+                                    "id": 7
+                                }
+                            ]
+                        },
+                        {
+                            "name": "QueryProducts",
+                            "syntax": "proto2",
+                            "fields": [
+                                {
+                                    "rule": "required",
+                                    "type": "int32",
+                                    "name": "type",
+                                    "id": 1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "QueryProductsRet",
+                            "syntax": "proto2",
+                            "fields": [
+                                {
+                                    "rule": "required",
+                                    "type": "Result",
+                                    "name": "result",
+                                    "id": 1
+                                },
+                                {
+                                    "rule": "repeated",
+                                    "type": "GoodItem",
+                                    "name": "good_list",
+                                    "id": 2
+                                }
+                            ]
+                        }
+                    ],
+                    "enums": [
+                        {
+                            "name": "Result",
+                            "syntax": "proto2",
+                            "values": [
+                                {
+                                    "name": "success",
+                                    "id": 0
+                                },
+                                {
+                                    "name": "failure",
+                                    "id": 1
+                                },
+                                {
+                                    "name": "ptype_is_nil",
+                                    "id": 2
                                 }
                             ]
                         }

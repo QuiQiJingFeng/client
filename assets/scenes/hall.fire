@@ -135,9 +135,6 @@
       },
       {
         "__id__": 859
-      },
-      {
-        "__id__": 883
       }
     ],
     "_rotationX": 0,
@@ -159,16 +156,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 903
+        "__id__": 883
       },
       {
-        "__id__": 904
-      },
-      {
-        "__id__": 905
-      },
-      {
-        "__id__": 906
+        "__id__": 884
       }
     ],
     "_prefab": null,
@@ -696,6 +687,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "珍爱生活\n远离赌博",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -736,6 +728,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 8,
     "_left": 0.05,
     "_right": 0,
@@ -1207,7 +1200,10 @@
     },
     "_enabled": true,
     "_type": 0,
-    "_segements": 64
+    "_segements": 64,
+    "_N$spriteFrame": null,
+    "_N$alphaThreshold": 1,
+    "_N$inverted": false
   },
   {
     "__type__": "cc.Node",
@@ -1359,6 +1355,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "幼麟游戏",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -1448,6 +1445,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "ID:10001",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -1684,6 +1682,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "9999",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -1904,6 +1903,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "111.5K",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -2047,6 +2047,7 @@
     },
     "_enabled": true,
     "isAlignOnce": false,
+    "_target": null,
     "_alignFlags": 9,
     "_left": -0.5,
     "_right": 0,
@@ -2124,6 +2125,7 @@
     },
     "_enabled": true,
     "isAlignOnce": false,
+    "_target": null,
     "_alignFlags": 12,
     "_left": -0.5,
     "_right": 0,
@@ -2201,6 +2203,7 @@
     },
     "_enabled": true,
     "isAlignOnce": false,
+    "_target": null,
     "_alignFlags": 16,
     "_left": 0,
     "_right": 0,
@@ -3118,6 +3121,7 @@
     },
     "_enabled": true,
     "isAlignOnce": false,
+    "_target": null,
     "_alignFlags": 37,
     "_left": 0,
     "_right": 0,
@@ -3473,6 +3477,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "大王叫我来巡山，我来牌馆转一转。胡着我的牌，数着赢的钱，生活充满节奏感。",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -3487,7 +3492,10 @@
     },
     "_enabled": true,
     "_type": 0,
-    "_segements": 64
+    "_segements": 64,
+    "_N$spriteFrame": null,
+    "_N$alphaThreshold": 1,
+    "_N$inverted": false
   },
   {
     "__type__": "cc.Node",
@@ -3725,6 +3733,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 32,
     "_left": 0,
     "_right": 0.049843749999999964,
@@ -3897,6 +3906,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 32,
     "_left": 0,
     "_right": 0.049843749999999964,
@@ -4069,6 +4079,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 32,
     "_left": 0,
     "_right": 0.049843749999999964,
@@ -4589,6 +4600,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "请输入房间号",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -4713,6 +4725,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "_",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 0,
@@ -4798,6 +4811,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "_",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 0,
@@ -4883,6 +4897,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "_",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 0,
@@ -4968,6 +4983,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "_",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 0,
@@ -5053,6 +5069,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "_",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 0,
@@ -5138,6 +5155,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "_",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 0,
@@ -7253,6 +7271,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "9",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -7338,6 +7357,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "9",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -7423,6 +7443,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "9",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -7508,6 +7529,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "9",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -7593,6 +7615,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "9",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -7678,6 +7701,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "9",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -8281,6 +8305,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 45,
     "_left": 25,
     "_right": 25,
@@ -9084,6 +9109,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "注：房卡将在第一局结算时扣除，提前解散不扣房卡。",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -9098,6 +9124,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 45,
     "_left": 0,
     "_right": 0,
@@ -9796,6 +9823,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 8,
     "_left": 159,
     "_right": 0,
@@ -9972,6 +10000,7 @@
     },
     "_enabled": true,
     "isAlignOnce": false,
+    "_target": null,
     "_alignFlags": 33,
     "_left": -3,
     "_right": 0,
@@ -10690,6 +10719,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "1分",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -11020,6 +11050,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "2分",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -11350,6 +11381,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "5分",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -11460,6 +11492,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "底分选择",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -11798,6 +11831,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "4局(房卡x2)",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -12161,6 +12195,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "8局(房卡x3)",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -12680,6 +12715,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "3番",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -13076,6 +13112,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "4番",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -13472,6 +13509,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "5番",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -14010,6 +14048,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "换三张",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -14388,6 +14427,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "将对",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -14748,6 +14788,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "门清、中张",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -15108,6 +15149,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "天地胡",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -15605,6 +15647,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "自摸加底",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -15968,6 +16011,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "自摸加番",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -16386,6 +16430,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "点杠花(点炮)",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -16749,6 +16794,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "点杠花(自摸)",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -17234,6 +17280,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "点杠花(点炮)",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -17597,6 +17644,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "点杠花(自摸)",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -18033,6 +18081,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "1分",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -18363,6 +18412,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "2分",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -18693,6 +18743,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "5分",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -18803,6 +18854,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "底分选择",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -19141,6 +19193,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "4局(房卡x2)",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -19504,6 +19557,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "8局(房卡x3)",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -20023,6 +20077,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "3番",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -20419,6 +20474,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "4番",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -20815,6 +20871,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "5番",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -21353,6 +21410,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "换三张",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -21731,6 +21789,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "将对",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -22091,6 +22150,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "门清、中张",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -22451,6 +22511,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "天地胡",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -22948,6 +23009,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "自摸加底",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -23311,6 +23373,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "自摸加番",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -23420,6 +23483,7 @@
     },
     "_enabled": true,
     "isAlignOnce": false,
+    "_target": null,
     "_alignFlags": 45,
     "_left": 0,
     "_right": 0,
@@ -23602,6 +23666,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 45,
     "_left": 25,
     "_right": 25,
@@ -23843,6 +23908,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "卓越品质 值得信赖",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -23993,6 +24059,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 33,
     "_left": 8,
     "_right": 0,
@@ -24092,6 +24159,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 40,
     "_left": 0,
     "_right": 0,
@@ -24280,6 +24348,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 45,
     "_left": 0,
     "_right": 0,
@@ -24443,6 +24512,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "血战到底",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 0,
@@ -24515,6 +24585,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "1、游戏人数:4人\n2、游戏道具:筒条万 共108张\n3、玩家胡牌后，牌局继续进行。直到三家胡牌，或者牌墙抓完\n4、牌局开始时，需要玩家选择定缺的花色。胡牌时，手牌最多二色，否则不可以胡牌。\n5、流局时查大叫，未叫牌的玩家，要赔偿已叫牌玩家（不含胡牌玩家）最大番数\n6、坐庄规则：上一局最先胡牌的当庄；一炮多响，点炮者当庄；流局，庄家下家当庄。\n",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 0,
@@ -24587,6 +24658,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "血流成河",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 0,
@@ -24659,6 +24731,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "血流成河规则与血战到底基本一致，不同之处是，胡牌后可以继续胡牌和弯杠。\n1、游戏人数:4人\n2、游戏道具:筒条万 共108张\n3、玩家胡牌后，可以继续胡牌。直到牌墙无牌为止。血流胡牌以后，不可以直杠或暗杠，可以弯杠\n4、胡牌时，手牌最多二色，否则不可以胡牌。\n5、流局时查大叫，未叫牌的玩家，要赔偿已叫牌玩家（不含胡牌玩家）最大番数\n6、坐庄规则：上一局最先胡牌的当庄；一炮多响，点炮者当庄；流局，庄家下家当庄。\n",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 0,
@@ -24809,6 +24882,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 33,
     "_left": 5.5,
     "_right": 0,
@@ -24912,6 +24986,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 40,
     "_left": 0,
     "_right": 0,
@@ -25171,6 +25246,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 45,
     "_left": 0,
     "_right": 0,
@@ -25640,7 +25716,10 @@
     },
     "_enabled": true,
     "_type": 0,
-    "_segements": 64
+    "_segements": 64,
+    "_N$spriteFrame": null,
+    "_N$alphaThreshold": 1,
+    "_N$inverted": false
   },
   {
     "__type__": "cc.Widget",
@@ -25651,6 +25730,7 @@
     },
     "_enabled": true,
     "isAlignOnce": false,
+    "_target": null,
     "_alignFlags": 45,
     "_left": 0,
     "_right": 0,
@@ -25946,6 +26026,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "1",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 0,
@@ -26031,6 +26112,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "Room No.:571118",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 0,
@@ -26116,6 +26198,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "2016-09-03 17:07:19",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 0,
@@ -26201,6 +26284,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "幼麟游戏:-80",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 0,
@@ -26286,6 +26370,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "幼麟游戏:-80",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 0,
@@ -26371,6 +26456,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "幼麟游戏:-80",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 0,
@@ -26456,6 +26542,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "幼麟游戏:-80",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 0,
@@ -26693,6 +26780,7 @@
     "_enableWrapText": false,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "详情",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -26931,6 +27019,7 @@
     },
     "_enabled": true,
     "isAlignOnce": false,
+    "_target": null,
     "_alignFlags": 40,
     "_left": 0,
     "_right": 0,
@@ -26956,6 +27045,7 @@
     },
     "_enabled": true,
     "isAlignOnce": false,
+    "_target": null,
     "_alignFlags": 37,
     "_left": 350.07654921020657,
     "_right": 0,
@@ -27171,6 +27261,7 @@
     },
     "_enabled": true,
     "isAlignOnce": false,
+    "_target": null,
     "_alignFlags": 33,
     "_left": 6.5,
     "_right": 0,
@@ -27254,6 +27345,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "暂无战绩，快去喊小伙伴一起玩吧 :)",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -27268,6 +27360,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 45,
     "_left": 0,
     "_right": 0,
@@ -27779,6 +27872,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "音效",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -28071,7 +28165,10 @@
     },
     "_enabled": true,
     "_type": 0,
-    "_segements": 64
+    "_segements": 64,
+    "_N$spriteFrame": null,
+    "_N$alphaThreshold": 1,
+    "_N$inverted": false
   },
   {
     "__type__": "cc.Node",
@@ -28107,7 +28204,7 @@
     "_position": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": -1.1368683772161603e-13
+      "y": 1.1368683772161603e-13
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -28623,6 +28720,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "音乐",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -28915,7 +29013,10 @@
     },
     "_enabled": true,
     "_type": 0,
-    "_segements": 64
+    "_segements": 64,
+    "_N$spriteFrame": null,
+    "_N$alphaThreshold": 1,
+    "_N$inverted": false
   },
   {
     "__type__": "cc.Node",
@@ -28951,7 +29052,7 @@
     "_position": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": -5.684341886080802e-14
+      "y": 1.1368683772161603e-13
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -29827,6 +29928,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 45,
     "_left": 0,
     "_right": 0,
@@ -30016,6 +30118,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "洛神科技",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -30101,6 +30204,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "IP: 171.217.46.219",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -30186,6 +30290,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "ID: 103",
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
@@ -30552,6 +30657,7 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 45,
     "_left": 0,
     "_right": 0,
@@ -30939,6 +31045,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "提示",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -31024,6 +31131,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_N$string": "",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -31394,645 +31502,6 @@
     "sync": false
   },
   {
-    "__type__": "cc.Node",
-    "_name": "WaitingConnection",
-    "_objFlags": 0,
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
-      "b": 0,
-      "a": 255
-    },
-    "_cascadeOpacityEnabled": true,
-    "_parent": {
-      "__id__": 2
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 1280,
-      "height": 720
-    },
-    "_children": [
-      {
-        "__id__": 884
-      },
-      {
-        "__id__": 888
-      },
-      {
-        "__id__": 891
-      },
-      {
-        "__id__": 894
-      },
-      {
-        "__id__": 897
-      }
-    ],
-    "_rotationX": 0,
-    "_rotationY": 0,
-    "_scaleX": 1,
-    "_scaleY": 1,
-    "_position": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_localZOrder": 0,
-    "_globalZOrder": 0,
-    "_tag": -1,
-    "_opacityModifyRGB": false,
-    "_id": "3d614D0+1NGqIzCqXq7idA5",
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 900
-      },
-      {
-        "__id__": 901
-      }
-    ],
-    "_prefab": {
-      "__id__": 902
-    },
-    "groupIndex": 0
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "New Layout",
-    "_objFlags": 0,
-    "_opacity": 63,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_cascadeOpacityEnabled": true,
-    "_parent": {
-      "__id__": 883
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 1280,
-      "height": 720
-    },
-    "_children": [],
-    "_rotationX": 0,
-    "_rotationY": 0,
-    "_scaleX": 1,
-    "_scaleY": 1,
-    "_position": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_localZOrder": 0,
-    "_globalZOrder": 0,
-    "_tag": -1,
-    "_opacityModifyRGB": false,
-    "_id": "120e8A9DytHV6HYaTA5v8i8",
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 885
-      },
-      {
-        "__id__": 886
-      }
-    ],
-    "_prefab": {
-      "__id__": 887
-    },
-    "groupIndex": 0
-  },
-  {
-    "__type__": "cc.Sprite",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 884
-    },
-    "_enabled": true,
-    "_spriteFrame": {
-      "__uuid__": "9bbda31e-ad49-43c9-aaf2-f7d9896bac69"
-    },
-    "_type": 1,
-    "_sizeMode": 0,
-    "_fillType": 0,
-    "_fillCenter": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_fillStart": 0,
-    "_fillRange": 0,
-    "_isTrimmedMode": true,
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
-    "_atlas": null
-  },
-  {
-    "__type__": "cc.Layout",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 884
-    },
-    "_enabled": true,
-    "_layoutSize": {
-      "__type__": "cc.Size",
-      "width": 1280,
-      "height": 720
-    },
-    "_resize": 0,
-    "_N$layoutType": 0,
-    "_N$padding": 0,
-    "_N$cellSize": {
-      "__type__": "cc.Size",
-      "width": 40,
-      "height": 40
-    },
-    "_N$startAxis": 0,
-    "_N$paddingLeft": 0,
-    "_N$paddingRight": 0,
-    "_N$paddingTop": 0,
-    "_N$paddingBottom": 0,
-    "_N$spacingX": 0,
-    "_N$spacingY": 0,
-    "_N$verticalDirection": 1,
-    "_N$horizontalDirection": 0
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 883
-    },
-    "asset": {
-      "__uuid__": "d5635cb0-01fd-4876-95ea-dd6b7cd3f1b1"
-    },
-    "fileId": "8b98bNahuFNG6hdvCi1NEQZ",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "public_frame_a",
-    "_objFlags": 0,
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_cascadeOpacityEnabled": true,
-    "_parent": {
-      "__id__": 883
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 400,
-      "height": 250
-    },
-    "_children": [],
-    "_rotationX": 0,
-    "_rotationY": 0,
-    "_scaleX": 1,
-    "_scaleY": 1,
-    "_position": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_localZOrder": 0,
-    "_globalZOrder": 0,
-    "_tag": -1,
-    "_opacityModifyRGB": false,
-    "_id": "ede7bDS4ypEQbDOzAsMz+Ao",
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 889
-      }
-    ],
-    "_prefab": {
-      "__id__": 890
-    },
-    "groupIndex": 0
-  },
-  {
-    "__type__": "cc.Sprite",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 888
-    },
-    "_enabled": true,
-    "_spriteFrame": {
-      "__uuid__": "397f7028-2225-43bd-9c38-80f857a464cb"
-    },
-    "_type": 1,
-    "_sizeMode": 0,
-    "_fillType": 0,
-    "_fillCenter": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_fillStart": 0,
-    "_fillRange": 0,
-    "_isTrimmedMode": true,
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
-    "_atlas": {
-      "__uuid__": "0a6fef68-87a0-430b-abe7-82b0526bb5bc"
-    }
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 883
-    },
-    "asset": {
-      "__uuid__": "d5635cb0-01fd-4876-95ea-dd6b7cd3f1b1"
-    },
-    "fileId": "08edc5qMi1GNIOPT1/+Q4CE",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "New Label",
-    "_objFlags": 0,
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 173,
-      "g": 55,
-      "b": 55,
-      "a": 255
-    },
-    "_cascadeOpacityEnabled": true,
-    "_parent": {
-      "__id__": 883
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 156.95,
-      "height": 25
-    },
-    "_children": [],
-    "_rotationX": 0,
-    "_rotationY": 0,
-    "_scaleX": 1,
-    "_scaleY": 1,
-    "_position": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 78
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_localZOrder": 0,
-    "_globalZOrder": 0,
-    "_tag": -1,
-    "_opacityModifyRGB": false,
-    "_id": "50fc3xQ30hI+oYFl838lBtF",
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 892
-      }
-    ],
-    "_prefab": {
-      "__id__": 893
-    },
-    "groupIndex": 0
-  },
-  {
-    "__type__": "cc.Label",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 891
-    },
-    "_enabled": true,
-    "_useOriginalSize": false,
-    "_actualFontSize": 25,
-    "_fontSize": 25,
-    "_lineHeight": 25,
-    "_enableWrapText": true,
-    "_N$file": null,
-    "_isSystemFontUsed": true,
-    "_N$string": " 正在登录游戏",
-    "_N$horizontalAlign": 1,
-    "_N$verticalAlign": 1,
-    "_N$overflow": 0
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 883
-    },
-    "asset": {
-      "__uuid__": "d5635cb0-01fd-4876-95ea-dd6b7cd3f1b1"
-    },
-    "fileId": "6ca22GIGnND4ZgWPY/knc9m",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "loading_image",
-    "_objFlags": 0,
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_cascadeOpacityEnabled": true,
-    "_parent": {
-      "__id__": 883
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 102,
-      "height": 102
-    },
-    "_children": [],
-    "_rotationX": 0,
-    "_rotationY": 0,
-    "_scaleX": 1,
-    "_scaleY": 1,
-    "_position": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_localZOrder": 0,
-    "_globalZOrder": 0,
-    "_tag": -1,
-    "_opacityModifyRGB": false,
-    "_id": "88ec6EwsGtBLp8/49wKjx3s",
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 895
-      }
-    ],
-    "_prefab": {
-      "__id__": 896
-    },
-    "groupIndex": 0
-  },
-  {
-    "__type__": "cc.Sprite",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 894
-    },
-    "_enabled": true,
-    "_spriteFrame": {
-      "__uuid__": "33a87e63-83e7-4f98-a40e-96feece06697"
-    },
-    "_type": 0,
-    "_sizeMode": 1,
-    "_fillType": 0,
-    "_fillCenter": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_fillStart": 0,
-    "_fillRange": 0,
-    "_isTrimmedMode": true,
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
-    "_atlas": {
-      "__uuid__": "3dad14aa-1217-43e2-a654-c22ae3a85d84"
-    }
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 883
-    },
-    "asset": {
-      "__uuid__": "d5635cb0-01fd-4876-95ea-dd6b7cd3f1b1"
-    },
-    "fileId": "c3fefzKTgRNL5VgfiSpLfOV",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "jzshazi",
-    "_objFlags": 0,
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_cascadeOpacityEnabled": true,
-    "_parent": {
-      "__id__": 883
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 30,
-      "height": 31
-    },
-    "_children": [],
-    "_rotationX": 0,
-    "_rotationY": 0,
-    "_scaleX": 1,
-    "_scaleY": 1,
-    "_position": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_localZOrder": 0,
-    "_globalZOrder": 0,
-    "_tag": -1,
-    "_opacityModifyRGB": false,
-    "_id": "38f53NH/RNDKLsnOUAgcBQb",
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 898
-      }
-    ],
-    "_prefab": {
-      "__id__": 899
-    },
-    "groupIndex": 0
-  },
-  {
-    "__type__": "cc.Sprite",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 897
-    },
-    "_enabled": true,
-    "_spriteFrame": {
-      "__uuid__": "30220141-dcea-4b2c-82ea-f6932b703abd"
-    },
-    "_type": 0,
-    "_sizeMode": 1,
-    "_fillType": 0,
-    "_fillCenter": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_fillStart": 0,
-    "_fillRange": 0,
-    "_isTrimmedMode": true,
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
-    "_atlas": {
-      "__uuid__": "3dad14aa-1217-43e2-a654-c22ae3a85d84"
-    }
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 883
-    },
-    "asset": {
-      "__uuid__": "d5635cb0-01fd-4876-95ea-dd6b7cd3f1b1"
-    },
-    "fileId": "15461fSawBG87CnfB3s49cE",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Button",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 883
-    },
-    "_enabled": true,
-    "transition": 0,
-    "pressedColor": {
-      "__type__": "cc.Color",
-      "r": 211,
-      "g": 211,
-      "b": 211,
-      "a": 255
-    },
-    "hoverColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "duration": 0.1,
-    "zoomScale": 1.2,
-    "pressedSprite": null,
-    "hoverSprite": null,
-    "clickEvents": [],
-    "_N$interactable": true,
-    "_N$enableAutoGrayEffect": false,
-    "_N$normalColor": {
-      "__type__": "cc.Color",
-      "r": 214,
-      "g": 214,
-      "b": 214,
-      "a": 255
-    },
-    "_N$disabledColor": {
-      "__type__": "cc.Color",
-      "r": 124,
-      "g": 124,
-      "b": 124,
-      "a": 255
-    },
-    "_N$normalSprite": null,
-    "_N$disabledSprite": null,
-    "_N$target": {
-      "__id__": 883
-    }
-  },
-  {
-    "__type__": "10e32jDstpLhIGHWrQEq2vN",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 883
-    },
-    "_enabled": true,
-    "target": {
-      "__id__": 894
-    },
-    "_isShow": false,
-    "lblContent": {
-      "__id__": 892
-    }
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 883
-    },
-    "asset": {
-      "__uuid__": "d5635cb0-01fd-4876-95ea-dd6b7cd3f1b1"
-    },
-    "fileId": "8f12cJXjThP5ILDjCfdQMUv",
-    "sync": false
-  },
-  {
     "__type__": "cc.Canvas",
     "_name": "",
     "_objFlags": 0,
@@ -32049,85 +31518,24 @@
     "_fitHeight": true
   },
   {
-    "__type__": "6edb3jjx+FBepS1mk1xKDF2",
+    "__type__": "83d4bzX1UtHsYMbjTKvOfpa",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 2
     },
     "_enabled": true,
-    "lblName": {
-      "__id__": 32
-    },
-    "lblMoney": {
-      "__id__": 47
-    },
-    "lblGems": {
+    "cardNumText": {
       "__id__": 41
     },
-    "lblID": {
+    "userNameText": {
+      "__id__": 32
+    },
+    "roleIcon": {
+      "__id__": 30
+    },
+    "userIdText": {
       "__id__": 35
-    },
-    "lblNotice": {
-      "__id__": 85
-    },
-    "joinGameWin": {
-      "__id__": 104
-    },
-    "createRoomWin": {
-      "__id__": 224
-    },
-    "settingsWin": {
-      "__id__": 773
-    },
-    "helpWin": {
-      "__id__": 682
-    },
-    "xiaoxiWin": {
-      "__id__": 665
-    },
-    "btnJoinGame": {
-      "__id__": 94
-    },
-    "btnReturnGame": {
-      "__id__": 99
-    },
-    "sprHeadImg": {
-      "__id__": 25
     }
-  },
-  {
-    "__type__": "4d7bci0LUxMT6MJKXJDj89w",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 2
-    },
-    "_enabled": true,
-    "HistoryItemPrefab": {
-      "__uuid__": "0b1a57cf-a3d2-4dc6-bc40-bb6112c63062"
-    },
-    "_history": null,
-    "_viewlist": null,
-    "_content": null,
-    "_viewitemTemp": null,
-    "_historyData": null,
-    "_curRoomInfo": null,
-    "_emptyTip": null
-  },
-  {
-    "__type__": "c12553sxCxG/on0Bz7rkX0f",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 2
-    },
-    "_enabled": true,
-    "_alert": null,
-    "_btnOK": null,
-    "_btnCancel": null,
-    "_title": null,
-    "_content": null,
-    "_onok": null
   }
 ]
