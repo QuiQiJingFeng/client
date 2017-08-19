@@ -82,7 +82,6 @@ cc.Class({
             unit_y = self.item_size.height
         }
         let last_x,last_y
-
         for (let i = 0; i < data.length; ++i) {
             let x = self.offset_x + unit_x * i
             let y = -1 * (self.offset_y + unit_y * i)
