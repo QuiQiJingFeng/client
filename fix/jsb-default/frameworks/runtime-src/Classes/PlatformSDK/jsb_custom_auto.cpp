@@ -82,6 +82,8 @@ bool js_custom_PlatformSDK_excuteFunc(JSContext *cx, uint32_t argc, jsval *vp)
                 JS::RootedObject jstarget(cx, args.thisv().toObjectOrNull());
                 std::shared_ptr<JSFunctionWrapper> func(new JSFunctionWrapper(cx, jstarget, args.get(idx), args.thisv()));
                 PlatformSDK::getInstance()->setCallBack(func);
+                sprintf(temp,"%s,","FUNC");
+                json += std::string(temp);
             }
         }
     }

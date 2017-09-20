@@ -35,8 +35,10 @@ void PlatformSDK::excuteFunc(std::string json_params)
     manager.parseValueMapFromJSON(json_params);
     auto param_array = manager.getDataVector();
     std::string action = param_array[0].asString();
-    if(action == "Login"){
-        //.....CALL OC
+    if(action.compare("OPENURL") == 0){
+        NSString *msg = [NSString stringWithCString:url encoding:NSASCIIStringEncoding];
+        NSURL * nsUrl = [NSURL URLWithString:msg];
+        [[UIApplication sharedApplication] openURL:nsUrl];
     }
     
 }

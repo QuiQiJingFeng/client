@@ -33,13 +33,15 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 
+import com.fyd.PlatformSDK;
+
 public class AppActivity extends Cocos2dxActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         SDKWrapper.getInstance().init(this);
-
+        PlatformSDK.init(this);
     }
 	
     @Override
